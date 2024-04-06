@@ -1,0 +1,90 @@
+** ComfyUI startup time: 2024-04-06 11:32:27.637877
+[2024-04-06 11:32] ** Platform: Linux
+[2024-04-06 11:32] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-04-06 11:32] ** Python executable: /usr/bin/python3
+[2024-04-06 11:32] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
+[2024-04-06 11:32] 
+Prestartup times for custom nodes:
+[2024-04-06 11:32]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-06 11:32] 
+Total VRAM 6144 MB, total RAM 12654 MB
+[2024-04-06 11:32] Set vram state to: NORMAL_VRAM
+[2024-04-06 11:32] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
+[2024-04-06 11:32] VAE dtype: torch.float32
+[2024-04-06 11:32] Using pytorch cross attention
+[2024-04-06 11:32] Failed to auto update `Quality of Life Suit` 
+[2024-04-06 11:32] [33mQualityOfLifeSuit_Omar92_DIR:[0m /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-04-06 11:32] Traceback (most recent call last):
+  File "/root/code/Romain-Ber/ComfyUI/nodes.py", line 1889, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes/__init__.py", line 1, in <module>
+    from .qr_validation import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes/qr_validation.py", line 3, in <module>
+    from pyzbar.pyzbar import decode
+  File "/usr/local/lib/python3.10/dist-packages/pyzbar/pyzbar.py", line 7, in <module>
+    from .wrapper import (
+  File "/usr/local/lib/python3.10/dist-packages/pyzbar/wrapper.py", line 151, in <module>
+    zbar_version = zbar_function(
+  File "/usr/local/lib/python3.10/dist-packages/pyzbar/wrapper.py", line 148, in zbar_function
+    return prototype((fname, load_libzbar()))
+  File "/usr/local/lib/python3.10/dist-packages/pyzbar/wrapper.py", line 127, in load_libzbar
+    libzbar, dependencies = zbar_library.load()
+  File "/usr/local/lib/python3.10/dist-packages/pyzbar/zbar_library.py", line 65, in load
+    raise ImportError('Unable to find zbar shared library')
+ImportError: Unable to find zbar shared library
+
+[2024-04-06 11:32] Cannot import /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes module for custom nodes: Unable to find zbar shared library
+[2024-04-06 11:32] ### Loading: ComfyUI-Manager (V2.15)
+[2024-04-06 11:32] ### ComfyUI Revision: 2099 [8614e40f] | Released on '2024-04-05'
+[2024-04-06 11:32] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-06 11:32] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-06 11:32] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-06 11:32] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-06 11:32] [92m[tinyterraNodes] [32mLoaded[0m
+[2024-04-06 11:32] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-04-06 11:32] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-04-06 11:32] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-04-06 11:32] 
+	[3m[93m"Do not wait for the opportunity. Create it."[0m[3m - George Bernard Shaw[0m
+[2024-04-06 11:32] 
+[2024-04-06 11:32] 
+Import times for custom nodes:
+[2024-04-06 11:32]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-04-06 11:32]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-04-06 11:32]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Eagle-PNGInfo
+[2024-04-06 11:32]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-04-06 11:32]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
+[2024-04-06 11:32]    0.1 seconds (IMPORT FAILED): /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
+[2024-04-06 11:32]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-06 11:32]    0.6 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes
+[2024-04-06 11:32]    0.7 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-04-06 11:32] 
+[2024-04-06 11:32] Starting server
+
+[2024-04-06 11:32] To see the GUI go to: http://127.0.0.1:8188
+[2024-04-06 11:32] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-06 11:32] Error: OpenAI API key is invalid OpenAI features wont work for you
+[2024-04-06 11:32] [33mQualityOfLifeSuit_Omar92:[0m:NSP ready
+[2024-04-06 11:33] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-06 11:33] got prompt
+[2024-04-06 11:33] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/web_middlewares.py", line 114, in impl
+    return await handler(request)
+  File "/root/code/Romain-Ber/ComfyUI/server.py", line 41, in cache_control
+    response: web.Response = await handler(request)
+  File "/root/code/Romain-Ber/ComfyUI/server.py", line 53, in cors_middleware
+    response = await handler(request)
+  File "/root/code/Romain-Ber/ComfyUI/server.py", line 468, in post_prompt
+    valid = execution.validate_prompt(prompt)
+  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 625, in validate_prompt
+    class_ = nodes.NODE_CLASS_MAPPINGS[prompt[x]['class_type']]
+KeyError: 'class_type'
+[2024-04-06 11:34] 
+Stopped server
