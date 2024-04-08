@@ -1,264 +1,68 @@
-** ComfyUI startup time: 2024-04-06 11:37:09.092720
-[2024-04-06 11:37] ** Platform: Linux
-[2024-04-06 11:37] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
-[2024-04-06 11:37] ** Python executable: /usr/bin/python3
-[2024-04-06 11:37] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
-[2024-04-06 11:37] 
+** ComfyUI startup time: 2024-04-08 15:31:47.891561
+[2024-04-08 15:31] ** Platform: Linux
+[2024-04-08 15:31] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-04-08 15:31] ** Python executable: /usr/bin/python3
+[2024-04-08 15:31] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
+[2024-04-08 15:31] 
 Prestartup times for custom nodes:
-[2024-04-06 11:37]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-06 11:37] 
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-08 15:31] 
 Total VRAM 6144 MB, total RAM 12654 MB
-[2024-04-06 11:37] Set vram state to: NORMAL_VRAM
-[2024-04-06 11:37] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
-[2024-04-06 11:37] VAE dtype: torch.float32
-[2024-04-06 11:37] Using pytorch cross attention
-[2024-04-06 11:37] Failed to auto update `Quality of Life Suit` 
-[2024-04-06 11:37] [33mQualityOfLifeSuit_Omar92_DIR:[0m /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-06 11:37] ### Loading: ComfyUI-Manager (V2.15)
-[2024-04-06 11:37] ### ComfyUI Revision: 2099 [8614e40f] | Released on '2024-04-05'
-[2024-04-06 11:37] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-04-06 11:37] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-04-06 11:37] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-04-06 11:37] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-04-06 11:37] [92m[tinyterraNodes] [32mLoaded[0m
-[2024-04-06 11:37] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
-[2024-04-06 11:37] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
-[2024-04-06 11:37] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
-[2024-04-06 11:37] 
-	[3m[93m"Art is not what you see, but what you make others see."[0m[3m - Edgar Degas[0m
-[2024-04-06 11:37] 
-[2024-04-06 11:37] 
+[2024-04-08 15:31] Set vram state to: NORMAL_VRAM
+[2024-04-08 15:31] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
+[2024-04-08 15:31] VAE dtype: torch.float32
+[2024-04-08 15:31] Using pytorch cross attention
+[2024-04-08 15:31] Failed to auto update `Quality of Life Suit` 
+[2024-04-08 15:31] [33mQualityOfLifeSuit_Omar92_DIR:[0m /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-04-08 15:31] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
+[2024-04-08 15:31] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
+[2024-04-08 15:31] ### Loading: ComfyUI-Manager (V2.16)
+[2024-04-08 15:31] ### ComfyUI Revision: 2100 [ada075af] | Released on '2024-04-06'
+[2024-04-08 15:31] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-08 15:31] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-08 15:31] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-08 15:31] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-08 15:31] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-04-08 15:31] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-04-08 15:31] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-04-08 15:31] 
+	[3m[93m"The only way to do great work is to love what you do."[0m[3m - Steve Jobs[0m
+[2024-04-08 15:31] 
+[2024-04-08 15:31] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
+[2024-04-08 15:31] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-04-08 15:31] Traceback (most recent call last):
+  File "/root/code/Romain-Ber/ComfyUI/nodes.py", line 1889, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/__init__.py", line 72, in <module>
+    import impact.impact_server  # to load server api
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/modules/impact/impact_server.py", line 14, in <module>
+    import impact.impact_pack as impact_pack
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/modules/impact/impact_pack.py", line 28, in <module>
+    from . import hooks
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/modules/impact/hooks.py", line 6, in <module>
+    from thirdparty import noise_nodes
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/modules/thirdparty/noise_nodes.py", line 7, in <module>
+    from comfy import sampler_helpers
+ImportError: cannot import name 'sampler_helpers' from 'comfy' (unknown location)
+
+[2024-04-08 15:31] Cannot import /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack module for custom nodes: cannot import name 'sampler_helpers' from 'comfy' (unknown location)
+[2024-04-08 15:31] 
 Import times for custom nodes:
-[2024-04-06 11:37]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
-[2024-04-06 11:37]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
-[2024-04-06 11:37]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Eagle-PNGInfo
-[2024-04-06 11:37]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-06 11:37]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
-[2024-04-06 11:37]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
-[2024-04-06 11:37]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-06 11:37]    0.5 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes
-[2024-04-06 11:37]    0.6 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
-[2024-04-06 11:37] 
-[2024-04-06 11:37] Starting server
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-04-08 15:31]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-08 15:31]    0.5 seconds (IMPORT FAILED): /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-04-08 15:31]    0.7 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-04-08 15:31] 
+[2024-04-08 15:31] Starting server
 
-[2024-04-06 11:37] To see the GUI go to: http://127.0.0.1:8188
-[2024-04-06 11:37] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-06 11:37] Error: OpenAI API key is invalid OpenAI features wont work for you
-[2024-04-06 11:37] [33mQualityOfLifeSuit_Omar92:[0m:NSP ready
-[2024-04-06 11:38] got prompt
-[2024-04-06 11:38] Failed to validate prompt for output 121:
-[2024-04-06 11:38] * VAELoader 164:
-[2024-04-06 11:38]   - Value not in list: vae_name: 'sdxl_vae.safetensors' not in []
-[2024-04-06 11:38] Output will be ignored
-[2024-04-06 11:38] Failed to validate prompt for output 12:
-[2024-04-06 11:38] Output will be ignored
-[2024-04-06 11:38] Failed to validate prompt for output 115:
-[2024-04-06 11:38] Output will be ignored
-[2024-04-06 11:38] !!! Exception during processing !!!
-[2024-04-06 11:38] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:38] Prompt executed in 0.17 seconds
-[2024-04-06 11:40] got prompt
-[2024-04-06 11:40] Failed to validate prompt for output 121:
-[2024-04-06 11:40] * VAELoader 164:
-[2024-04-06 11:40]   - Value not in list: vae_name: 'sdxl_vae.safetensors' not in []
-[2024-04-06 11:40] Output will be ignored
-[2024-04-06 11:40] Failed to validate prompt for output 12:
-[2024-04-06 11:40] Output will be ignored
-[2024-04-06 11:40] Failed to validate prompt for output 115:
-[2024-04-06 11:40] Output will be ignored
-[2024-04-06 11:40] !!! Exception during processing !!!
-[2024-04-06 11:40] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:40] Prompt executed in 0.06 seconds
-[2024-04-06 11:42] got prompt
-[2024-04-06 11:42] !!! Exception during processing !!!
-[2024-04-06 11:42] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:42] Prompt executed in 0.01 seconds
-[2024-04-06 11:42] got prompt
-[2024-04-06 11:42] !!! Exception during processing !!!
-[2024-04-06 11:42] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:42] Prompt executed in 0.02 seconds
-[2024-04-06 11:42] got prompt
-[2024-04-06 11:42] Failed to validate prompt for output 121:
-[2024-04-06 11:42] * VAELoader 164:
-[2024-04-06 11:42]   - Value not in list: vae_name: 'sdxl_vae.safetensors' not in []
-[2024-04-06 11:42] Output will be ignored
-[2024-04-06 11:42] Failed to validate prompt for output 12:
-[2024-04-06 11:42] Output will be ignored
-[2024-04-06 11:42] Failed to validate prompt for output 115:
-[2024-04-06 11:42] Output will be ignored
-[2024-04-06 11:42] !!! Exception during processing !!!
-[2024-04-06 11:42] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:42] Prompt executed in 0.01 seconds
-[2024-04-06 11:43] got prompt
-[2024-04-06 11:43] Failed to validate prompt for output 121:
-[2024-04-06 11:43] * VAELoader 164:
-[2024-04-06 11:43]   - Value not in list: vae_name: 'sdxl_vae.safetensors' not in []
-[2024-04-06 11:43] Output will be ignored
-[2024-04-06 11:43] Failed to validate prompt for output 12:
-[2024-04-06 11:43] Output will be ignored
-[2024-04-06 11:43] Failed to validate prompt for output 115:
-[2024-04-06 11:43] Output will be ignored
-[2024-04-06 11:43] !!! Exception during processing !!!
-[2024-04-06 11:43] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:43] Prompt executed in 0.01 seconds
-[2024-04-06 11:43] got prompt
-[2024-04-06 11:43] Failed to validate prompt for output 121:
-[2024-04-06 11:43] * VAELoader 164:
-[2024-04-06 11:43]   - Value not in list: vae_name: 'sdxl_vae.safetensors' not in []
-[2024-04-06 11:43] Output will be ignored
-[2024-04-06 11:43] Failed to validate prompt for output 12:
-[2024-04-06 11:43] Output will be ignored
-[2024-04-06 11:43] Failed to validate prompt for output 115:
-[2024-04-06 11:43] Output will be ignored
-[2024-04-06 11:43] !!! Exception during processing !!!
-[2024-04-06 11:43] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:43] Prompt executed in 0.02 seconds
-[2024-04-06 11:51] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-06 11:51] got prompt
-[2024-04-06 11:51] !!! Exception during processing !!!
-[2024-04-06 11:51] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:51] Prompt executed in 0.01 seconds
-[2024-04-06 11:51] got prompt
-[2024-04-06 11:51] !!! Exception during processing !!!
-[2024-04-06 11:51] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:51] Prompt executed in 0.01 seconds
-[2024-04-06 11:53] got prompt
-[2024-04-06 11:53] !!! Exception during processing !!!
-[2024-04-06 11:53] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:53] Prompt executed in 0.04 seconds
-[2024-04-06 11:54] got prompt
-[2024-04-06 11:54] !!! Exception during processing !!!
-[2024-04-06 11:54] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:54] Prompt executed in 0.06 seconds
-[2024-04-06 11:54] got prompt
-[2024-04-06 11:54] !!! Exception during processing !!!
-[2024-04-06 11:54] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:54] Prompt executed in 0.02 seconds
-[2024-04-06 11:55] got prompt
-[2024-04-06 11:55] !!! Exception during processing !!!
-[2024-04-06 11:55] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:55] Prompt executed in 0.02 seconds
-[2024-04-06 11:55] got prompt
-[2024-04-06 11:55] !!! Exception during processing !!!
-[2024-04-06 11:55] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: WAS_Image_Input_Switch.image_input_switch() got an unexpected keyword argument 'boolean_number'
-
-[2024-04-06 11:55] Prompt executed in 0.02 seconds
-[2024-04-06 11:56] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
-[2024-04-06 11:56] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
-[2024-04-06 11:56] Update custom node 'WAS Node Suite'
-[2024-04-06 11:56] Update: ['https://github.com/WASasquatch/was-node-suite-comfyui']
-[2024-04-06 11:56] Update was successful.
-[2024-04-06 11:56] After restarting ComfyUI, please refresh the browser.
-[2024-04-06 11:56] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
-[2024-04-06 11:56] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-04-08 15:31] To see the GUI go to: http://127.0.0.1:8188
+[2024-04-08 15:39] 
+Stopped server
