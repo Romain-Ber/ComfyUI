@@ -1,84 +1,104 @@
-** ComfyUI startup time: 2024-04-09 20:40:11.871100
-[2024-04-09 20:40] ** Platform: Linux
-[2024-04-09 20:40] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
-[2024-04-09 20:40] ** Python executable: /usr/bin/python3
-[2024-04-09 20:40] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
-[2024-04-09 20:40] 
+** ComfyUI startup time: 2024-04-09 23:59:23.575607
+[2024-04-09 23:59] ** Platform: Linux
+[2024-04-09 23:59] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-04-09 23:59] ** Python executable: /usr/bin/python3
+[2024-04-09 23:59] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
+[2024-04-09 23:59] 
 Prestartup times for custom nodes:
-[2024-04-09 20:40]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-09 20:40] 
+[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-09 23:59] 
 Total VRAM 6144 MB, total RAM 12654 MB
-[2024-04-09 20:40] Set vram state to: NORMAL_VRAM
-[2024-04-09 20:40] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
-[2024-04-09 20:40] VAE dtype: torch.float32
-[2024-04-09 20:40] Using pytorch cross attention
-[2024-04-09 20:40] Failed to auto update `Quality of Life Suit` 
-[2024-04-09 20:40] [33mQualityOfLifeSuit_Omar92_DIR:[0m /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-09 20:40] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
-[2024-04-09 20:40] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
-[2024-04-09 20:40] ### Loading: ComfyUI-Manager (V2.16)
-[2024-04-09 20:40] ### ComfyUI Revision: 2101 [9ff8e665] | Released on '2024-04-08'
-[2024-04-09 20:40] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-04-09 20:40] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-04-09 20:40] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-04-09 20:40] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-04-09 20:40] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
-[2024-04-09 20:40] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
-[2024-04-09 20:40] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
-[2024-04-09 20:40] 
-	[3m[93m"Failure is the opportunity to begin again more intelligently."[0m[3m - Henry Ford[0m
-[2024-04-09 20:40] 
-[2024-04-09 20:40] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
-[2024-04-09 20:40] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
-[2024-04-09 20:40] 
+[2024-04-09 23:59] Set vram state to: NORMAL_VRAM
+[2024-04-09 23:59] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
+[2024-04-09 23:59] VAE dtype: torch.float32
+[2024-04-09 23:59] Using pytorch cross attention
+[2024-04-09 23:59] Failed to auto update `Quality of Life Suit` 
+[2024-04-09 23:59] [33mQualityOfLifeSuit_Omar92_DIR:[0m /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-04-09 23:59] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
+[2024-04-09 23:59] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
+[2024-04-09 23:59] ### Loading: ComfyUI-Manager (V2.16)
+[2024-04-09 23:59] ### ComfyUI Revision: 2102 [de365d1f] | Released on '2024-04-09'
+[2024-04-09 23:59] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-09 23:59] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-09 23:59] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-09 23:59] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-09 23:59] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-04-09 23:59] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-04-09 23:59] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-04-09 23:59] 
+	[3m[93m"Opportunities don't happen. You create them."[0m[3m - Chris Grosser[0m
+[2024-04-09 23:59] 
+[2024-04-09 23:59] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
+[2024-04-09 23:59] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-04-09 23:59] 
 Import times for custom nodes:
-[2024-04-09 20:40]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
-[2024-04-09 20:40]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
-[2024-04-09 20:40]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-09 20:40]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
-[2024-04-09 20:40]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
-[2024-04-09 20:40]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
-[2024-04-09 20:40]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
-[2024-04-09 20:40]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-09 20:40]    0.7 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
-[2024-04-09 20:40]    1.2 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
-[2024-04-09 20:40] 
-[2024-04-09 20:40] Starting server
+[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
+[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
+[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
+[2024-04-09 23:59]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-09 23:59]    0.9 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-04-09 23:59]    1.9 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-04-09 23:59] 
+[2024-04-09 23:59] [Impact Pack] Wildcards loading done.
+[2024-04-09 23:59] Starting server
 
-[2024-04-09 20:40] To see the GUI go to: http://127.0.0.1:8188
-[2024-04-09 20:40] [Impact Pack] Wildcards loading done.
-[2024-04-09 20:40] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-09 20:40] Error: OpenAI API key is invalid OpenAI features wont work for you
-[2024-04-09 20:40] [33mQualityOfLifeSuit_Omar92:[0m:NSP ready
-[2024-04-09 20:41] got prompt
-[2024-04-09 20:41] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=489, cmin=0, cmax=489)
-]
-[0m
-[2024-04-09 20:41] model_type EPS
-[2024-04-09 20:41] Using pytorch attention in VAE
-[2024-04-09 20:41] Using pytorch attention in VAE
-[2024-04-09 20:41] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-04-09 20:41] Requested to load SDXLClipModel
-[2024-04-09 20:41] Loading 1 new model
-[2024-04-09 20:41] Requested to load SDXL
-[2024-04-09 20:41] Requested to load ControlNet
-[2024-04-09 20:41] Loading 2 new models
-[2024-04-09 20:41] loading in lowvram mode 3082.3076915740967
-[2024-04-09 20:42] loading in lowvram mode 711.309250831604
-[2024-04-09 20:43] 100%|███████████████████████████████████████████████████████| 25/25 [01:39<00:00,  3.50s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:39<00:00,  3.96s/it]
-[2024-04-09 20:43] Requested to load AutoencoderKL
-[2024-04-09 20:43] Loading 1 new model
-[2024-04-09 20:43] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-09 23:59] To see the GUI go to: http://127.0.0.1:8188
+[2024-04-09 23:59] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-09 23:59] Error: OpenAI API key is invalid OpenAI features wont work for you
+[2024-04-09 23:59] [33mQualityOfLifeSuit_Omar92:[0m:NSP ready
+[2024-04-09 23:59] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-09 23:59] got prompt
+[2024-04-09 23:59] model_type EPS
+[2024-04-10 00:00] Using pytorch attention in VAE
+[2024-04-10 00:00] Using pytorch attention in VAE
+[2024-04-10 00:00] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-10 00:00] Requested to load SDXLClipModel
+[2024-04-10 00:00] Loading 1 new model
+[2024-04-10 00:01] Requested to load SDXL
+[2024-04-10 00:01] Requested to load ControlNet
+[2024-04-10 00:01] Loading 2 new models
+[2024-04-10 00:01] loading in lowvram mode 3082.3076915740967
+[2024-04-10 00:02] loading in lowvram mode 711.309250831604
+[2024-04-10 00:03] 100%|███████████████████████████████████████████████████████| 25/25 [01:50<00:00,  3.34s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:50<00:00,  4.44s/it]
+[2024-04-10 00:03] Requested to load AutoencoderKL
+[2024-04-10 00:03] Loading 1 new model
+[2024-04-10 00:04] [34mWAS Node Suite: [0m[33mQR Code:[0m:
 
 [0m
-[2024-04-09 20:43] Prompt executed in 163.30 seconds
-[2024-04-09 20:48] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
-[2024-04-09 20:48] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
-[2024-04-09 20:50] got prompt
-[2024-04-09 20:50] !!! Exception during processing !!!
-[2024-04-09 20:50] Traceback (most recent call last):
+[2024-04-10 00:04] Prompt executed in 259.03 seconds
+[2024-04-10 00:04] got prompt
+[2024-04-10 00:04] Requested to load SDXL
+[2024-04-10 00:04] Requested to load ControlNet
+[2024-04-10 00:04] Loading 2 new models
+[2024-04-10 00:04] loading in lowvram mode 3054.6153841018677
+[2024-04-10 00:04] loading in lowvram mode 704.9679737091064
+[2024-04-10 00:06] 100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  4.07s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  4.10s/it]
+[2024-04-10 00:06] Requested to load AutoencoderKL
+[2024-04-10 00:06] Loading 1 new model
+[2024-04-10 00:06] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+
+[0m
+[2024-04-10 00:06] Prompt executed in 112.68 seconds
+[2024-04-10 00:09] got prompt
+[2024-04-10 00:09] Requested to load SDXL
+[2024-04-10 00:09] Requested to load ControlNet
+[2024-04-10 00:09] Loading 2 new models
+[2024-04-10 00:09] loading in lowvram mode 3054.6153841018677
+[2024-04-10 00:09] loading in lowvram mode 704.9679737091064
+[2024-04-10 00:10] 100%|███████████████████████████████████████████████████████| 25/25 [01:35<00:00,  3.78s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:35<00:00,  3.81s/it]
+[2024-04-10 00:10] Requested to load AutoencoderKL
+[2024-04-10 00:10] Loading 1 new model
+[2024-04-10 00:10] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+
+[0m
+[2024-04-10 00:10] Prompt executed in 101.24 seconds
+[2024-04-10 00:12] got prompt
+[2024-04-10 00:12] !!! Exception during processing !!!
+[2024-04-10 00:12] Traceback (most recent call last):
   File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
     output_data, output_ui = get_output_data(obj, input_data_all)
   File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
@@ -89,892 +109,62 @@ Import times for custom nodes:
     self._validate_qr_size(pixel_size, max_image_size)
   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 68, in _validate_qr_size
     raise RuntimeError(f"QR dimensions of {size} exceed max size of "
-RuntimeError: QR dimensions of 344 exceed max size of 256.
+RuntimeError: QR dimensions of 840 exceed max size of 576.
 
-[2024-04-09 20:50] Prompt executed in 0.06 seconds
-[2024-04-09 20:50] got prompt
-[2024-04-09 20:50] !!! Exception during processing !!!
-[2024-04-09 20:50] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 354, in generate_qr
-    self._validate_qr_size(pixel_size, max_image_size)
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 68, in _validate_qr_size
-    raise RuntimeError(f"QR dimensions of {size} exceed max size of "
-RuntimeError: QR dimensions of 344 exceed max size of 320.
-
-[2024-04-09 20:50] Prompt executed in 0.04 seconds
-[2024-04-09 20:50] got prompt
-[2024-04-09 20:50] !!! Exception during processing !!!
-[2024-04-09 20:50] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 354, in generate_qr
-    self._validate_qr_size(pixel_size, max_image_size)
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 68, in _validate_qr_size
-    raise RuntimeError(f"QR dimensions of {size} exceed max size of "
-RuntimeError: QR dimensions of 328 exceed max size of 320.
-
-[2024-04-09 20:50] Prompt executed in 0.03 seconds
-[2024-04-09 20:50] got prompt
-[2024-04-09 20:50] !!! Exception during processing !!!
-[2024-04-09 20:50] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 354, in generate_qr
-    self._validate_qr_size(pixel_size, max_image_size)
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 68, in _validate_qr_size
-    raise RuntimeError(f"QR dimensions of {size} exceed max size of "
-RuntimeError: QR dimensions of 344 exceed max size of 320.
-
-[2024-04-09 20:50] Prompt executed in 0.03 seconds
-[2024-04-09 20:50] got prompt
-[2024-04-09 20:50] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=343, cmin=0, cmax=343)
-]
-[0m
-[2024-04-09 20:50] Requested to load SDXL
-[2024-04-09 20:50] Requested to load ControlNet
-[2024-04-09 20:50] Loading 2 new models
-[2024-04-09 20:50] loading in lowvram mode 3054.6153841018677
-[2024-04-09 20:50] loading in lowvram mode 704.9679737091064
-[2024-04-09 20:52] 100%|███████████████████████████████████████████████████████| 25/25 [01:24<00:00,  3.38s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:24<00:00,  3.37s/it]
-[2024-04-09 20:52] Requested to load AutoencoderKL
-[2024-04-09 20:52] Loading 1 new model
-[2024-04-09 20:52] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-10 00:12] Prompt executed in 0.04 seconds
+[2024-04-10 00:13] got prompt
+[2024-04-10 00:13] Requested to load SDXL
+[2024-04-10 00:13] Requested to load ControlNet
+[2024-04-10 00:13] Loading 2 new models
+[2024-04-10 00:13] loading in lowvram mode 3054.6153841018677
+[2024-04-10 00:13] loading in lowvram mode 704.9679737091064
+[2024-04-10 00:15] 100%|███████████████████████████████████████████████████████| 25/25 [01:37<00:00,  3.77s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:37<00:00,  3.89s/it]
+[2024-04-10 00:15] Requested to load AutoencoderKL
+[2024-04-10 00:15] Loading 1 new model
+[2024-04-10 00:15] [34mWAS Node Suite: [0m[33mQR Code:[0m:
 
 [0m
-[2024-04-09 20:52] Prompt executed in 93.86 seconds
-[2024-04-09 20:54] got prompt
-[2024-04-09 20:54] !!! Exception during processing !!!
-[2024-04-09 20:54] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 354, in generate_qr
-    self._validate_qr_size(pixel_size, max_image_size)
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 68, in _validate_qr_size
-    raise RuntimeError(f"QR dimensions of {size} exceed max size of "
-RuntimeError: QR dimensions of 656 exceed max size of 384.
-
-[2024-04-09 20:54] Prompt executed in 0.04 seconds
-[2024-04-09 20:54] got prompt
-[2024-04-09 20:54] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=655, cmin=0, cmax=655)
-]
-[0m
-[2024-04-09 20:54] Requested to load SDXL
-[2024-04-09 20:54] Requested to load ControlNet
-[2024-04-09 20:54] Loading 2 new models
-[2024-04-09 20:54] loading in lowvram mode 3054.6153841018677
-[2024-04-09 20:54] loading in lowvram mode 704.9679737091064
-[2024-04-09 20:54] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
-[2024-04-09 20:55] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
-[2024-04-09 20:55] 100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.20s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.42s/it]
-[2024-04-09 20:55] Requested to load AutoencoderKL
-[2024-04-09 20:55] Loading 1 new model
-[2024-04-09 20:55] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-10 00:15] Prompt executed in 103.02 seconds
+[2024-04-10 00:18] got prompt
+[2024-04-10 00:18] Requested to load SDXL
+[2024-04-10 00:18] Requested to load ControlNet
+[2024-04-10 00:18] Loading 2 new models
+[2024-04-10 00:18] loading in lowvram mode 3054.6153841018677
+[2024-04-10 00:18] loading in lowvram mode 704.9679737091064
+[2024-04-10 00:19] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.56s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.44s/it]
+[2024-04-10 00:19] Requested to load AutoencoderKL
+[2024-04-10 00:19] Loading 1 new model
+[2024-04-10 00:19] [34mWAS Node Suite: [0m[33mQR Code:[0m:
 
 [0m
-[2024-04-09 20:55] Prompt executed in 91.14 seconds
-[2024-04-09 21:02] got prompt
-[2024-04-09 21:02] !!! Exception during processing !!!
-[2024-04-09 21:02] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 354, in generate_qr
-    self._validate_qr_size(pixel_size, max_image_size)
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 68, in _validate_qr_size
-    raise RuntimeError(f"QR dimensions of {size} exceed max size of "
-RuntimeError: QR dimensions of 560 exceed max size of 512.
-
-[2024-04-09 21:02] Prompt executed in 0.04 seconds
-[2024-04-09 21:02] got prompt
-[2024-04-09 21:02] !!! Exception during processing !!!
-[2024-04-09 21:02] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 354, in generate_qr
-    self._validate_qr_size(pixel_size, max_image_size)
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 68, in _validate_qr_size
-    raise RuntimeError(f"QR dimensions of {size} exceed max size of "
-RuntimeError: QR dimensions of 525 exceed max size of 512.
-
-[2024-04-09 21:02] Prompt executed in 0.03 seconds
-[2024-04-09 21:02] got prompt
-[2024-04-09 21:02] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=489, cmin=0, cmax=489)
-]
-[0m
-[2024-04-09 21:02] Requested to load SDXL
-[2024-04-09 21:02] Requested to load ControlNet
-[2024-04-09 21:02] Loading 2 new models
-[2024-04-09 21:02] loading in lowvram mode 3054.6153841018677
-[2024-04-09 21:02] loading in lowvram mode 704.9679737091064
-[2024-04-09 21:04] 100%|███████████████████████████████████████████████████████| 25/25 [01:36<00:00,  3.71s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:36<00:00,  3.86s/it]
-[2024-04-09 21:04] Requested to load AutoencoderKL
-[2024-04-09 21:04] Loading 1 new model
-[2024-04-09 21:04] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-10 00:19] Prompt executed in 91.90 seconds
+[2024-04-10 00:20] got prompt
+[2024-04-10 00:20] Requested to load SDXL
+[2024-04-10 00:20] Requested to load ControlNet
+[2024-04-10 00:20] Loading 2 new models
+[2024-04-10 00:20] loading in lowvram mode 3054.6153841018677
+[2024-04-10 00:20] loading in lowvram mode 704.9679737091064
+[2024-04-10 00:22] 100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.45s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.49s/it]
+[2024-04-10 00:22] Requested to load AutoencoderKL
+[2024-04-10 00:22] Loading 1 new model
+[2024-04-10 00:22] [34mWAS Node Suite: [0m[33mQR Code:[0m:
 
 [0m
-[2024-04-09 21:04] Prompt executed in 105.82 seconds
-[2024-04-09 21:04] got prompt
-[2024-04-09 21:04] !!! Exception during processing !!!
-[2024-04-09 21:04] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 354, in generate_qr
-    self._validate_qr_size(pixel_size, max_image_size)
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 68, in _validate_qr_size
-    raise RuntimeError(f"QR dimensions of {size} exceed max size of "
-RuntimeError: QR dimensions of 840 exceed max size of 640.
-
-[2024-04-09 21:04] Prompt executed in 0.03 seconds
-[2024-04-09 21:05] got prompt
-[2024-04-09 21:05] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=839, cmin=0, cmax=839)
-]
-[0m
-[2024-04-09 21:05] Requested to load SDXL
-[2024-04-09 21:05] Requested to load ControlNet
-[2024-04-09 21:05] Loading 2 new models
-[2024-04-09 21:05] loading in lowvram mode 3054.6153841018677
-[2024-04-09 21:05] loading in lowvram mode 704.9679737091064
-[2024-04-09 21:06] 100%|███████████████████████████████████████████████████████| 25/25 [01:38<00:00,  4.05s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:38<00:00,  3.92s/it]
-[2024-04-09 21:06] Requested to load AutoencoderKL
-[2024-04-09 21:06] Loading 1 new model
-[2024-04-09 21:06] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-10 00:22] Prompt executed in 93.53 seconds
+[2024-04-10 00:22] got prompt
+[2024-04-10 00:22] Requested to load SDXL
+[2024-04-10 00:22] Requested to load ControlNet
+[2024-04-10 00:22] Loading 2 new models
+[2024-04-10 00:22] loading in lowvram mode 3054.6153841018677
+[2024-04-10 00:22] loading in lowvram mode 704.9679737091064
+[2024-04-10 00:22] 
+[2024-04-10 00:22] Processing interrupted
+[2024-04-10 00:22] Prompt executed in 18.67 seconds
+[2024-04-10 00:22] got prompt
+[2024-04-10 00:24] 100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.53s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.56s/it]
+[2024-04-10 00:24] Requested to load AutoencoderKL
+[2024-04-10 00:24] Loading 1 new model
+[2024-04-10 00:24] [34mWAS Node Suite: [0m[33mQR Code:[0m:
 
 [0m
-[2024-04-09 21:06] Prompt executed in 104.43 seconds
-[2024-04-09 21:17] got prompt
-[2024-04-09 21:17] Failed to validate prompt for output 262:
-[2024-04-09 21:17] * ImageCompositeMasked 261:
-[2024-04-09 21:17]   - Required input is missing: destination
-[2024-04-09 21:17]   - Required input is missing: source
-[2024-04-09 21:17]   - Required input is missing: x
-[2024-04-09 21:17]   - Required input is missing: y
-[2024-04-09 21:17] Output will be ignored
-[2024-04-09 21:17] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=839, cmin=0, cmax=839)
-]
-[0m
-[2024-04-09 21:17] Requested to load SDXL
-[2024-04-09 21:17] Requested to load ControlNet
-[2024-04-09 21:17] Loading 2 new models
-[2024-04-09 21:17] loading in lowvram mode 3054.6153841018677
-[2024-04-09 21:17] loading in lowvram mode 704.9679737091064
-[2024-04-09 21:17] got prompt
-[2024-04-09 21:17] Failed to validate prompt for output 262:
-[2024-04-09 21:17] * (prompt):
-[2024-04-09 21:17]   - Required input is missing: images
-[2024-04-09 21:17] * PreviewImage 262:
-[2024-04-09 21:17]   - Required input is missing: images
-[2024-04-09 21:17] Output will be ignored
-[2024-04-09 21:19] 100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.21s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.34s/it]
-[2024-04-09 21:19] Requested to load AutoencoderKL
-[2024-04-09 21:19] Loading 1 new model
-[2024-04-09 21:19] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 21:19] [34mWAS Node Suite: [0m[33mDebug to Console[0m:
-35.0
-[0m
-[2024-04-09 21:19] Prompt executed in 88.56 seconds
-[2024-04-09 21:26] got prompt
-[2024-04-09 21:26] Failed to validate prompt for output 262:
-[2024-04-09 21:26] * (prompt):
-[2024-04-09 21:26]   - Required input is missing: images
-[2024-04-09 21:26] * PreviewImage 262:
-[2024-04-09 21:26]   - Required input is missing: images
-[2024-04-09 21:26] Output will be ignored
-[2024-04-09 21:26] [34mWAS Node Suite: [0m[33mGrid Count[0m:
-37.916666666666664
-[0m
-[2024-04-09 21:26] Requested to load SDXL
-[2024-04-09 21:26] Requested to load ControlNet
-[2024-04-09 21:26] Loading 2 new models
-[2024-04-09 21:26] loading in lowvram mode 3054.6153841018677
-[2024-04-09 21:26] loading in lowvram mode 704.9679737091064
-[2024-04-09 21:27] 100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.33s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.42s/it]
-[2024-04-09 21:27] Requested to load AutoencoderKL
-[2024-04-09 21:27] Loading 1 new model
-[2024-04-09 21:27] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 21:27] Prompt executed in 91.24 seconds
-[2024-04-09 21:28] got prompt
-[2024-04-09 21:28] Failed to validate prompt for output 262:
-[2024-04-09 21:28] * (prompt):
-[2024-04-09 21:28]   - Required input is missing: images
-[2024-04-09 21:28] * PreviewImage 262:
-[2024-04-09 21:28]   - Required input is missing: images
-[2024-04-09 21:28] Output will be ignored
-[2024-04-09 21:28] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 21:28] [34mWAS Node Suite: [0m[33mGrid Count[0m:
-35.0
-[0m
-[2024-04-09 21:28] Prompt executed in 0.00 seconds
-[2024-04-09 21:36] got prompt
-[2024-04-09 21:36] Failed to validate prompt for output 277:
-[2024-04-09 21:36] * Text to Number 134:
-[2024-04-09 21:36]   - Required input is missing: text
-[2024-04-09 21:36] Output will be ignored
-[2024-04-09 21:36] Failed to validate prompt for output 262:
-[2024-04-09 21:36] * (prompt):
-[2024-04-09 21:36]   - Required input is missing: images
-[2024-04-09 21:36] * PreviewImage 262:
-[2024-04-09 21:36]   - Required input is missing: images
-[2024-04-09 21:36] Output will be ignored
-[2024-04-09 21:36] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 21:36] Requested to load SDXL
-[2024-04-09 21:36] Requested to load ControlNet
-[2024-04-09 21:36] Loading 2 new models
-[2024-04-09 21:36] loading in lowvram mode 3054.6153841018677
-[2024-04-09 21:36] loading in lowvram mode 704.9679737091064
-[2024-04-09 21:38] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.29s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.48s/it]
-[2024-04-09 21:38] Requested to load AutoencoderKL
-[2024-04-09 21:38] Loading 1 new model
-[2024-04-09 21:38] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 21:38] Prompt executed in 91.96 seconds
-[2024-04-09 21:40] got prompt
-[2024-04-09 21:40] Failed to validate prompt for output 262:
-[2024-04-09 21:40] * (prompt):
-[2024-04-09 21:40]   - Required input is missing: images
-[2024-04-09 21:40] * PreviewImage 262:
-[2024-04-09 21:40]   - Required input is missing: images
-[2024-04-09 21:40] Output will be ignored
-[2024-04-09 21:40] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 21:40] Requested to load SDXL
-[2024-04-09 21:40] Requested to load ControlNet
-[2024-04-09 21:40] Loading 2 new models
-[2024-04-09 21:40] loading in lowvram mode 3054.6153841018677
-[2024-04-09 21:40] loading in lowvram mode 704.9679737091064
-[2024-04-09 21:42] 100%|███████████████████████████████████████████████████████| 25/25 [01:32<00:00,  3.55s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:32<00:00,  3.69s/it]
-[2024-04-09 21:42] Requested to load AutoencoderKL
-[2024-04-09 21:42] Loading 1 new model
-[2024-04-09 21:42] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 21:42] [34mWAS Node Suite: [0m[33mGrid Count[0m:
-34.0
-[0m
-[2024-04-09 21:42] Prompt executed in 98.49 seconds
-[2024-04-09 21:45] got prompt
-[2024-04-09 21:45] Failed to validate prompt for output 262:
-[2024-04-09 21:45] * (prompt):
-[2024-04-09 21:45]   - Required input is missing: images
-[2024-04-09 21:45] * PreviewImage 262:
-[2024-04-09 21:45]   - Required input is missing: images
-[2024-04-09 21:45] Output will be ignored
-[2024-04-09 21:45] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 21:45] [34mWAS Node Suite: [0m[33mGrid Count[0m:
-33.0
-[0m
-[2024-04-09 21:45] Requested to load SDXL
-[2024-04-09 21:45] Requested to load ControlNet
-[2024-04-09 21:45] Loading 2 new models
-[2024-04-09 21:45] loading in lowvram mode 3054.6153841018677
-[2024-04-09 21:45] loading in lowvram mode 704.9679737091064
-[2024-04-09 21:46] 100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.52s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.54s/it]
-[2024-04-09 21:46] Requested to load AutoencoderKL
-[2024-04-09 21:46] Loading 1 new model
-[2024-04-09 21:47] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 21:47] Prompt executed in 94.32 seconds
-[2024-04-09 22:15] got prompt
-[2024-04-09 22:15] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:15] [34mWAS Node Suite: [0m[33mModule Width Count[0m:
-33.0
-[0m
-[2024-04-09 22:15] Requested to load SDXL
-[2024-04-09 22:15] Requested to load ControlNet
-[2024-04-09 22:15] Loading 2 new models
-[2024-04-09 22:15] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:15] loading in lowvram mode 704.9679737091064
-[2024-04-09 22:16] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.18s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.47s/it]
-[2024-04-09 22:16] Requested to load AutoencoderKL
-[2024-04-09 22:16] Loading 1 new model
-[2024-04-09 22:16] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 22:16] Prompt executed in 94.93 seconds
-[2024-04-09 22:19] got prompt
-[2024-04-09 22:19] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:19] Requested to load SDXL
-[2024-04-09 22:19] Requested to load ControlNet
-[2024-04-09 22:19] Loading 2 new models
-[2024-04-09 22:19] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:19] loading in lowvram mode 704.9679737091064
-[2024-04-09 22:21] 100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.53s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.51s/it]
-[2024-04-09 22:21] Requested to load AutoencoderKL
-[2024-04-09 22:21] Loading 1 new model
-[2024-04-09 22:21] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 22:21] Prompt executed in 92.98 seconds
-[2024-04-09 22:30] got prompt
-[2024-04-09 22:30] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:30] Requested to load SDXL
-[2024-04-09 22:30] Requested to load ControlNet
-[2024-04-09 22:30] Loading 2 new models
-[2024-04-09 22:30] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:30] loading in lowvram mode 704.9679737091064
-[2024-04-09 22:32] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.37s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.45s/it]
-[2024-04-09 22:32] Requested to load AutoencoderKL
-[2024-04-09 22:32] Loading 1 new model
-[2024-04-09 22:32] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 22:32] Prompt executed in 92.03 seconds
-[2024-04-09 22:33] got prompt
-[2024-04-09 22:33] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:33] Requested to load SDXL
-[2024-04-09 22:33] Requested to load ControlNet
-[2024-04-09 22:33] Loading 2 new models
-[2024-04-09 22:33] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:33] loading in lowvram mode 704.9679737091064
-[2024-04-09 22:34] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.51s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.46s/it]
-[2024-04-09 22:34] Requested to load AutoencoderKL
-[2024-04-09 22:34] Loading 1 new model
-[2024-04-09 22:34] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 22:34] Prompt executed in 91.76 seconds
-[2024-04-09 22:36] got prompt
-[2024-04-09 22:36] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:36] Requested to load SDXL
-[2024-04-09 22:36] Requested to load ControlNet
-[2024-04-09 22:36] Loading 2 new models
-[2024-04-09 22:36] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:36] loading in lowvram mode 704.9679737091064
-[2024-04-09 22:38] 100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.69s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.54s/it]
-[2024-04-09 22:38] Requested to load AutoencoderKL
-[2024-04-09 22:38] Loading 1 new model
-[2024-04-09 22:38] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 22:38] Prompt executed in 93.93 seconds
-[2024-04-09 22:38] got prompt
-[2024-04-09 22:38] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:38] Requested to load SDXL
-[2024-04-09 22:38] Requested to load ControlNet
-[2024-04-09 22:38] Loading 2 new models
-[2024-04-09 22:38] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:38] loading in lowvram mode 704.9679737091064
-[2024-04-09 22:40] 100%|███████████████████████████████████████████████████████| 25/25 [01:38<00:00,  3.82s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:38<00:00,  3.95s/it]
-[2024-04-09 22:40] Requested to load AutoencoderKL
-[2024-04-09 22:40] Loading 1 new model
-[2024-04-09 22:40] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 22:40] Prompt executed in 105.13 seconds
-[2024-04-09 22:41] got prompt
-[2024-04-09 22:41] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:41] Requested to load SDXL
-[2024-04-09 22:41] Requested to load ControlNet
-[2024-04-09 22:41] Loading 2 new models
-[2024-04-09 22:41] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:41] loading in lowvram mode 704.9679737091064
-[2024-04-09 22:43] 100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.22s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.32s/it]
-[2024-04-09 22:43] Requested to load AutoencoderKL
-[2024-04-09 22:43] Loading 1 new model
-[2024-04-09 22:43] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 22:43] Prompt executed in 88.55 seconds
-[2024-04-09 22:44] got prompt
-[2024-04-09 22:44] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:44] Requested to load SDXL
-[2024-04-09 22:44] Requested to load ControlNet
-[2024-04-09 22:44] Loading 2 new models
-[2024-04-09 22:44] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:44] loading in lowvram mode 704.9679737091064
-[2024-04-09 22:45] 100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.32s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.34s/it]
-[2024-04-09 22:45] Requested to load AutoencoderKL
-[2024-04-09 22:45] Loading 1 new model
-[2024-04-09 22:45] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 22:45] Prompt executed in 88.99 seconds
-[2024-04-09 22:45] got prompt
-[2024-04-09 22:45] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:45] Requested to load SDXL
-[2024-04-09 22:45] Requested to load ControlNet
-[2024-04-09 22:45] Loading 2 new models
-[2024-04-09 22:45] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:45] loading in lowvram mode 704.9679737091064
-[2024-04-09 22:47] 100%|███████████████████████████████████████████████████████| 25/25 [01:35<00:00,  3.96s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:35<00:00,  3.81s/it]
-[2024-04-09 22:47] Requested to load AutoencoderKL
-[2024-04-09 22:47] Loading 1 new model
-[2024-04-09 22:47] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 22:47] Prompt executed in 101.72 seconds
-[2024-04-09 22:48] got prompt
-[2024-04-09 22:48] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:48] Requested to load SDXL
-[2024-04-09 22:48] Requested to load ControlNet
-[2024-04-09 22:48] Loading 2 new models
-[2024-04-09 22:48] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:48] loading in lowvram mode 704.9679737091064
-[2024-04-09 22:50] 100%|███████████████████████████████████████████████████████| 25/25 [01:34<00:00,  3.92s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:34<00:00,  3.77s/it]
-[2024-04-09 22:50] Requested to load AutoencoderKL
-[2024-04-09 22:50] Loading 1 new model
-[2024-04-09 22:50] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 22:50] Prompt executed in 100.31 seconds
-[2024-04-09 22:51] got prompt
-[2024-04-09 22:51] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:51] Requested to load SDXL
-[2024-04-09 22:51] Requested to load ControlNet
-[2024-04-09 22:51] Loading 2 new models
-[2024-04-09 22:51] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:51] loading in lowvram mode 704.9679737091064
-[2024-04-09 22:52] 100%|███████████████████████████████████████████████████████| 25/25 [01:39<00:00,  4.11s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:39<00:00,  3.97s/it]
-[2024-04-09 22:52] Requested to load AutoencoderKL
-[2024-04-09 22:52] Loading 1 new model
-[2024-04-09 22:52] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 22:52] Prompt executed in 105.24 seconds
-[2024-04-09 22:54] got prompt
-[2024-04-09 22:54] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:54] [34mWAS Node Suite: [0m[33mWidth/Height(px)[0m:
-338.0
-[0m
-[2024-04-09 22:54] [34mWAS Node Suite: [0m[33mGray XY[0m:
-286.0
-[0m
-[2024-04-09 22:54] Requested to load SDXL
-[2024-04-09 22:54] Requested to load ControlNet
-[2024-04-09 22:54] Loading 2 new models
-[2024-04-09 22:54] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:54] loading in lowvram mode 704.9679737091064
-[2024-04-09 22:55] 100%|███████████████████████████████████████████████████████| 25/25 [01:32<00:00,  3.47s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:32<00:00,  3.72s/it]
-[2024-04-09 22:55] Requested to load AutoencoderKL
-[2024-04-09 22:55] Loading 1 new model
-[2024-04-09 22:55] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 22:55] Prompt executed in 98.55 seconds
-[2024-04-09 22:56] got prompt
-[2024-04-09 22:56] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:56] [34mWAS Node Suite: [0m[33mWidth/Height(px)[0m:
-338.0
-[0m
-[2024-04-09 22:56] [34mWAS Node Suite: [0m[33mGray XY[0m:
-286.0
-[0m
-[2024-04-09 22:56] Requested to load SDXL
-[2024-04-09 22:56] Requested to load ControlNet
-[2024-04-09 22:56] Loading 2 new models
-[2024-04-09 22:56] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:56] loading in lowvram mode 704.9679737091064
-[2024-04-09 22:58] 100%|███████████████████████████████████████████████████████| 25/25 [01:39<00:00,  4.16s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:39<00:00,  3.98s/it]
-[2024-04-09 22:58] Requested to load AutoencoderKL
-[2024-04-09 22:58] Loading 1 new model
-[2024-04-09 22:58] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 22:58] Prompt executed in 106.01 seconds
-[2024-04-09 22:58] got prompt
-[2024-04-09 22:58] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 22:58] [34mWAS Node Suite: [0m[33mWidth/Height(px)[0m:
-338.0
-[0m
-[2024-04-09 22:58] Requested to load SDXL
-[2024-04-09 22:58] Requested to load ControlNet
-[2024-04-09 22:58] Loading 2 new models
-[2024-04-09 22:58] loading in lowvram mode 3054.6153841018677
-[2024-04-09 22:58] loading in lowvram mode 704.9679737091064
-[2024-04-09 23:00] 100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  4.04s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  4.10s/it]
-[2024-04-09 23:00] Requested to load AutoencoderKL
-[2024-04-09 23:00] Loading 1 new model
-[2024-04-09 23:00] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 23:00] Prompt executed in 109.06 seconds
-[2024-04-09 23:04] got prompt
-[2024-04-09 23:04] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 23:04] [34mWAS Node Suite: [0m[33mWidth/Height(px)[0m:
-338.0
-[0m
-[2024-04-09 23:04] Requested to load SDXL
-[2024-04-09 23:04] Requested to load ControlNet
-[2024-04-09 23:04] Loading 2 new models
-[2024-04-09 23:04] loading in lowvram mode 3054.6153841018677
-[2024-04-09 23:04] loading in lowvram mode 704.9679737091064
-[2024-04-09 23:05] 100%|███████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.50s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.63s/it]
-[2024-04-09 23:05] Requested to load AutoencoderKL
-[2024-04-09 23:05] Loading 1 new model
-[2024-04-09 23:05] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 23:05] Prompt executed in 96.37 seconds
-[2024-04-09 23:06] got prompt
-[2024-04-09 23:06] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=857, cmin=0, cmax=857)
-]
-[0m
-[2024-04-09 23:06] Requested to load SDXL
-[2024-04-09 23:06] Requested to load ControlNet
-[2024-04-09 23:06] Loading 2 new models
-[2024-04-09 23:06] loading in lowvram mode 3054.6153841018677
-[2024-04-09 23:06] loading in lowvram mode 704.9679737091064
-[2024-04-09 23:08] 100%|███████████████████████████████████████████████████████| 25/25 [01:38<00:00,  3.78s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:38<00:00,  3.96s/it]
-[2024-04-09 23:08] Requested to load AutoencoderKL
-[2024-04-09 23:08] Loading 1 new model
-[2024-04-09 23:08] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 23:08] Prompt executed in 105.74 seconds
-[2024-04-09 23:10] got prompt
-[2024-04-09 23:10] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 23:10] Requested to load SDXL
-[2024-04-09 23:10] Requested to load ControlNet
-[2024-04-09 23:10] Loading 2 new models
-[2024-04-09 23:10] loading in lowvram mode 3054.6153841018677
-[2024-04-09 23:10] loading in lowvram mode 704.9679737091064
-[2024-04-09 23:11] 100%|███████████████████████████████████████████████████████| 25/25 [01:32<00:00,  3.67s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:32<00:00,  3.71s/it]
-[2024-04-09 23:11] Requested to load AutoencoderKL
-[2024-04-09 23:11] Loading 1 new model
-[2024-04-09 23:12] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 23:12] Prompt executed in 99.48 seconds
-[2024-04-09 23:12] got prompt
-[2024-04-09 23:12] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 23:12] Requested to load SDXL
-[2024-04-09 23:12] Requested to load ControlNet
-[2024-04-09 23:12] Loading 2 new models
-[2024-04-09 23:12] loading in lowvram mode 3054.6153841018677
-[2024-04-09 23:12] loading in lowvram mode 704.9679737091064
-[2024-04-09 23:13] 100%|███████████████████████████████████████████████████████| 25/25 [01:37<00:00,  3.83s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:37<00:00,  3.89s/it]
-[2024-04-09 23:13] Requested to load AutoencoderKL
-[2024-04-09 23:13] Loading 1 new model
-[2024-04-09 23:13] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 23:13] Prompt executed in 103.60 seconds
-[2024-04-09 23:14] got prompt
-[2024-04-09 23:14] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 23:14] Requested to load SDXL
-[2024-04-09 23:14] Requested to load ControlNet
-[2024-04-09 23:14] Loading 2 new models
-[2024-04-09 23:14] loading in lowvram mode 3054.6153841018677
-[2024-04-09 23:14] loading in lowvram mode 704.9679737091064
-[2024-04-09 23:16] 100%|███████████████████████████████████████████████████████| 25/25 [01:39<00:00,  4.06s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:39<00:00,  3.97s/it]
-[2024-04-09 23:16] Requested to load AutoencoderKL
-[2024-04-09 23:16] Loading 1 new model
-[2024-04-09 23:16] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 23:16] Prompt executed in 106.09 seconds
-[2024-04-09 23:17] got prompt
-[2024-04-09 23:17] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 23:17] Requested to load SDXL
-[2024-04-09 23:17] Requested to load ControlNet
-[2024-04-09 23:17] Loading 2 new models
-[2024-04-09 23:17] loading in lowvram mode 3054.6153841018677
-[2024-04-09 23:17] loading in lowvram mode 704.9679737091064
-[2024-04-09 23:19] 100%|███████████████████████████████████████████████████████| 25/25 [01:38<00:00,  3.76s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:38<00:00,  3.93s/it]
-[2024-04-09 23:19] Requested to load AutoencoderKL
-[2024-04-09 23:19] Loading 1 new model
-[2024-04-09 23:19] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 23:19] Prompt executed in 105.90 seconds
-[2024-04-09 23:21] got prompt
-[2024-04-09 23:21] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 23:21] [34mWAS Node Suite: [0m[33mDebug to Console[0m:
-342.0
-[0m
-[2024-04-09 23:21] Requested to load SDXL
-[2024-04-09 23:21] Requested to load ControlNet
-[2024-04-09 23:21] Loading 2 new models
-[2024-04-09 23:21] loading in lowvram mode 3054.6153841018677
-[2024-04-09 23:21] loading in lowvram mode 704.9679737091064
-[2024-04-09 23:23] 100%|███████████████████████████████████████████████████████| 25/25 [01:33<00:00,  3.54s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:33<00:00,  3.74s/it]
-[2024-04-09 23:23] Requested to load AutoencoderKL
-[2024-04-09 23:23] Loading 1 new model
-[2024-04-09 23:23] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 23:23] Prompt executed in 99.45 seconds
-[2024-04-09 23:46] got prompt
-[2024-04-09 23:46] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 23:46] [34mWAS Node Suite: [0m[33mDebug to Console[0m:
-342.0
-[0m
-[2024-04-09 23:46] Requested to load SDXL
-[2024-04-09 23:46] Requested to load ControlNet
-[2024-04-09 23:46] Loading 2 new models
-[2024-04-09 23:46] loading in lowvram mode 3054.6153841018677
-[2024-04-09 23:46] loading in lowvram mode 704.9679737091064
-[2024-04-09 23:48] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.40s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.45s/it]
-[2024-04-09 23:48] Requested to load AutoencoderKL
-[2024-04-09 23:48] Loading 1 new model
-[2024-04-09 23:48] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 23:48] Prompt executed in 92.40 seconds
-[2024-04-09 23:49] got prompt
-[2024-04-09 23:49] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=909, cmin=0, cmax=909)
-]
-[0m
-[2024-04-09 23:49] [34mWAS Node Suite: [0m[33mDebug to Console[0m:
-342.0
-[0m
-[2024-04-09 23:49] Requested to load SDXL
-[2024-04-09 23:49] Requested to load ControlNet
-[2024-04-09 23:49] Loading 2 new models
-[2024-04-09 23:49] loading in lowvram mode 3054.6153841018677
-[2024-04-09 23:49] loading in lowvram mode 704.9679737091064
-[2024-04-09 23:51] 100%|███████████████████████████████████████████████████████| 25/25 [01:36<00:00,  3.92s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:36<00:00,  3.87s/it]
-[2024-04-09 23:51] Requested to load AutoencoderKL
-[2024-04-09 23:51] Loading 1 new model
-[2024-04-09 23:51] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 23:51] Prompt executed in 104.11 seconds
-[2024-04-09 23:51] got prompt
-[2024-04-09 23:51] Failed to validate prompt for output 79:
-[2024-04-09 23:51] * (prompt):
-[2024-04-09 23:51]   - Required input is missing: images
-[2024-04-09 23:51] * PreviewImage 79:
-[2024-04-09 23:51]   - Required input is missing: images
-[2024-04-09 23:51] Output will be ignored
-[2024-04-09 23:51] Failed to validate prompt for output 80:
-[2024-04-09 23:51] * (prompt):
-[2024-04-09 23:51]   - Required input is missing: images
-[2024-04-09 23:51] * PreviewImage 80:
-[2024-04-09 23:51]   - Required input is missing: images
-[2024-04-09 23:51] Output will be ignored
-[2024-04-09 23:51] Failed to validate prompt for output 98:
-[2024-04-09 23:51] * MaskToImage 97:
-[2024-04-09 23:51]   - Required input is missing: mask
-[2024-04-09 23:51] Output will be ignored
-[2024-04-09 23:51] Failed to validate prompt for output 78:
-[2024-04-09 23:51] * (prompt):
-[2024-04-09 23:51]   - Required input is missing: images
-[2024-04-09 23:51] * PreviewImage 78:
-[2024-04-09 23:51]   - Required input is missing: images
-[2024-04-09 23:51] Output will be ignored
-[2024-04-09 23:51] Requested to load SDXL
-[2024-04-09 23:51] Requested to load ControlNet
-[2024-04-09 23:51] Loading 2 new models
-[2024-04-09 23:51] loading in lowvram mode 3054.6153841018677
-[2024-04-09 23:52] loading in lowvram mode 704.9679737091064
-[2024-04-09 23:53] 100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  4.05s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  4.11s/it]
-[2024-04-09 23:53] Requested to load AutoencoderKL
-[2024-04-09 23:53] Loading 1 new model
-[2024-04-09 23:53] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 23:53] Prompt executed in 110.54 seconds
-[2024-04-09 23:54] got prompt
-[2024-04-09 23:54] Failed to validate prompt for output 79:
-[2024-04-09 23:54] * (prompt):
-[2024-04-09 23:54]   - Required input is missing: images
-[2024-04-09 23:54] * PreviewImage 79:
-[2024-04-09 23:54]   - Required input is missing: images
-[2024-04-09 23:54] Output will be ignored
-[2024-04-09 23:54] Failed to validate prompt for output 80:
-[2024-04-09 23:54] * (prompt):
-[2024-04-09 23:54]   - Required input is missing: images
-[2024-04-09 23:54] * PreviewImage 80:
-[2024-04-09 23:54]   - Required input is missing: images
-[2024-04-09 23:54] Output will be ignored
-[2024-04-09 23:54] Failed to validate prompt for output 98:
-[2024-04-09 23:54] * MaskToImage 97:
-[2024-04-09 23:54]   - Required input is missing: mask
-[2024-04-09 23:54] Output will be ignored
-[2024-04-09 23:54] Failed to validate prompt for output 78:
-[2024-04-09 23:54] * (prompt):
-[2024-04-09 23:54]   - Required input is missing: images
-[2024-04-09 23:54] * PreviewImage 78:
-[2024-04-09 23:54]   - Required input is missing: images
-[2024-04-09 23:54] Output will be ignored
-[2024-04-09 23:54] Requested to load SDXL
-[2024-04-09 23:54] Requested to load ControlNet
-[2024-04-09 23:54] Loading 2 new models
-[2024-04-09 23:54] loading in lowvram mode 3054.6153841018677
-[2024-04-09 23:54] loading in lowvram mode 704.9679737091064
-[2024-04-09 23:55] 100%|███████████████████████████████████████████████████████| 25/25 [01:39<00:00,  3.82s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:39<00:00,  3.98s/it]
-[2024-04-09 23:55] Requested to load AutoencoderKL
-[2024-04-09 23:55] Loading 1 new model
-[2024-04-09 23:56] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-09 23:56] Prompt executed in 105.54 seconds
-[2024-04-09 23:56] got prompt
-[2024-04-09 23:56] Failed to validate prompt for output 79:
-[2024-04-09 23:56] * (prompt):
-[2024-04-09 23:56]   - Required input is missing: images
-[2024-04-09 23:56] * PreviewImage 79:
-[2024-04-09 23:56]   - Required input is missing: images
-[2024-04-09 23:56] Output will be ignored
-[2024-04-09 23:56] Failed to validate prompt for output 80:
-[2024-04-09 23:56] * (prompt):
-[2024-04-09 23:56]   - Required input is missing: images
-[2024-04-09 23:56] * PreviewImage 80:
-[2024-04-09 23:56]   - Required input is missing: images
-[2024-04-09 23:56] Output will be ignored
-[2024-04-09 23:56] Failed to validate prompt for output 98:
-[2024-04-09 23:56] * MaskToImage 97:
-[2024-04-09 23:56]   - Required input is missing: mask
-[2024-04-09 23:56] Output will be ignored
-[2024-04-09 23:56] Failed to validate prompt for output 78:
-[2024-04-09 23:56] * (prompt):
-[2024-04-09 23:56]   - Required input is missing: images
-[2024-04-09 23:56] * PreviewImage 78:
-[2024-04-09 23:56]   - Required input is missing: images
-[2024-04-09 23:56] Output will be ignored
-[2024-04-09 23:56] Requested to load SDXL
-[2024-04-09 23:56] Requested to load ControlNet
-[2024-04-09 23:56] Loading 2 new models
-[2024-04-09 23:56] loading in lowvram mode 3054.6153841018677
-[2024-04-09 23:56] loading in lowvram mode 704.9679737091064
-[2024-04-09 23:57] 100%|███████████████████████████████████████████████████████| 25/25 [01:44<00:00,  3.78s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:44<00:00,  4.19s/it]
-[2024-04-09 23:57] Requested to load AutoencoderKL
-[2024-04-09 23:57] Loading 1 new model
+[2024-04-10 00:24] Prompt executed in 92.27 seconds
