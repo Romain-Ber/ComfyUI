@@ -1,37 +1,36 @@
-** ComfyUI startup time: 2024-04-08 15:29:32.390387
-[2024-04-08 15:29] ** Platform: Linux
-[2024-04-08 15:29] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
-[2024-04-08 15:29] ** Python executable: /usr/bin/python3
-[2024-04-08 15:29] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
-[2024-04-08 15:29] 
+** ComfyUI startup time: 2024-04-08 15:31:47.891561
+[2024-04-08 15:31] ** Platform: Linux
+[2024-04-08 15:31] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-04-08 15:31] ** Python executable: /usr/bin/python3
+[2024-04-08 15:31] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
+[2024-04-08 15:31] 
 Prestartup times for custom nodes:
-[2024-04-08 15:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-08 15:29] 
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-08 15:31] 
 Total VRAM 6144 MB, total RAM 12654 MB
-[2024-04-08 15:29] Set vram state to: NORMAL_VRAM
-[2024-04-08 15:29] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
-[2024-04-08 15:29] VAE dtype: torch.float32
-[2024-04-08 15:29] Using pytorch cross attention
-[2024-04-08 15:29] Failed to auto update `Quality of Life Suit` 
-[2024-04-08 15:29] [33mQualityOfLifeSuit_Omar92_DIR:[0m /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-08 15:29] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
-[2024-04-08 15:29] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
-[2024-04-08 15:29] ### Loading: ComfyUI-Workflow-Component (V0.43.3) !! WARN: This is an experimental extension. Extremely unstable. !!
-[2024-04-08 15:29] ### Loading: ComfyUI-Manager (V2.16)
-[2024-04-08 15:29] ### ComfyUI Revision: 2100 [ada075af] | Released on '2024-04-06'
-[2024-04-08 15:29] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-04-08 15:29] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-04-08 15:29] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-04-08 15:29] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-04-08 15:29] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
-[2024-04-08 15:29] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
-[2024-04-08 15:29] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
-[2024-04-08 15:29] 
-	[3m[93m"Art is the journey of a free soul."[0m[3m - Alev Oguz[0m
-[2024-04-08 15:29] 
-[2024-04-08 15:29] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
-[2024-04-08 15:29] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
-[2024-04-08 15:29] Traceback (most recent call last):
+[2024-04-08 15:31] Set vram state to: NORMAL_VRAM
+[2024-04-08 15:31] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
+[2024-04-08 15:31] VAE dtype: torch.float32
+[2024-04-08 15:31] Using pytorch cross attention
+[2024-04-08 15:31] Failed to auto update `Quality of Life Suit` 
+[2024-04-08 15:31] [33mQualityOfLifeSuit_Omar92_DIR:[0m /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-04-08 15:31] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
+[2024-04-08 15:31] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
+[2024-04-08 15:31] ### Loading: ComfyUI-Manager (V2.16)
+[2024-04-08 15:31] ### ComfyUI Revision: 2100 [ada075af] | Released on '2024-04-06'
+[2024-04-08 15:31] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-08 15:31] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-08 15:31] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-08 15:31] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-08 15:31] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-04-08 15:31] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-04-08 15:31] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-04-08 15:31] 
+	[3m[93m"The only way to do great work is to love what you do."[0m[3m - Steve Jobs[0m
+[2024-04-08 15:31] 
+[2024-04-08 15:31] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
+[2024-04-08 15:31] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-04-08 15:31] Traceback (most recent call last):
   File "/root/code/Romain-Ber/ComfyUI/nodes.py", line 1889, in load_custom_node
     module_spec.loader.exec_module(module)
   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
@@ -48,77 +47,22 @@ Total VRAM 6144 MB, total RAM 12654 MB
     from comfy import sampler_helpers
 ImportError: cannot import name 'sampler_helpers' from 'comfy' (unknown location)
 
-[2024-04-08 15:29] Cannot import /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack module for custom nodes: cannot import name 'sampler_helpers' from 'comfy' (unknown location)
-[2024-04-08 15:29] 
+[2024-04-08 15:31] Cannot import /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack module for custom nodes: cannot import name 'sampler_helpers' from 'comfy' (unknown location)
+[2024-04-08 15:31] 
 Import times for custom nodes:
-[2024-04-08 15:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
-[2024-04-08 15:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
-[2024-04-08 15:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
-[2024-04-08 15:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-08 15:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
-[2024-04-08 15:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
-[2024-04-08 15:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
-[2024-04-08 15:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component
-[2024-04-08 15:29]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-08 15:29]    0.5 seconds (IMPORT FAILED): /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
-[2024-04-08 15:29]    0.8 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
-[2024-04-08 15:29] 
-[2024-04-08 15:29] Starting server
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
+[2024-04-08 15:31]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-04-08 15:31]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-08 15:31]    0.5 seconds (IMPORT FAILED): /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-04-08 15:31]    0.7 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-04-08 15:31] 
+[2024-04-08 15:31] Starting server
 
-[2024-04-08 15:29] To see the GUI go to: http://127.0.0.1:8188
-[2024-04-08 15:29] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-08 15:29] Error: OpenAI API key is invalid OpenAI features wont work for you
-[2024-04-08 15:29] [33mQualityOfLifeSuit_Omar92:[0m:NSP ready
-[2024-04-08 15:29] [Workflow-Component] '## img-ksample-latent.component-tiled [77a7ed]' is broken. Maybe there are missing nodes. (INFO: ### [ERROR] "BNK_TiledKSampler" node is not installed. Please install that node through ComfyUI-Mananger. ###)
-[2024-04-08 15:29] Traceback (most recent call last):
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 209, in get_input_types_dynamic
-    build_input_types(i, input_mapping, input_types, node, node_config_map, spec_map)
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 357, in build_input_types
-    raise Exception(errmsg)
-[2024-04-08 15:29] Exception: ### [ERROR] "BNK_TiledKSampler" node is not installed. Please install that node through ComfyUI-Mananger. ###
-[2024-04-08 15:29] [2024-04-08 15:29] [Workflow-Component] '## sdxl-ksample [3c7e70]' is broken. Maybe there are missing nodes. (INFO: ### [ERROR] "Multiply" node is not installed. Please install that node through ComfyUI-Mananger. ###)
-Traceback (most recent call last):
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 209, in get_input_types_dynamic
-    build_input_types(i, input_mapping, input_types, node, node_config_map, spec_map)
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 357, in build_input_types
-    raise Exception(errmsg)
-[2024-04-08 15:29] Exception: ### [ERROR] "Multiply" node is not installed. Please install that node through ComfyUI-Mananger. ###
-[2024-04-08 15:29] [2024-04-08 15:29] [Workflow-Component] '## pixel-upscale-basic_pipe [286ed5]' is broken. Maybe there are missing nodes. (INFO: ### [ERROR] "LatentPixelScale" node is not installed. Please install that node through ComfyUI-Mananger. ###)
-Traceback (most recent call last):
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 209, in get_input_types_dynamic
-    build_input_types(i, input_mapping, input_types, node, node_config_map, spec_map)
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 357, in build_input_types
-    raise Exception(errmsg)
-[2024-04-08 15:29] Exception: ### [ERROR] "LatentPixelScale" node is not installed. Please install that node through ComfyUI-Mananger. ###
-[2024-04-08 15:29] [2024-04-08 15:29] [Workflow-Component] '## face-detailer-start [f6484f]' is broken. Maybe there are missing nodes. (INFO: ### [ERROR] "FaceDetailerPipe" node is not installed. Please install that node through ComfyUI-Mananger. ###)
-Traceback (most recent call last):
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 209, in get_input_types_dynamic
-    build_input_types(i, input_mapping, input_types, node, node_config_map, spec_map)
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 357, in build_input_types
-    raise Exception(errmsg)
-[2024-04-08 15:29] Exception: ### [ERROR] "FaceDetailerPipe" node is not installed. Please install that node through ComfyUI-Mananger. ###
-[2024-04-08 15:29] [2024-04-08 15:29] [Workflow-Component] '## mask-detailer.lora.ir [a745ba]' is broken. Maybe there are missing nodes. (INFO: ### [ERROR] "DetailerForEachDebugPipe" node is not installed. Please install that node through ComfyUI-Mananger. ###)
-Traceback (most recent call last):
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 209, in get_input_types_dynamic
-    build_input_types(i, input_mapping, input_types, node, node_config_map, spec_map)
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 357, in build_input_types
-    raise Exception(errmsg)
-[2024-04-08 15:29] Exception: ### [ERROR] "DetailerForEachDebugPipe" node is not installed. Please install that node through ComfyUI-Mananger. ###
-[2024-04-08 15:29] [2024-04-08 15:29] [Workflow-Component] '## mask-detailer.ir [0ff698]' is broken. Maybe there are missing nodes. (INFO: ### [ERROR] "DetailerForEachDebugPipe" node is not installed. Please install that node through ComfyUI-Mananger. ###)
-Traceback (most recent call last):
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 209, in get_input_types_dynamic
-    build_input_types(i, input_mapping, input_types, node, node_config_map, spec_map)
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 357, in build_input_types
-    raise Exception(errmsg)
-[2024-04-08 15:29] Exception: ### [ERROR] "DetailerForEachDebugPipe" node is not installed. Please install that node through ComfyUI-Mananger. ###
-[2024-04-08 15:29] [2024-04-08 15:29] [Workflow-Component] '## mask-detailer.2lora.ir [a56996]' is broken. Maybe there are missing nodes. (INFO: ### [ERROR] "DetailerForEachDebugPipe" node is not installed. Please install that node through ComfyUI-Mananger. ###)
-Traceback (most recent call last):
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 209, in get_input_types_dynamic
-    build_input_types(i, input_mapping, input_types, node, node_config_map, spec_map)
-[2024-04-08 15:29]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/workflow_component/component_loader.py", line 357, in build_input_types
-    raise Exception(errmsg)
-[2024-04-08 15:29] Exception: ### [ERROR] "DetailerForEachDebugPipe" node is not installed. Please install that node through ComfyUI-Mananger. ###
-[2024-04-08 15:29] [2024-04-08 15:31] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
-[2024-04-08 15:31] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
-
+[2024-04-08 15:31] To see the GUI go to: http://127.0.0.1:8188
+[2024-04-08 15:39] 
 Stopped server
