@@ -1,170 +1,444 @@
-** ComfyUI startup time: 2024-04-09 23:59:23.575607
-[2024-04-09 23:59] ** Platform: Linux
-[2024-04-09 23:59] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
-[2024-04-09 23:59] ** Python executable: /usr/bin/python3
-[2024-04-09 23:59] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
-[2024-04-09 23:59] 
+** ComfyUI startup time: 2024-04-11 16:51:40.060393
+[2024-04-11 16:51] ** Platform: Linux
+[2024-04-11 16:51] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-04-11 16:51] ** Python executable: /usr/bin/python3
+[2024-04-11 16:51] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
+[2024-04-11 16:51] 
 Prestartup times for custom nodes:
-[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-09 23:59] 
+[2024-04-11 16:51]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-11 16:51] 
 Total VRAM 6144 MB, total RAM 12654 MB
-[2024-04-09 23:59] Set vram state to: NORMAL_VRAM
-[2024-04-09 23:59] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
-[2024-04-09 23:59] VAE dtype: torch.float32
-[2024-04-09 23:59] Using pytorch cross attention
-[2024-04-09 23:59] Failed to auto update `Quality of Life Suit` 
-[2024-04-09 23:59] [33mQualityOfLifeSuit_Omar92_DIR:[0m /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-09 23:59] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
-[2024-04-09 23:59] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
-[2024-04-09 23:59] ### Loading: ComfyUI-Manager (V2.16)
-[2024-04-09 23:59] ### ComfyUI Revision: 2102 [de365d1f] | Released on '2024-04-09'
-[2024-04-09 23:59] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-04-09 23:59] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-04-09 23:59] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-04-09 23:59] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-04-09 23:59] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
-[2024-04-09 23:59] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
-[2024-04-09 23:59] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
-[2024-04-09 23:59] 
-	[3m[93m"Opportunities don't happen. You create them."[0m[3m - Chris Grosser[0m
-[2024-04-09 23:59] 
-[2024-04-09 23:59] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
-[2024-04-09 23:59] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
-[2024-04-09 23:59] 
+[2024-04-11 16:51] Set vram state to: NORMAL_VRAM
+[2024-04-11 16:51] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
+[2024-04-11 16:51] VAE dtype: torch.float32
+[2024-04-11 16:51] Using pytorch cross attention
+[2024-04-11 16:51] Failed to auto update `Quality of Life Suit` 
+[2024-04-11 16:51] [33mQualityOfLifeSuit_Omar92_DIR:[0m /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-04-11 16:51] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
+[2024-04-11 16:51] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
+[2024-04-11 16:51] ### Loading: ComfyUI-Manager (V2.16)
+[2024-04-11 16:51] ### ComfyUI Revision: 2103 [baa86f1d] | Released on '2024-04-10'
+[2024-04-11 16:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-11 16:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-11 16:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-11 16:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-11 16:51] [92m[tinyterraNodes] [32mLoaded[0m
+[2024-04-11 16:51] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-04-11 16:51] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-04-11 16:51] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-04-11 16:51] 
+	[3m[93m"Art is the soul made visible."[0m[3m - George Crook[0m
+[2024-04-11 16:51] 
+[2024-04-11 16:51] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
+[2024-04-11 16:51] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-04-11 16:51] 
 Import times for custom nodes:
-[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
-[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
-[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
-[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
-[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
-[2024-04-09 23:59]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
-[2024-04-09 23:59]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-09 23:59]    0.9 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
-[2024-04-09 23:59]    1.9 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
-[2024-04-09 23:59] 
-[2024-04-09 23:59] [Impact Pack] Wildcards loading done.
-[2024-04-09 23:59] Starting server
+[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
+[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
+[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
+[2024-04-11 16:51]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-11 16:51]    0.8 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-04-11 16:51]    1.3 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes
+[2024-04-11 16:51]    1.7 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-04-11 16:51] 
+[2024-04-11 16:51] [Impact Pack] Wildcards loading done.
+[2024-04-11 16:51] Starting server
 
-[2024-04-09 23:59] To see the GUI go to: http://127.0.0.1:8188
-[2024-04-09 23:59] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-09 23:59] Error: OpenAI API key is invalid OpenAI features wont work for you
-[2024-04-09 23:59] [33mQualityOfLifeSuit_Omar92:[0m:NSP ready
-[2024-04-09 23:59] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-09 23:59] got prompt
-[2024-04-09 23:59] model_type EPS
-[2024-04-10 00:00] Using pytorch attention in VAE
-[2024-04-10 00:00] Using pytorch attention in VAE
-[2024-04-10 00:00] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-04-10 00:00] Requested to load SDXLClipModel
-[2024-04-10 00:00] Loading 1 new model
-[2024-04-10 00:01] Requested to load SDXL
-[2024-04-10 00:01] Requested to load ControlNet
-[2024-04-10 00:01] Loading 2 new models
-[2024-04-10 00:01] loading in lowvram mode 3082.3076915740967
-[2024-04-10 00:02] loading in lowvram mode 711.309250831604
-[2024-04-10 00:03] 100%|███████████████████████████████████████████████████████| 25/25 [01:50<00:00,  3.34s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:50<00:00,  4.44s/it]
-[2024-04-10 00:03] Requested to load AutoencoderKL
-[2024-04-10 00:03] Loading 1 new model
-[2024-04-10 00:04] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-10 00:04] Prompt executed in 259.03 seconds
-[2024-04-10 00:04] got prompt
-[2024-04-10 00:04] Requested to load SDXL
-[2024-04-10 00:04] Requested to load ControlNet
-[2024-04-10 00:04] Loading 2 new models
-[2024-04-10 00:04] loading in lowvram mode 3054.6153841018677
-[2024-04-10 00:04] loading in lowvram mode 704.9679737091064
-[2024-04-10 00:06] 100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  4.07s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  4.10s/it]
-[2024-04-10 00:06] Requested to load AutoencoderKL
-[2024-04-10 00:06] Loading 1 new model
-[2024-04-10 00:06] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-11 16:51] To see the GUI go to: http://127.0.0.1:8188
+[2024-04-11 16:51] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-11 16:51] Error: OpenAI API key is invalid OpenAI features wont work for you
+[2024-04-11 16:51] [33mQualityOfLifeSuit_Omar92:[0m:NSP ready
+[2024-04-11 17:00] got prompt
+[2024-04-11 17:00] model_type EPS
+[2024-04-11 17:01] Using pytorch attention in VAE
+[2024-04-11 17:01] Using pytorch attention in VAE
+[2024-04-11 17:01] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-11 17:01] Requested to load SDXLClipModel
+[2024-04-11 17:01] Loading 1 new model
+[2024-04-11 17:01] Requested to load SDXL
+[2024-04-11 17:01] Requested to load ControlNet
+[2024-04-11 17:01] Loading 2 new models
+[2024-04-11 17:01] loading in lowvram mode 3082.3076915740967
+[2024-04-11 17:02] loading in lowvram mode 711.309250831604
+[2024-04-11 17:03] 100%|███████████████████████████████████████████████████████| 25/25 [01:37<00:00,  3.10s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:37<00:00,  3.89s/it]
+[2024-04-11 17:03] Requested to load AutoencoderKL
+[2024-04-11 17:03] Loading 1 new model
+[2024-04-11 17:03] [34mWAS Node Suite: [0m[33mQR Code:[0m:
 
 [0m
-[2024-04-10 00:06] Prompt executed in 112.68 seconds
-[2024-04-10 00:09] got prompt
-[2024-04-10 00:09] Requested to load SDXL
-[2024-04-10 00:09] Requested to load ControlNet
-[2024-04-10 00:09] Loading 2 new models
-[2024-04-10 00:09] loading in lowvram mode 3054.6153841018677
-[2024-04-10 00:09] loading in lowvram mode 704.9679737091064
-[2024-04-10 00:10] 100%|███████████████████████████████████████████████████████| 25/25 [01:35<00:00,  3.78s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:35<00:00,  3.81s/it]
-[2024-04-10 00:10] Requested to load AutoencoderKL
-[2024-04-10 00:10] Loading 1 new model
-[2024-04-10 00:10] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-11 17:03] Requested to load SDXL
+[2024-04-11 17:03] Requested to load ControlNet
+[2024-04-11 17:03] Loading 2 new models
+[2024-04-11 17:03] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:03] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:05] 100%|███████████████████████████████████████████████████████| 25/25 [01:24<00:00,  3.18s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:24<00:00,  3.38s/it]
+[2024-04-11 17:05] Requested to load AutoencoderKL
+[2024-04-11 17:05] Loading 1 new model
+[2024-04-11 17:05] Requested to load SDXL
+[2024-04-11 17:05] Requested to load ControlNet
+[2024-04-11 17:05] Loading 2 new models
+[2024-04-11 17:05] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:05] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:06] 100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.03s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.31s/it]
+[2024-04-11 17:06] Requested to load AutoencoderKL
+[2024-04-11 17:06] Loading 1 new model
+[2024-04-11 17:06] Prompt executed in 368.23 seconds
+[2024-04-11 17:15] got prompt
+[2024-04-11 17:15] Requested to load SDXL
+[2024-04-11 17:15] Requested to load ControlNet
+[2024-04-11 17:15] Loading 2 new models
+[2024-04-11 17:15] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:15] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:16] 100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.48s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.43s/it]
+[2024-04-11 17:16] Requested to load AutoencoderKL
+[2024-04-11 17:16] Loading 1 new model
+[2024-04-11 17:16] Requested to load SDXL
+[2024-04-11 17:16] Requested to load ControlNet
+[2024-04-11 17:16] Loading 2 new models
+[2024-04-11 17:16] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:16] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:18] 100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.23s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.32s/it]
+[2024-04-11 17:18] Requested to load AutoencoderKL
+[2024-04-11 17:18] Loading 1 new model
+[2024-04-11 17:18] Requested to load SDXL
+[2024-04-11 17:18] Requested to load ControlNet
+[2024-04-11 17:18] Loading 2 new models
+[2024-04-11 17:18] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:18] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:19] 100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.01s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.26s/it]
+[2024-04-11 17:19] Requested to load AutoencoderKL
+[2024-04-11 17:19] Loading 1 new model
+[2024-04-11 17:19] Requested to load SDXL
+[2024-04-11 17:19] Requested to load ControlNet
+[2024-04-11 17:19] Loading 2 new models
+[2024-04-11 17:19] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:19] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:21] 100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.18s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.25s/it]
+[2024-04-11 17:21] Requested to load AutoencoderKL
+[2024-04-11 17:21] Loading 1 new model
+[2024-04-11 17:21] [34mWAS Node Suite: [0m[33mQR Code:[0m:
 
 [0m
-[2024-04-10 00:10] Prompt executed in 101.24 seconds
-[2024-04-10 00:12] got prompt
-[2024-04-10 00:12] !!! Exception during processing !!!
-[2024-04-10 00:12] Traceback (most recent call last):
+[2024-04-11 17:21] Prompt executed in 353.38 seconds
+[2024-04-11 17:27] got prompt
+[2024-04-11 17:27] Requested to load SDXL
+[2024-04-11 17:27] Requested to load ControlNet
+[2024-04-11 17:27] Loading 2 new models
+[2024-04-11 17:27] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:27] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:28] 100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.26s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.36s/it]
+[2024-04-11 17:28] Requested to load AutoencoderKL
+[2024-04-11 17:28] Loading 1 new model
+[2024-04-11 17:28] Requested to load SDXL
+[2024-04-11 17:28] Requested to load ControlNet
+[2024-04-11 17:28] Loading 2 new models
+[2024-04-11 17:28] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:28] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:30] 100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.19s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.29s/it]
+[2024-04-11 17:30] Requested to load AutoencoderKL
+[2024-04-11 17:30] Loading 1 new model
+[2024-04-11 17:30] Requested to load SDXL
+[2024-04-11 17:30] Requested to load ControlNet
+[2024-04-11 17:30] Loading 2 new models
+[2024-04-11 17:30] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:30] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:31] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.18s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.47s/it]
+[2024-04-11 17:31] Requested to load AutoencoderKL
+[2024-04-11 17:31] Loading 1 new model
+[2024-04-11 17:31] Requested to load SDXL
+[2024-04-11 17:31] Requested to load ControlNet
+[2024-04-11 17:31] Loading 2 new models
+[2024-04-11 17:31] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:31] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:33] 100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.31s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.55s/it]
+[2024-04-11 17:33] Requested to load AutoencoderKL
+[2024-04-11 17:33] Loading 1 new model
+[2024-04-11 17:33] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+
+[0m
+[2024-04-11 17:33] Prompt executed in 363.95 seconds
+[2024-04-11 17:34] got prompt
+[2024-04-11 17:34] Requested to load SDXL
+[2024-04-11 17:34] Requested to load ControlNet
+[2024-04-11 17:34] Loading 2 new models
+[2024-04-11 17:34] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:34] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:35] 100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.36s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.49s/it]
+[2024-04-11 17:35] Requested to load AutoencoderKL
+[2024-04-11 17:35] Loading 1 new model
+[2024-04-11 17:35] Requested to load SDXL
+[2024-04-11 17:35] Requested to load ControlNet
+[2024-04-11 17:35] Loading 2 new models
+[2024-04-11 17:35] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:35] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:37] 100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.41s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.54s/it]
+[2024-04-11 17:37] Requested to load AutoencoderKL
+[2024-04-11 17:37] Loading 1 new model
+[2024-04-11 17:37] Requested to load SDXL
+[2024-04-11 17:37] Requested to load ControlNet
+[2024-04-11 17:37] Loading 2 new models
+[2024-04-11 17:37] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:37] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:38] 100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.13s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.32s/it]
+[2024-04-11 17:38] Requested to load AutoencoderKL
+[2024-04-11 17:38] Loading 1 new model
+[2024-04-11 17:38] Requested to load SDXL
+[2024-04-11 17:38] Requested to load ControlNet
+[2024-04-11 17:38] Loading 2 new models
+[2024-04-11 17:38] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:39] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:40] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.36s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.48s/it]
+[2024-04-11 17:40] Requested to load AutoencoderKL
+[2024-04-11 17:40] Loading 1 new model
+[2024-04-11 17:40] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+
+[0m
+[2024-04-11 17:40] Prompt executed in 366.75 seconds
+[2024-04-11 17:42] got prompt
+[2024-04-11 17:42] Requested to load SDXL
+[2024-04-11 17:42] Requested to load ControlNet
+[2024-04-11 17:42] Loading 2 new models
+[2024-04-11 17:42] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:42] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:44] 100%|███████████████████████████████████████████████████████| 25/25 [01:16<00:00,  2.93s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:16<00:00,  3.06s/it]
+[2024-04-11 17:44] Requested to load AutoencoderKL
+[2024-04-11 17:44] Loading 1 new model
+[2024-04-11 17:44] Requested to load SDXL
+[2024-04-11 17:44] Requested to load ControlNet
+[2024-04-11 17:44] Loading 2 new models
+[2024-04-11 17:44] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:44] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:45] 100%|███████████████████████████████████████████████████████| 25/25 [01:19<00:00,  3.15s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:19<00:00,  3.20s/it]
+[2024-04-11 17:45] Requested to load AutoencoderKL
+[2024-04-11 17:45] Loading 1 new model
+[2024-04-11 17:45] Requested to load SDXL
+[2024-04-11 17:45] Requested to load ControlNet
+[2024-04-11 17:45] Loading 2 new models
+[2024-04-11 17:45] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:45] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:47] 100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.26s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.49s/it]
+[2024-04-11 17:47] Requested to load AutoencoderKL
+[2024-04-11 17:47] Loading 1 new model
+[2024-04-11 17:47] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+
+[0m
+[2024-04-11 17:47] Prompt executed in 259.80 seconds
+[2024-04-11 17:48] got prompt
+[2024-04-11 17:48] Requested to load SDXL
+[2024-04-11 17:48] Requested to load ControlNet
+[2024-04-11 17:48] Loading 2 new models
+[2024-04-11 17:48] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:48] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:50] 100%|███████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.53s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.62s/it]
+[2024-04-11 17:50] Requested to load AutoencoderKL
+[2024-04-11 17:50] Loading 1 new model
+[2024-04-11 17:50] Requested to load SDXL
+[2024-04-11 17:50] Requested to load ControlNet
+[2024-04-11 17:50] Loading 2 new models
+[2024-04-11 17:50] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:50] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:51] 100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.24s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.32s/it]
+[2024-04-11 17:51] Requested to load AutoencoderKL
+[2024-04-11 17:51] Loading 1 new model
+[2024-04-11 17:51] Requested to load SDXL
+[2024-04-11 17:51] Requested to load ControlNet
+[2024-04-11 17:51] Loading 2 new models
+[2024-04-11 17:51] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:51] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:53] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.41s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.46s/it]
+[2024-04-11 17:53] Requested to load AutoencoderKL
+[2024-04-11 17:53] Loading 1 new model
+[2024-04-11 17:53] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+
+[0m
+[2024-04-11 17:53] Prompt executed in 276.93 seconds
+[2024-04-11 17:56] got prompt
+[2024-04-11 17:56] Requested to load SDXL
+[2024-04-11 17:56] Requested to load ControlNet
+[2024-04-11 17:56] Loading 2 new models
+[2024-04-11 17:56] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:56] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:57] 100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.31s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.33s/it]
+[2024-04-11 17:57] Requested to load AutoencoderKL
+[2024-04-11 17:57] Loading 1 new model
+[2024-04-11 17:57] Requested to load SDXL
+[2024-04-11 17:57] Requested to load ControlNet
+[2024-04-11 17:57] Loading 2 new models
+[2024-04-11 17:57] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:58] loading in lowvram mode 704.9679737091064
+[2024-04-11 17:59] 100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.30s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.44s/it]
+[2024-04-11 17:59] Requested to load AutoencoderKL
+[2024-04-11 17:59] Loading 1 new model
+[2024-04-11 17:59] Requested to load SDXL
+[2024-04-11 17:59] Requested to load ControlNet
+[2024-04-11 17:59] Loading 2 new models
+[2024-04-11 17:59] loading in lowvram mode 3054.6153841018677
+[2024-04-11 17:59] loading in lowvram mode 704.9679737091064
+[2024-04-11 18:01] 100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.38s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.50s/it]
+[2024-04-11 18:01] Requested to load AutoencoderKL
+[2024-04-11 18:01] Loading 1 new model
+[2024-04-11 18:01] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+
+[0m
+[2024-04-11 18:01] Requested to load SDXL
+[2024-04-11 18:01] Requested to load ControlNet
+[2024-04-11 18:01] Loading 2 new models
+[2024-04-11 18:01] loading in lowvram mode 3054.6153841018677
+[2024-04-11 18:01] loading in lowvram mode 704.9679737091064
+[2024-04-11 18:02] 100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.39s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.53s/it]
+[2024-04-11 18:02] Requested to load AutoencoderKL
+[2024-04-11 18:02] Loading 1 new model
+[2024-04-11 18:02] Prompt executed in 367.69 seconds
+[2024-04-11 18:11] got prompt
+[2024-04-11 18:11] Requested to load SDXL
+[2024-04-11 18:11] Requested to load ControlNet
+[2024-04-11 18:11] Loading 2 new models
+[2024-04-11 18:11] loading in lowvram mode 3054.6153841018677
+[2024-04-11 18:11] loading in lowvram mode 704.9679737091064
+[2024-04-11 18:12] 100%|███████████████████████████████████████████████████████| 25/25 [01:16<00:00,  2.97s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:16<00:00,  3.06s/it]
+[2024-04-11 18:12] Requested to load AutoencoderKL
+[2024-04-11 18:12] Loading 1 new model
+[2024-04-11 18:12] Requested to load SDXL
+[2024-04-11 18:12] Requested to load ControlNet
+[2024-04-11 18:12] Loading 2 new models
+[2024-04-11 18:12] loading in lowvram mode 3054.6153841018677
+[2024-04-11 18:12] loading in lowvram mode 704.9679737091064
+[2024-04-11 18:13] 100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.27s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.24s/it]
+[2024-04-11 18:13] Requested to load AutoencoderKL
+[2024-04-11 18:13] Loading 1 new model
+[2024-04-11 18:14] Requested to load SDXL
+[2024-04-11 18:14] Requested to load ControlNet
+[2024-04-11 18:14] Loading 2 new models
+[2024-04-11 18:14] loading in lowvram mode 3054.6153841018677
+[2024-04-11 18:14] loading in lowvram mode 704.9679737091064
+[2024-04-11 18:15] 100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.30s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.51s/it]
+[2024-04-11 18:15] Requested to load AutoencoderKL
+[2024-04-11 18:15] Loading 1 new model
+[2024-04-11 18:15] Requested to load SDXL
+[2024-04-11 18:15] Requested to load ControlNet
+[2024-04-11 18:15] Loading 2 new models
+[2024-04-11 18:15] loading in lowvram mode 3054.6153841018677
+[2024-04-11 18:15] loading in lowvram mode 704.9679737091064
+[2024-04-11 18:17] 100%|███████████████████████████████████████████████████████| 25/25 [01:29<00:00,  3.58s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:29<00:00,  3.58s/it]
+[2024-04-11 18:17] Requested to load AutoencoderKL
+[2024-04-11 18:17] Loading 1 new model
+[2024-04-11 18:17] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+
+[0m
+[2024-04-11 18:17] Prompt executed in 357.01 seconds
+[2024-04-11 18:18] got prompt
+[2024-04-11 18:18] Failed to validate prompt for output 500:
+[2024-04-11 18:18] * KSamplerAdvanced 498:
+[2024-04-11 18:18]   - Required input is missing: noise_seed
+[2024-04-11 18:18] Output will be ignored
+[2024-04-11 18:18] Requested to load SDXL
+[2024-04-11 18:18] Requested to load ControlNet
+[2024-04-11 18:18] Loading 2 new models
+[2024-04-11 18:18] loading in lowvram mode 3054.6153841018677
+[2024-04-11 18:18] loading in lowvram mode 704.9679737091064
+[2024-04-11 18:20] 100%|███████████████████████████████████████████████████████| 25/25 [01:31<00:00,  3.71s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:31<00:00,  3.66s/it]
+[2024-04-11 18:20] Requested to load AutoencoderKL
+[2024-04-11 18:20] Loading 1 new model
+[2024-04-11 18:20] Requested to load SDXL
+[2024-04-11 18:20] Requested to load ControlNet
+[2024-04-11 18:20] Loading 2 new models
+[2024-04-11 18:20] loading in lowvram mode 3054.6153841018677
+[2024-04-11 18:20] loading in lowvram mode 704.9679737091064
+[2024-04-11 18:22] 100%|███████████████████████████████████████████████████████| 25/25 [01:34<00:00,  3.40s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:34<00:00,  3.80s/it]
+[2024-04-11 18:22] Requested to load AutoencoderKL
+[2024-04-11 18:22] Loading 1 new model
+[2024-04-11 18:22] Requested to load SDXL
+[2024-04-11 18:22] Requested to load ControlNet
+[2024-04-11 18:22] Loading 2 new models
+[2024-04-11 18:22] loading in lowvram mode 3054.6153841018677
+[2024-04-11 18:22] loading in lowvram mode 704.9679737091064
+[2024-04-11 18:22] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-11 18:23] 100%|███████████████████████████████████████████████████████| 25/25 [01:33<00:00,  3.59s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:33<00:00,  3.73s/it]
+[2024-04-11 18:23] Requested to load AutoencoderKL
+[2024-04-11 18:23] Loading 1 new model
+[2024-04-11 18:23] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+
+[0m
+[2024-04-11 18:23] Prompt executed in 299.20 seconds
+[2024-04-11 18:25] got prompt
+[2024-04-11 18:25] model_type EPS
+[2024-04-11 18:25] Using pytorch attention in VAE
+[2024-04-11 18:25] Using pytorch attention in VAE
+[2024-04-11 18:26] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-11 18:26] loaded straight to GPU
+[2024-04-11 18:26] Requested to load SDXL
+[2024-04-11 18:26] Loading 1 new model
+[2024-04-11 18:26] loading in lowvram mode 64.0
+[2024-04-11 18:26] style: base
+[2024-04-11 18:26] text_positive: a cyborg dog puppy, jack russel, blue and pink neon lights, made of gold plated metal, centered motive, sideview, looking at the camera
+[2024-04-11 18:26] text_negative: signature, watermark
+[2024-04-11 18:26] text_positive_styled: a cyborg dog puppy, jack russel, blue and pink neon lights, made of gold plated metal, centered motive, sideview, looking at the camera
+[2024-04-11 18:26] text_negative_styled: signature, watermark
+[2024-04-11 18:26] Requested to load SDXLClipModel
+[2024-04-11 18:26] Loading 1 new model
+[2024-04-11 18:26] error checkpoint does not contain controlnet or t2i adapter data /root/code/Romain-Ber/ComfyUI/models/controlnet/qrpatternSdxl_v01256512eSdxl.safetensors
+[2024-04-11 18:26] !!! Exception during processing !!!
+[2024-04-11 18:26] Traceback (most recent call last):
   File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
     output_data, output_ui = get_output_data(obj, input_data_all)
   File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
     return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
   File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
     results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 354, in generate_qr
-    self._validate_qr_size(pixel_size, max_image_size)
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 68, in _validate_qr_size
-    raise RuntimeError(f"QR dimensions of {size} exceed max size of "
-RuntimeError: QR dimensions of 840 exceed max size of 576.
+  File "/root/code/Romain-Ber/ComfyUI/nodes.py", line 815, in apply_controlnet
+    c_net = control_net.copy().set_cond_hint(control_hint, strength, (start_percent, end_percent))
+AttributeError: 'NoneType' object has no attribute 'copy'
 
-[2024-04-10 00:12] Prompt executed in 0.04 seconds
-[2024-04-10 00:13] got prompt
-[2024-04-10 00:13] Requested to load SDXL
-[2024-04-10 00:13] Requested to load ControlNet
-[2024-04-10 00:13] Loading 2 new models
-[2024-04-10 00:13] loading in lowvram mode 3054.6153841018677
-[2024-04-10 00:13] loading in lowvram mode 704.9679737091064
-[2024-04-10 00:15] 100%|███████████████████████████████████████████████████████| 25/25 [01:37<00:00,  3.77s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:37<00:00,  3.89s/it]
-[2024-04-10 00:15] Requested to load AutoencoderKL
-[2024-04-10 00:15] Loading 1 new model
-[2024-04-10 00:15] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-10 00:15] Prompt executed in 103.02 seconds
-[2024-04-10 00:18] got prompt
-[2024-04-10 00:18] Requested to load SDXL
-[2024-04-10 00:18] Requested to load ControlNet
-[2024-04-10 00:18] Loading 2 new models
-[2024-04-10 00:18] loading in lowvram mode 3054.6153841018677
-[2024-04-10 00:18] loading in lowvram mode 704.9679737091064
-[2024-04-10 00:19] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.56s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.44s/it]
-[2024-04-10 00:19] Requested to load AutoencoderKL
-[2024-04-10 00:19] Loading 1 new model
-[2024-04-10 00:19] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-10 00:19] Prompt executed in 91.90 seconds
-[2024-04-10 00:20] got prompt
-[2024-04-10 00:20] Requested to load SDXL
-[2024-04-10 00:20] Requested to load ControlNet
-[2024-04-10 00:20] Loading 2 new models
-[2024-04-10 00:20] loading in lowvram mode 3054.6153841018677
-[2024-04-10 00:20] loading in lowvram mode 704.9679737091064
-[2024-04-10 00:22] 100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.45s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.49s/it]
-[2024-04-10 00:22] Requested to load AutoencoderKL
-[2024-04-10 00:22] Loading 1 new model
-[2024-04-10 00:22] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-10 00:22] Prompt executed in 93.53 seconds
-[2024-04-10 00:22] got prompt
-[2024-04-10 00:22] Requested to load SDXL
-[2024-04-10 00:22] Requested to load ControlNet
-[2024-04-10 00:22] Loading 2 new models
-[2024-04-10 00:22] loading in lowvram mode 3054.6153841018677
-[2024-04-10 00:22] loading in lowvram mode 704.9679737091064
-[2024-04-10 00:22] 
-[2024-04-10 00:22] Processing interrupted
-[2024-04-10 00:22] Prompt executed in 18.67 seconds
-[2024-04-10 00:22] got prompt
-[2024-04-10 00:24] 100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.53s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.56s/it]
-[2024-04-10 00:24] Requested to load AutoencoderKL
-[2024-04-10 00:24] Loading 1 new model
-[2024-04-10 00:24] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-11 18:26] Prompt executed in 74.00 seconds
+[2024-04-11 18:31] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-11 18:32] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-11 18:34] got prompt
+[2024-04-11 18:34] model_type EPS
+[2024-04-11 18:35] Using pytorch attention in VAE
+[2024-04-11 18:35] Using pytorch attention in VAE
+[2024-04-11 18:35] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-11 18:35] loaded straight to GPU
+[2024-04-11 18:35] Requested to load SDXL
+[2024-04-11 18:35] Loading 1 new model
+[2024-04-11 18:35] loading in lowvram mode 64.0
+[2024-04-11 18:35] Requested to load SDXLClipModel
+[2024-04-11 18:35] Loading 1 new model
+[2024-04-11 18:35] Requested to load SDXL
+[2024-04-11 18:35] Requested to load ControlNet
+[2024-04-11 18:35] Loading 2 new models
+[2024-04-11 18:36] loading in lowvram mode 64.0
+[2024-04-11 18:37] 100%|███████████████████████████████████████████████████████| 25/25 [00:49<00:00,  1.64s/it]100%|███████████████████████████████████████████████████████| 25/25 [00:49<00:00,  1.97s/it]
+[2024-04-11 18:37] Requested to load AutoencoderKL
+[2024-04-11 18:37] Loading 1 new model
+[2024-04-11 18:37] Requested to load SDXL
+[2024-04-11 18:37] Requested to load ControlNet
+[2024-04-11 18:37] Loading 2 new models
+[2024-04-11 18:37] loading in lowvram mode 3054.6153841018677
+[2024-04-11 18:37] loading in lowvram mode 704.9679737091064
+[2024-04-11 18:38] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.31s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.45s/it]
+[2024-04-11 18:38] Requested to load AutoencoderKL
+[2024-04-11 18:38] Loading 1 new model
+[2024-04-11 18:38] Requested to load SDXL
+[2024-04-11 18:38] Requested to load ControlNet
+[2024-04-11 18:38] Loading 2 new models
+[2024-04-11 18:38] loading in lowvram mode 3054.6153841018677
+[2024-04-11 18:38] loading in lowvram mode 704.9679737091064
+[2024-04-11 18:40] 100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.22s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.43s/it]
+[2024-04-11 18:40] Requested to load AutoencoderKL
+[2024-04-11 18:40] Loading 1 new model
+[2024-04-11 18:40] Requested to load SDXL
+[2024-04-11 18:40] Requested to load ControlNet
+[2024-04-11 18:40] Loading 2 new models
+[2024-04-11 18:40] loading in lowvram mode 3054.6153841018677
+[2024-04-11 18:40] loading in lowvram mode 704.9679737091064
+[2024-04-11 18:41] 100%|███████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.24s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.60s/it]
+[2024-04-11 18:41] Requested to load AutoencoderKL
+[2024-04-11 18:41] Loading 1 new model
+[2024-04-11 18:41] [34mWAS Node Suite: [0m[33mQR Code:[0m:
 
 [0m
-[2024-04-10 00:24] Prompt executed in 92.27 seconds
+[2024-04-11 18:41] Prompt executed in 441.48 seconds

@@ -1,486 +1,107 @@
-** ComfyUI startup time: 2024-04-08 15:46:37.868019
-[2024-04-08 15:46] ** Platform: Linux
-[2024-04-08 15:46] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
-[2024-04-08 15:46] ** Python executable: /usr/bin/python3
-[2024-04-08 15:46] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
-[2024-04-08 15:46] 
+** ComfyUI startup time: 2024-04-11 14:53:39.301229
+[2024-04-11 14:53] ** Platform: Linux
+[2024-04-11 14:53] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-04-11 14:53] ** Python executable: /usr/bin/python3
+[2024-04-11 14:53] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
+[2024-04-11 14:53] 
 Prestartup times for custom nodes:
-[2024-04-08 15:46]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-08 15:46] 
+[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-11 14:53] 
 Total VRAM 6144 MB, total RAM 12654 MB
-[2024-04-08 15:46] Set vram state to: NORMAL_VRAM
-[2024-04-08 15:46] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
-[2024-04-08 15:46] VAE dtype: torch.float32
-[2024-04-08 15:46] Using pytorch cross attention
-[2024-04-08 15:46] Failed to auto update `Quality of Life Suit` 
-[2024-04-08 15:46] [33mQualityOfLifeSuit_Omar92_DIR:[0m /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-08 15:46] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
-[2024-04-08 15:46] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
-[2024-04-08 15:46] ### Loading: ComfyUI-Manager (V2.16)
-[2024-04-08 15:46] ### ComfyUI Revision: 2100 [ada075af] | Released on '2024-04-06'
-[2024-04-08 15:46] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-04-08 15:46] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-04-08 15:46] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-04-08 15:46] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-04-08 15:46] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
-[2024-04-08 15:46] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
-[2024-04-08 15:46] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
-[2024-04-08 15:46] 
-	[3m[93m"Art is the stored honey of the human soul."[0m[3m - Theodore Dreiser[0m
-[2024-04-08 15:46] 
-[2024-04-08 15:46] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
-[2024-04-08 15:46] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
-[2024-04-08 15:46] 
+[2024-04-11 14:53] Set vram state to: NORMAL_VRAM
+[2024-04-11 14:53] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
+[2024-04-11 14:53] VAE dtype: torch.float32
+[2024-04-11 14:53] Using pytorch cross attention
+[2024-04-11 14:53] Failed to auto update `Quality of Life Suit` 
+[2024-04-11 14:53] [33mQualityOfLifeSuit_Omar92_DIR:[0m /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-04-11 14:53] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
+[2024-04-11 14:53] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
+[2024-04-11 14:53] ### Loading: ComfyUI-Manager (V2.16)
+[2024-04-11 14:53] ### ComfyUI Revision: 2103 [baa86f1d] | Released on '2024-04-10'
+[2024-04-11 14:53] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-11 14:53] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-11 14:53] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-11 14:53] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-11 14:53] [92m[tinyterraNodes] [32mLoaded[0m
+[2024-04-11 14:53] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-04-11 14:53] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-04-11 14:53] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-04-11 14:53] 
+	[3m[93m"Art is the voice of the soul, expressing what words cannot."[0m[3m - Unknown[0m
+[2024-04-11 14:53] 
+[2024-04-11 14:53] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
+[2024-04-11 14:53] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-04-11 14:53] 
 Import times for custom nodes:
-[2024-04-08 15:46]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
-[2024-04-08 15:46] [Impact Pack] Wildcards loading done.[2024-04-08 15:46]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
+[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
+[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
+[2024-04-11 14:53]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-11 14:53]    1.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-04-11 14:53]    1.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-04-11 14:53]    1.2 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes
+[2024-04-11 14:53] 
+[2024-04-11 14:53] [Impact Pack] Wildcards loading done.
+[2024-04-11 14:53] Starting server
 
-[2024-04-08 15:46]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-08 15:46]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
-[2024-04-08 15:46]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
-[2024-04-08 15:46]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
-[2024-04-08 15:46]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
-[2024-04-08 15:46]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-08 15:46]    0.5 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
-[2024-04-08 15:46]    0.9 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
-[2024-04-08 15:46] 
-[2024-04-08 15:46] Starting server
-
-[2024-04-08 15:46] To see the GUI go to: http://127.0.0.1:8188
-[2024-04-08 15:46] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-08 15:46] Error: OpenAI API key is invalid OpenAI features wont work for you
-[2024-04-08 15:46] [33mQualityOfLifeSuit_Omar92:[0m:NSP ready
-[2024-04-08 15:47] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
-[2024-04-08 15:47] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
-[2024-04-08 15:47] got prompt
-[2024-04-08 15:47] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 15:47] model_type EPS
-[2024-04-08 15:48] Using pytorch attention in VAE
-[2024-04-08 15:48] Using pytorch attention in VAE
-[2024-04-08 15:48] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-04-08 15:48] Requested to load SDXLClipModel
-[2024-04-08 15:48] Loading 1 new model
-[2024-04-08 15:48] Requested to load SDXL
-[2024-04-08 15:48] Requested to load ControlNet
-[2024-04-08 15:48] Loading 2 new models
-[2024-04-08 15:48] loading in lowvram mode 3082.3076915740967
-[2024-04-08 15:49] loading in lowvram mode 711.309250831604
-[2024-04-08 15:50] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
-[2024-04-08 15:50] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
-[2024-04-08 15:51] 100%|███████████████████████████████████████████████████████| 25/25 [01:58<00:00,  3.02s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:58<00:00,  4.72s/it]
-[2024-04-08 15:51] Requested to load AutoencoderKL
-[2024-04-08 15:51] Loading 1 new model
-[2024-04-08 15:51] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 15:51] Prompt executed in 202.68 seconds
-[2024-04-08 15:52] got prompt
-[2024-04-08 15:52] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 15:52] Requested to load SDXL
-[2024-04-08 15:52] Requested to load ControlNet
-[2024-04-08 15:52] Loading 2 new models
-[2024-04-08 15:52] loading in lowvram mode 3054.6153841018677
-[2024-04-08 15:52] loading in lowvram mode 704.9679737091064
-[2024-04-08 15:53] 100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  2.99s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.27s/it]
-[2024-04-08 15:53] Requested to load AutoencoderKL
-[2024-04-08 15:53] Loading 1 new model
-[2024-04-08 15:54] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 15:54] !!! Exception during processing !!!
-[2024-04-08 15:54] Traceback (most recent call last):
+[2024-04-11 14:53] To see the GUI go to: http://127.0.0.1:8188
+[2024-04-11 14:53] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-11 14:53] Error: OpenAI API key is invalid OpenAI features wont work for you
+[2024-04-11 14:53] [33mQualityOfLifeSuit_Omar92:[0m:NSP ready
+[2024-04-11 14:53] got prompt
+[2024-04-11 14:53] model_type EPS
+[2024-04-11 14:54] Using pytorch attention in VAE
+[2024-04-11 14:54] Using pytorch attention in VAE
+[2024-04-11 14:54] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-11 14:54] style: base
+[2024-04-11 14:54] text_positive: a cyborg dog puppy, jack russel, blue and pink neon lights, made of gold plated metal, centered motive, sideview, looking at the camera
+[2024-04-11 14:54] text_negative: signature, watermark
+[2024-04-11 14:54] text_positive_styled: a cyborg dog puppy, jack russel, blue and pink neon lights, made of gold plated metal, centered motive, sideview, looking at the camera
+[2024-04-11 14:54] text_negative_styled: signature, watermark
+[2024-04-11 14:54] Requested to load SDXLClipModel
+[2024-04-11 14:54] Loading 1 new model
+[2024-04-11 14:54] error checkpoint does not contain controlnet or t2i adapter data /root/code/Romain-Ber/ComfyUI/models/controlnet/qrpatternSdxl_v01256512eSdxl.safetensors
+[2024-04-11 14:54] !!! Exception during processing !!!
+[2024-04-11 14:54] Traceback (most recent call last):
   File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
     output_data, output_ui = get_output_data(obj, input_data_all)
   File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
     return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
   File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
     results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-TypeError: SEGSPaste.doit() missing 1 required positional argument: 'segs'
+  File "/root/code/Romain-Ber/ComfyUI/nodes.py", line 815, in apply_controlnet
+    c_net = control_net.copy().set_cond_hint(control_hint, strength, (start_percent, end_percent))
+AttributeError: 'NoneType' object has no attribute 'copy'
 
-[2024-04-08 15:54] Prompt executed in 89.80 seconds
-[2024-04-08 15:56] got prompt
-[2024-04-08 15:56] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 15:56] # of Detected SEGS: 1
-[2024-04-08 15:56] Requested to load SDXL
-[2024-04-08 15:56] Requested to load ControlNet
-[2024-04-08 15:56] Loading 2 new models
-[2024-04-08 15:56] loading in lowvram mode 3054.6153841018677
-[2024-04-08 15:56] loading in lowvram mode 704.9679737091064
-[2024-04-08 15:58] 100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.34s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.55s/it]
-[2024-04-08 15:58] Requested to load AutoencoderKL
-[2024-04-08 15:58] Loading 1 new model
-[2024-04-08 15:58] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 15:58] Prompt executed in 93.91 seconds
-[2024-04-08 15:59] got prompt
-[2024-04-08 15:59] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 15:59] Requested to load SDXL
-[2024-04-08 15:59] Requested to load ControlNet
-[2024-04-08 15:59] Loading 2 new models
-[2024-04-08 15:59] loading in lowvram mode 3054.6153841018677
-[2024-04-08 15:59] loading in lowvram mode 704.9679737091064
-[2024-04-08 16:00] 100%|███████████████████████████████████████████████████████| 25/25 [01:24<00:00,  3.44s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:24<00:00,  3.40s/it]
-[2024-04-08 16:00] Requested to load AutoencoderKL
-[2024-04-08 16:00] Loading 1 new model
-[2024-04-08 16:00] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 16:00] Prompt executed in 89.81 seconds
-[2024-04-08 16:05] got prompt
-[2024-04-08 16:05] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 16:05] Requested to load SDXL
-[2024-04-08 16:05] Requested to load ControlNet
-[2024-04-08 16:05] Loading 2 new models
-[2024-04-08 16:05] loading in lowvram mode 3054.6153841018677
-[2024-04-08 16:05] loading in lowvram mode 704.9679737091064
-[2024-04-08 16:08] 100%|███████████████████████████████████████████████████████| 25/25 [03:21<00:00,  9.34s/it]100%|███████████████████████████████████████████████████████| 25/25 [03:21<00:00,  8.07s/it]
-[2024-04-08 16:08] Requested to load AutoencoderKL
-[2024-04-08 16:08] Loading 1 new model
-[2024-04-08 16:08] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 16:08] Prompt executed in 207.04 seconds
-[2024-04-08 16:08] got prompt
-[2024-04-08 16:08] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 16:08] Requested to load SDXL
-[2024-04-08 16:08] Requested to load ControlNet
-[2024-04-08 16:08] Loading 2 new models
-[2024-04-08 16:08] loading in lowvram mode 3054.6153841018677
-[2024-04-08 16:08] loading in lowvram mode 704.9679737091064
-[2024-04-08 16:10] 100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.52s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.43s/it]
-[2024-04-08 16:10] Requested to load AutoencoderKL
-[2024-04-08 16:10] Loading 1 new model
-[2024-04-08 16:10] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 16:10] Prompt executed in 90.88 seconds
-[2024-04-08 16:10] got prompt
-[2024-04-08 16:10] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 16:10] Prompt executed in 0.03 seconds
-[2024-04-08 16:18] got prompt
-[2024-04-08 16:18] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 16:18] Requested to load SDXL
-[2024-04-08 16:18] Requested to load ControlNet
-[2024-04-08 16:18] Loading 2 new models
-[2024-04-08 16:18] loading in lowvram mode 3054.6153841018677
-[2024-04-08 16:18] loading in lowvram mode 704.9679737091064
-[2024-04-08 16:20] 100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.37s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.42s/it]
-[2024-04-08 16:20] Requested to load AutoencoderKL
-[2024-04-08 16:20] Loading 1 new model
-[2024-04-08 16:20] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 16:20] Prompt executed in 90.54 seconds
-[2024-04-08 16:21] got prompt
-[2024-04-08 16:21] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 16:21] Requested to load SDXL
-[2024-04-08 16:21] Requested to load ControlNet
-[2024-04-08 16:21] Loading 2 new models
-[2024-04-08 16:21] loading in lowvram mode 3054.6153841018677
-[2024-04-08 16:21] loading in lowvram mode 704.9679737091064
-[2024-04-08 16:23] 100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:24<00:00,  3.12s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:24<00:00,  3.39s/it]
-[2024-04-08 16:23] Requested to load AutoencoderKL
-[2024-04-08 16:23] Loading 1 new model
-[2024-04-08 16:23] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 16:23] Prompt executed in 90.01 seconds
-[2024-04-08 16:24] got prompt
-[2024-04-08 16:24] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 16:24] Requested to load SDXL
-[2024-04-08 16:24] Requested to load ControlNet
-[2024-04-08 16:24] Loading 2 new models
-[2024-04-08 16:24] loading in lowvram mode 3054.6153841018677
-[2024-04-08 16:24] loading in lowvram mode 704.9679737091064
-[2024-04-08 16:25] 100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.12s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.25s/it]
-[2024-04-08 16:25] Requested to load AutoencoderKL
-[2024-04-08 16:25] Loading 1 new model
-[2024-04-08 16:25] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 16:25] Prompt executed in 86.26 seconds
-[2024-04-08 16:25] got prompt
-[2024-04-08 16:25] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 16:25] Requested to load SDXL
-[2024-04-08 16:25] Requested to load ControlNet
-[2024-04-08 16:25] Loading 2 new models
-[2024-04-08 16:25] loading in lowvram mode 3054.6153841018677
-[2024-04-08 16:25] loading in lowvram mode 704.9679737091064
-[2024-04-08 16:26] 100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.29s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.35s/it]
-[2024-04-08 16:26] Requested to load AutoencoderKL
-[2024-04-08 16:26] Loading 1 new model
-[2024-04-08 16:27] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 16:27] Prompt executed in 89.51 seconds
-[2024-04-08 16:29] got prompt
-[2024-04-08 16:29] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 16:29] Requested to load SDXL
-[2024-04-08 16:29] Requested to load ControlNet
-[2024-04-08 16:29] Loading 2 new models
-[2024-04-08 16:29] loading in lowvram mode 3054.6153841018677
-[2024-04-08 16:29] loading in lowvram mode 704.9679737091064
-[2024-04-08 16:31] 100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.59s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.53s/it]
-[2024-04-08 16:31] Requested to load AutoencoderKL
-[2024-04-08 16:31] Loading 1 new model
-[2024-04-08 16:31] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 16:31] Prompt executed in 93.34 seconds
-[2024-04-08 16:31] got prompt
-[2024-04-08 16:31] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 16:31] Requested to load SDXL
-[2024-04-08 16:31] Requested to load ControlNet
-[2024-04-08 16:31] Loading 2 new models
-[2024-04-08 16:31] loading in lowvram mode 3054.6153841018677
-[2024-04-08 16:31] loading in lowvram mode 704.9679737091064
-[2024-04-08 16:33] 100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.24s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.44s/it]
-[2024-04-08 16:33] Requested to load AutoencoderKL
-[2024-04-08 16:33] Loading 1 new model
-[2024-04-08 16:33] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 16:33] Prompt executed in 90.92 seconds
-[2024-04-08 16:36] got prompt
-[2024-04-08 16:36] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 16:36] !!! Exception during processing !!!
-[2024-04-08 16:36] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 251, in generate_qr
-    self._validate_qr_size(img.pixel_size, max_image_size)
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 68, in _validate_qr_size
-    raise RuntimeError(f"QR dimensions of {size} exceed max size of "
-RuntimeError: QR dimensions of 560 exceed max size of 512.
-
-[2024-04-08 16:36] Prompt executed in 0.05 seconds
-[2024-04-08 16:36] got prompt
-[2024-04-08 16:36] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 16:36] Requested to load SDXL
-[2024-04-08 16:36] Requested to load ControlNet
-[2024-04-08 16:36] Loading 2 new models
-[2024-04-08 16:36] loading in lowvram mode 3054.6153841018677
-[2024-04-08 16:36] loading in lowvram mode 704.9679737091064
-[2024-04-08 16:38] 100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.19s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.29s/it]
-[2024-04-08 16:38] Requested to load AutoencoderKL
-[2024-04-08 16:38] Loading 1 new model
-[2024-04-08 16:38] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 16:38] Prompt executed in 87.60 seconds
-[2024-04-08 16:38] got prompt
-[2024-04-08 16:38] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=495, cmin=0, cmax=495)
-]
-[0m
-[2024-04-08 16:38] Requested to load SDXL
-[2024-04-08 16:38] Requested to load ControlNet
-[2024-04-08 16:38] Loading 2 new models
-[2024-04-08 16:38] loading in lowvram mode 3054.6153841018677
-[2024-04-08 16:38] loading in lowvram mode 704.9679737091064
-[2024-04-08 16:39] 100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.36s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.63s/it]
-[2024-04-08 16:39] Requested to load AutoencoderKL
-[2024-04-08 16:39] Loading 1 new model
-[2024-04-08 16:40] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 16:40] Prompt executed in 96.12 seconds
-[2024-04-08 16:40] got prompt
-[2024-04-08 16:40] !!! Exception during processing !!!
-[2024-04-08 16:40] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 354, in generate_qr
-    self._validate_qr_size(pixel_size, max_image_size)
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 68, in _validate_qr_size
-    raise RuntimeError(f"QR dimensions of {size} exceed max size of "
-RuntimeError: QR dimensions of 560 exceed max size of 512.
-
-[2024-04-08 16:40] Prompt executed in 0.03 seconds
-[2024-04-08 16:40] got prompt
-[2024-04-08 16:40] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=279, cmin=0, cmax=279)
-]
-[0m
-[2024-04-08 16:40] !!! Exception during processing !!!
-[2024-04-08 16:40] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 251, in generate_qr
-    self._validate_qr_size(img.pixel_size, max_image_size)
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR/qr_nodes.py", line 68, in _validate_qr_size
-    raise RuntimeError(f"QR dimensions of {size} exceed max size of "
-RuntimeError: QR dimensions of 560 exceed max size of 512.
-
-[2024-04-08 16:40] Prompt executed in 0.08 seconds
-[2024-04-08 16:40] got prompt
-[2024-04-08 16:40] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=279, cmin=0, cmax=279)
-]
-[0m
-[2024-04-08 16:40] !!! Exception during processing !!!
-[2024-04-08 16:40] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/WAS_Node_Suite.py", line 3342, in image_crop_location
-    raise ValueError("Invalid crop dimensions. Please check the values for top, left, right, and bottom.")
-ValueError: Invalid crop dimensions. Please check the values for top, left, right, and bottom.
-
-[2024-04-08 16:40] Prompt executed in 0.08 seconds
-[2024-04-08 16:40] got prompt
-[2024-04-08 16:40] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=279, cmin=0, cmax=279)
-]
-[0m
-[2024-04-08 16:40] !!! Exception during processing !!!
-[2024-04-08 16:40] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/WAS_Node_Suite.py", line 3342, in image_crop_location
-    raise ValueError("Invalid crop dimensions. Please check the values for top, left, right, and bottom.")
-ValueError: Invalid crop dimensions. Please check the values for top, left, right, and bottom.
-
-[2024-04-08 16:40] Prompt executed in 0.11 seconds
-[2024-04-08 16:40] got prompt
-[2024-04-08 16:40] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=279, cmin=0, cmax=279)
-]
-[0m
-[2024-04-08 16:40] !!! Exception during processing !!!
-[2024-04-08 16:40] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/WAS_Node_Suite.py", line 3342, in image_crop_location
-    raise ValueError("Invalid crop dimensions. Please check the values for top, left, right, and bottom.")
-ValueError: Invalid crop dimensions. Please check the values for top, left, right, and bottom.
-
-[2024-04-08 16:40] Prompt executed in 0.06 seconds
-[2024-04-08 16:41] got prompt
-[2024-04-08 16:41] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=559, cmin=0, cmax=559)
-]
-[0m
-[2024-04-08 16:41] Requested to load SDXL
-[2024-04-08 16:41] Requested to load ControlNet
-[2024-04-08 16:41] Loading 2 new models
-[2024-04-08 16:41] loading in lowvram mode 3054.6153841018677
-[2024-04-08 16:41] loading in lowvram mode 704.9679737091064
-[2024-04-08 16:42] 100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.14s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.62s/it]
-[2024-04-08 16:42] Requested to load AutoencoderKL
-[2024-04-08 16:42] Loading 1 new model
-[2024-04-08 16:42] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 16:42] Prompt executed in 96.05 seconds
-[2024-04-08 16:45] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-08 16:48] got prompt
-[2024-04-08 16:48] [34mWAS Node Suite: [0m[33mQR Bounds[0m:
-[
-	(rmin=0, rmax=559, cmin=0, cmax=559)
-]
-[0m
-[2024-04-08 16:48] Requested to load SDXL
-[2024-04-08 16:48] Requested to load ControlNet
-[2024-04-08 16:48] Loading 2 new models
-[2024-04-08 16:48] loading in lowvram mode 3054.6153841018677
-[2024-04-08 16:48] loading in lowvram mode 704.9679737091064
-[2024-04-08 16:49] 100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.12s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.53s/it]
-[2024-04-08 16:49] Requested to load AutoencoderKL
-[2024-04-08 16:49] Loading 1 new model
-[2024-04-08 16:49] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-08 16:49] Prompt executed in 93.53 seconds
-[2024-04-08 16:49] 
+[2024-04-11 14:54] Prompt executed in 43.47 seconds
+[2024-04-11 15:04] got prompt
+[2024-04-11 15:04] Failed to validate prompt for output 436:
+[2024-04-11 15:04] * ImageCompositeMasked 430:
+[2024-04-11 15:04]   - Required input is missing: source
+[2024-04-11 15:04] Output will be ignored
+[2024-04-11 15:04] Failed to validate prompt for output 435:
+[2024-04-11 15:04] * ImageCompositeMasked 426:
+[2024-04-11 15:04]   - Required input is missing: source
+[2024-04-11 15:04] Output will be ignored
+[2024-04-11 15:04] Failed to validate prompt for output 437:
+[2024-04-11 15:04] * ImageCompositeMasked 439:
+[2024-04-11 15:04]   - Required input is missing: source
+[2024-04-11 15:04] Output will be ignored
+[2024-04-11 15:04] model_type EPS
+[2024-04-11 15:04] Using pytorch attention in VAE
+[2024-04-11 15:04] Using pytorch attention in VAE
+[2024-04-11 15:04] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-11 15:04] Requested to load SDXLClipModel
+[2024-04-11 15:04] Loading 1 new model
+[2024-04-11 15:04] Requested to load SDXL
+[2024-04-11 15:04] Requested to load ControlNet
+[2024-04-11 15:04] Loading 2 new models
+[2024-04-11 15:04] loading in lowvram mode 2653.076922416687
+[2024-04-11 15:04] loading in lowvram mode 612.2490978240967
+[2024-04-11 15:07] got prompt
+[2024-04-11 15:07] 
 Stopped server
