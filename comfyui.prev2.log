@@ -1,107 +1,172 @@
-** ComfyUI startup time: 2024-04-11 14:53:39.301229
-[2024-04-11 14:53] ** Platform: Linux
-[2024-04-11 14:53] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
-[2024-04-11 14:53] ** Python executable: /usr/bin/python3
-[2024-04-11 14:53] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
-[2024-04-11 14:53] 
+** ComfyUI startup time: 2024-04-12 14:29:01.876328
+[2024-04-12 14:29] ** Platform: Linux
+[2024-04-12 14:29] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-04-12 14:29] ** Python executable: /usr/bin/python3
+[2024-04-12 14:29] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
+[2024-04-12 14:29] 
 Prestartup times for custom nodes:
-[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-11 14:53] 
+[2024-04-12 14:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-12 14:29] 
 Total VRAM 6144 MB, total RAM 12654 MB
-[2024-04-11 14:53] Set vram state to: NORMAL_VRAM
-[2024-04-11 14:53] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
-[2024-04-11 14:53] VAE dtype: torch.float32
-[2024-04-11 14:53] Using pytorch cross attention
-[2024-04-11 14:53] Failed to auto update `Quality of Life Suit` 
-[2024-04-11 14:53] [33mQualityOfLifeSuit_Omar92_DIR:[0m /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-11 14:53] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
-[2024-04-11 14:53] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
-[2024-04-11 14:53] ### Loading: ComfyUI-Manager (V2.16)
-[2024-04-11 14:53] ### ComfyUI Revision: 2103 [baa86f1d] | Released on '2024-04-10'
-[2024-04-11 14:53] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-04-11 14:53] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-04-11 14:53] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-04-11 14:53] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-04-11 14:53] [92m[tinyterraNodes] [32mLoaded[0m
-[2024-04-11 14:53] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
-[2024-04-11 14:53] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
-[2024-04-11 14:53] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
-[2024-04-11 14:53] 
-	[3m[93m"Art is the voice of the soul, expressing what words cannot."[0m[3m - Unknown[0m
-[2024-04-11 14:53] 
-[2024-04-11 14:53] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
-[2024-04-11 14:53] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
-[2024-04-11 14:53] 
+[2024-04-12 14:29] Set vram state to: NORMAL_VRAM
+[2024-04-12 14:29] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
+[2024-04-12 14:29] VAE dtype: torch.float32
+[2024-04-12 14:29] Using pytorch cross attention
+[2024-04-12 14:29] ### Loading: ComfyUI-Inspire-Pack (V0.69.3)
+[2024-04-12 14:29] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
+[2024-04-12 14:29] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
+[2024-04-12 14:29] [Crystools [0;32mINFO[0m] Crystools version: 1.12.0
+[2024-04-12 14:29] [Crystools [0;32mINFO[0m] CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz - Arch: x86_64 - OS: Linux 5.10.16.3-microsoft-standard-WSL2
+[2024-04-12 14:29] [Crystools [0;32mINFO[0m] GPU/s:
+[2024-04-12 14:29] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 2060
+[2024-04-12 14:29] [Crystools [0;32mINFO[0m] NVIDIA Driver: 546.33
+[2024-04-12 14:29] ### Loading: ComfyUI-Manager (V2.16)
+[2024-04-12 14:29] ### ComfyUI Revision: 2104 [963133ed] | Released on '2024-04-11'
+[2024-04-12 14:29] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-12 14:29] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-12 14:29] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-12 14:29] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-12 14:29] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-04-12 14:29] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-04-12 14:29] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-04-12 14:29] 
+	[3m[93m"Opportunities don't happen. You create them."[0m[3m - Chris Grosser[0m
+[2024-04-12 14:29] 
+[2024-04-12 14:29] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
+[2024-04-12 14:29] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-04-12 14:29] 
 Import times for custom nodes:
-[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
-[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
-[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
-[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
-[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
-[2024-04-11 14:53]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
-[2024-04-11 14:53]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-11 14:53]    1.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
-[2024-04-11 14:53]    1.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
-[2024-04-11 14:53]    1.2 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes
-[2024-04-11 14:53] 
-[2024-04-11 14:53] [Impact Pack] Wildcards loading done.
-[2024-04-11 14:53] Starting server
+[2024-04-12 14:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-04-12 14:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-04-12 14:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
+[2024-04-12 14:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
+[2024-04-12 14:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-04-12 14:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
+[2024-04-12 14:29]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
+[2024-04-12 14:29] [Impact Pack] Wildcards loading done.
+[2024-04-12 14:29]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-12 14:29]    0.5 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-04-12 14:29]    0.9 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-04-12 14:29]    2.6 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Crystools
+[2024-04-12 14:29] 
+[2024-04-12 14:29] Starting server
 
-[2024-04-11 14:53] To see the GUI go to: http://127.0.0.1:8188
-[2024-04-11 14:53] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-11 14:53] Error: OpenAI API key is invalid OpenAI features wont work for you
-[2024-04-11 14:53] [33mQualityOfLifeSuit_Omar92:[0m:NSP ready
-[2024-04-11 14:53] got prompt
-[2024-04-11 14:53] model_type EPS
-[2024-04-11 14:54] Using pytorch attention in VAE
-[2024-04-11 14:54] Using pytorch attention in VAE
-[2024-04-11 14:54] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-04-11 14:54] style: base
-[2024-04-11 14:54] text_positive: a cyborg dog puppy, jack russel, blue and pink neon lights, made of gold plated metal, centered motive, sideview, looking at the camera
-[2024-04-11 14:54] text_negative: signature, watermark
-[2024-04-11 14:54] text_positive_styled: a cyborg dog puppy, jack russel, blue and pink neon lights, made of gold plated metal, centered motive, sideview, looking at the camera
-[2024-04-11 14:54] text_negative_styled: signature, watermark
-[2024-04-11 14:54] Requested to load SDXLClipModel
-[2024-04-11 14:54] Loading 1 new model
-[2024-04-11 14:54] error checkpoint does not contain controlnet or t2i adapter data /root/code/Romain-Ber/ComfyUI/models/controlnet/qrpatternSdxl_v01256512eSdxl.safetensors
-[2024-04-11 14:54] !!! Exception during processing !!!
-[2024-04-11 14:54] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/nodes.py", line 815, in apply_controlnet
-    c_net = control_net.copy().set_cond_hint(control_hint, strength, (start_percent, end_percent))
-AttributeError: 'NoneType' object has no attribute 'copy'
+[2024-04-12 14:29] To see the GUI go to: http://127.0.0.1:8188
+[2024-04-12 14:29] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-12 14:36] got prompt
+[2024-04-12 14:36] model_type EPS
+[2024-04-12 14:37] Using pytorch attention in VAE
+[2024-04-12 14:37] Using pytorch attention in VAE
+[2024-04-12 14:37] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-12 14:37] style: ads-retail
+[2024-04-12 14:37] text_positive_g: a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
+[2024-04-12 14:37] text_positive_l: chipset, circuits, earth
+[2024-04-12 14:37] text_negative: logo, watermark, brand, signature
+[2024-04-12 14:37] text_positive_g_styled: retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
+[2024-04-12 14:37] text_positive_l_styled: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 14:37] text_positive_styled: retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 14:37] text_negative_g_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] text_negative_l_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] text_negative_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] style: sai-enhance
+[2024-04-12 14:37] text_positive_g: retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
+[2024-04-12 14:37] text_positive_l: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 14:37] text_negative: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] text_positive_g_styled: breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
+[2024-04-12 14:37] text_positive_l_styled: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 14:37] text_positive_styled: breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 14:37] text_negative_g_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] text_negative_l_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] text_negative_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] style: sai-photographic
+[2024-04-12 14:37] text_positive_g: breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
+[2024-04-12 14:37] text_positive_l: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 14:37] text_negative: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] text_positive_g_styled: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
+[2024-04-12 14:37] text_positive_l_styled: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 14:37] text_positive_styled: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 14:37] text_negative_g_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] text_negative_l_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] text_negative_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] style: sai-line art
+[2024-04-12 14:37] text_positive_g: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
+[2024-04-12 14:37] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 14:37] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] text_positive_g_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
+[2024-04-12 14:37] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 14:37] text_positive_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 14:37] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 14:37] Requested to load SDXLClipModel
+[2024-04-12 14:37] Loading 1 new model
+[2024-04-12 14:37] Requested to load AutoencoderKL
+[2024-04-12 14:37] Loading 1 new model
+[2024-04-12 14:37] Requested to load SDXL
+[2024-04-12 14:37] Requested to load ControlNet
+[2024-04-12 14:37] Loading 2 new models
+[2024-04-12 14:37] loading in lowvram mode 2014.6153841018677
+[2024-04-12 14:37] loading in lowvram mode 464.9975519180298
+[2024-04-12 14:39] 100%|███████████████████████████████████████████████████████| 25/25 [02:11<00:00,  3.75s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:11<00:00,  5.25s/it]
+[2024-04-12 14:39] Requested to load AutoencoderKL
+[2024-04-12 14:39] Loading 1 new model
+[2024-04-12 14:39] Requested to load SDXL
+[2024-04-12 14:39] Requested to load ControlNet
+[2024-04-12 14:39] Loading 2 new models
+[2024-04-12 14:39] loading in lowvram mode 2011.5384607315063
+[2024-04-12 14:40] loading in lowvram mode 464.3263530731201
+[2024-04-12 14:41] 100%|███████████████████████████████████████████████████████| 21/21 [01:27<00:00,  3.98s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:27<00:00,  4.14s/it]
+[2024-04-12 14:41] Requested to load AutoencoderKL
+[2024-04-12 14:41] Loading 1 new model
+[2024-04-12 14:42] Requested to load SDXL
+[2024-04-12 14:42] Requested to load ControlNet
+[2024-04-12 14:42] Loading 2 new models
+[2024-04-12 14:42] loading in lowvram mode 2011.5384607315063
+[2024-04-12 14:42] loading in lowvram mode 464.3263530731201
+[2024-04-12 14:44] 100%|███████████████████████████████████████████████████████| 35/35 [02:47<00:00,  4.90s/it]100%|███████████████████████████████████████████████████████| 35/35 [02:47<00:00,  4.77s/it]
+[2024-04-12 14:44] Requested to load AutoencoderKL
+[2024-04-12 14:44] Loading 1 new model
+[2024-04-12 14:45] [34mWAS Node Suite: [0m[33mQR Code:[0m:
 
-[2024-04-11 14:54] Prompt executed in 43.47 seconds
-[2024-04-11 15:04] got prompt
-[2024-04-11 15:04] Failed to validate prompt for output 436:
-[2024-04-11 15:04] * ImageCompositeMasked 430:
-[2024-04-11 15:04]   - Required input is missing: source
-[2024-04-11 15:04] Output will be ignored
-[2024-04-11 15:04] Failed to validate prompt for output 435:
-[2024-04-11 15:04] * ImageCompositeMasked 426:
-[2024-04-11 15:04]   - Required input is missing: source
-[2024-04-11 15:04] Output will be ignored
-[2024-04-11 15:04] Failed to validate prompt for output 437:
-[2024-04-11 15:04] * ImageCompositeMasked 439:
-[2024-04-11 15:04]   - Required input is missing: source
-[2024-04-11 15:04] Output will be ignored
-[2024-04-11 15:04] model_type EPS
-[2024-04-11 15:04] Using pytorch attention in VAE
-[2024-04-11 15:04] Using pytorch attention in VAE
-[2024-04-11 15:04] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-04-11 15:04] Requested to load SDXLClipModel
-[2024-04-11 15:04] Loading 1 new model
-[2024-04-11 15:04] Requested to load SDXL
-[2024-04-11 15:04] Requested to load ControlNet
-[2024-04-11 15:04] Loading 2 new models
-[2024-04-11 15:04] loading in lowvram mode 2653.076922416687
-[2024-04-11 15:04] loading in lowvram mode 612.2490978240967
-[2024-04-11 15:07] got prompt
-[2024-04-11 15:07] 
+[0m
+[2024-04-12 14:45] Prompt executed in 496.37 seconds
+[2024-04-12 14:47] got prompt
+[2024-04-12 14:47] Requested to load SDXL
+[2024-04-12 14:47] Requested to load ControlNet
+[2024-04-12 14:47] Loading 2 new models
+[2024-04-12 14:47] loading in lowvram mode 2011.5384607315063
+[2024-04-12 14:47] loading in lowvram mode 464.3263530731201
+[2024-04-12 14:48] 100%|███████████████████████████████████████████████████████| 25/25 [01:47<00:00,  3.95s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:47<00:00,  4.32s/it]
+[2024-04-12 14:48] Requested to load AutoencoderKL
+[2024-04-12 14:48] Loading 1 new model
+[2024-04-12 14:49] Requested to load SDXL
+[2024-04-12 14:49] Requested to load ControlNet
+[2024-04-12 14:49] Loading 2 new models
+[2024-04-12 14:49] loading in lowvram mode 2011.5384607315063
+[2024-04-12 14:49] loading in lowvram mode 464.3263530731201
+[2024-04-12 14:50] 100%|███████████████████████████████████████████████████████| 21/21 [01:35<00:00,  4.58s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:35<00:00,  4.53s/it]
+[2024-04-12 14:50] Requested to load AutoencoderKL
+[2024-04-12 14:50] Loading 1 new model
+[2024-04-12 14:50] Requested to load SDXL
+[2024-04-12 14:50] Requested to load ControlNet
+[2024-04-12 14:50] Loading 2 new models
+[2024-04-12 14:50] loading in lowvram mode 2011.5384607315063
+[2024-04-12 14:50] loading in lowvram mode 464.3263530731201
+[2024-04-12 14:53] 100%|███████████████████████████████████████████████████████| 35/35 [02:56<00:00,  4.90s/it]100%|███████████████████████████████████████████████████████| 35/35 [02:56<00:00,  5.05s/it]
+[2024-04-12 14:53] Requested to load AutoencoderKL
+[2024-04-12 14:53] Loading 1 new model
+[2024-04-12 14:53] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+
+[0m
+[2024-04-12 14:53] Prompt executed in 398.27 seconds
+[2024-04-12 15:02] got prompt
+[2024-04-12 15:02] Requested to load SDXL
+[2024-04-12 15:02] Requested to load ControlNet
+[2024-04-12 15:02] Loading 2 new models
+[2024-04-12 15:02] loading in lowvram mode 2011.5384607315063
+[2024-04-12 15:02] loading in lowvram mode 464.3263530731201
+[2024-04-12 15:03] 
+[2024-04-12 15:03] Processing interrupted
+[2024-04-12 15:03] Prompt executed in 54.69 seconds
+[2024-04-12 15:03] 
 Stopped server

@@ -1,444 +1,457 @@
-** ComfyUI startup time: 2024-04-11 16:51:40.060393
-[2024-04-11 16:51] ** Platform: Linux
-[2024-04-11 16:51] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
-[2024-04-11 16:51] ** Python executable: /usr/bin/python3
-[2024-04-11 16:51] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
-[2024-04-11 16:51] 
+** ComfyUI startup time: 2024-04-12 17:06:46.738276
+[2024-04-12 17:06] ** Platform: Linux
+[2024-04-12 17:06] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-04-12 17:06] ** Python executable: /usr/bin/python3
+[2024-04-12 17:06] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
+[2024-04-12 17:06] 
 Prestartup times for custom nodes:
-[2024-04-11 16:51]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-11 16:51] 
+[2024-04-12 17:06]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-12 17:06] 
 Total VRAM 6144 MB, total RAM 12654 MB
-[2024-04-11 16:51] Set vram state to: NORMAL_VRAM
-[2024-04-11 16:51] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
-[2024-04-11 16:51] VAE dtype: torch.float32
-[2024-04-11 16:51] Using pytorch cross attention
-[2024-04-11 16:51] Failed to auto update `Quality of Life Suit` 
-[2024-04-11 16:51] [33mQualityOfLifeSuit_Omar92_DIR:[0m /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-11 16:51] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
-[2024-04-11 16:51] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
-[2024-04-11 16:51] ### Loading: ComfyUI-Manager (V2.16)
-[2024-04-11 16:51] ### ComfyUI Revision: 2103 [baa86f1d] | Released on '2024-04-10'
-[2024-04-11 16:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-04-11 16:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-04-11 16:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-04-11 16:51] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-04-11 16:51] [92m[tinyterraNodes] [32mLoaded[0m
-[2024-04-11 16:51] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
-[2024-04-11 16:51] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
-[2024-04-11 16:51] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
-[2024-04-11 16:51] 
-	[3m[93m"Art is the soul made visible."[0m[3m - George Crook[0m
-[2024-04-11 16:51] 
-[2024-04-11 16:51] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
-[2024-04-11 16:51] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
-[2024-04-11 16:51] 
+[2024-04-12 17:06] Set vram state to: NORMAL_VRAM
+[2024-04-12 17:06] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
+[2024-04-12 17:06] VAE dtype: torch.float32
+[2024-04-12 17:06] Using pytorch cross attention
+[2024-04-12 17:06] ### Loading: ComfyUI-Inspire-Pack (V0.69.3)
+[2024-04-12 17:06] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
+[2024-04-12 17:06] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
+[2024-04-12 17:06] [Crystools [0;32mINFO[0m] Crystools version: 1.12.0
+[2024-04-12 17:07] [Crystools [0;32mINFO[0m] CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz - Arch: x86_64 - OS: Linux 5.10.16.3-microsoft-standard-WSL2
+[2024-04-12 17:07] [Crystools [0;32mINFO[0m] GPU/s:
+[2024-04-12 17:07] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 2060
+[2024-04-12 17:07] [Crystools [0;32mINFO[0m] NVIDIA Driver: 546.33
+[2024-04-12 17:07] ### Loading: ComfyUI-Manager (V2.16)
+[2024-04-12 17:07] ### ComfyUI Revision: 2104 [963133ed] | Released on '2024-04-11'
+[2024-04-12 17:07] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-12 17:07] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-12 17:07] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-12 17:07] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-12 17:07] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-04-12 17:07] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-04-12 17:07] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-04-12 17:07] 
+	[3m[93m"The future belongs to those who believe in the beauty of their dreams."[0m[3m - Eleanor Roosevelt[0m
+[2024-04-12 17:07] 
+[2024-04-12 17:07] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
+[2024-04-12 17:07] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-04-12 17:07] 
 Import times for custom nodes:
-[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
-[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
-[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
-[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
-[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
-[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
-[2024-04-11 16:51]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
-[2024-04-11 16:51]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-11 16:51]    0.8 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
-[2024-04-11 16:51]    1.3 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes
-[2024-04-11 16:51]    1.7 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
-[2024-04-11 16:51] 
-[2024-04-11 16:51] [Impact Pack] Wildcards loading done.
-[2024-04-11 16:51] Starting server
+[2024-04-12 17:07]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-04-12 17:07]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-04-12 17:07]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
+[2024-04-12 17:07]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-04-12 17:07]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
+[2024-04-12 17:07]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
+[2024-04-12 17:07]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
+[2024-04-12 17:07]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-12 17:07]    1.2 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-04-12 17:07]    2.9 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Crystools
+[2024-04-12 17:07]    3.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-04-12 17:07] 
+[2024-04-12 17:07] Starting server
 
-[2024-04-11 16:51] To see the GUI go to: http://127.0.0.1:8188
-[2024-04-11 16:51] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-11 16:51] Error: OpenAI API key is invalid OpenAI features wont work for you
-[2024-04-11 16:51] [33mQualityOfLifeSuit_Omar92:[0m:NSP ready
-[2024-04-11 17:00] got prompt
-[2024-04-11 17:00] model_type EPS
-[2024-04-11 17:01] Using pytorch attention in VAE
-[2024-04-11 17:01] Using pytorch attention in VAE
-[2024-04-11 17:01] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-04-11 17:01] Requested to load SDXLClipModel
-[2024-04-11 17:01] Loading 1 new model
-[2024-04-11 17:01] Requested to load SDXL
-[2024-04-11 17:01] Requested to load ControlNet
-[2024-04-11 17:01] Loading 2 new models
-[2024-04-11 17:01] loading in lowvram mode 3082.3076915740967
-[2024-04-11 17:02] loading in lowvram mode 711.309250831604
-[2024-04-11 17:03] 100%|███████████████████████████████████████████████████████| 25/25 [01:37<00:00,  3.10s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:37<00:00,  3.89s/it]
-[2024-04-11 17:03] Requested to load AutoencoderKL
-[2024-04-11 17:03] Loading 1 new model
-[2024-04-11 17:03] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-11 17:03] Requested to load SDXL
-[2024-04-11 17:03] Requested to load ControlNet
-[2024-04-11 17:03] Loading 2 new models
-[2024-04-11 17:03] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:03] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:05] 100%|███████████████████████████████████████████████████████| 25/25 [01:24<00:00,  3.18s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:24<00:00,  3.38s/it]
-[2024-04-11 17:05] Requested to load AutoencoderKL
-[2024-04-11 17:05] Loading 1 new model
-[2024-04-11 17:05] Requested to load SDXL
-[2024-04-11 17:05] Requested to load ControlNet
-[2024-04-11 17:05] Loading 2 new models
-[2024-04-11 17:05] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:05] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:06] 100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.03s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.31s/it]
-[2024-04-11 17:06] Requested to load AutoencoderKL
-[2024-04-11 17:06] Loading 1 new model
-[2024-04-11 17:06] Prompt executed in 368.23 seconds
-[2024-04-11 17:15] got prompt
-[2024-04-11 17:15] Requested to load SDXL
-[2024-04-11 17:15] Requested to load ControlNet
-[2024-04-11 17:15] Loading 2 new models
-[2024-04-11 17:15] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:15] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:16] 100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.48s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.43s/it]
-[2024-04-11 17:16] Requested to load AutoencoderKL
-[2024-04-11 17:16] Loading 1 new model
-[2024-04-11 17:16] Requested to load SDXL
-[2024-04-11 17:16] Requested to load ControlNet
-[2024-04-11 17:16] Loading 2 new models
-[2024-04-11 17:16] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:16] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:18] 100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.23s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.32s/it]
-[2024-04-11 17:18] Requested to load AutoencoderKL
-[2024-04-11 17:18] Loading 1 new model
-[2024-04-11 17:18] Requested to load SDXL
-[2024-04-11 17:18] Requested to load ControlNet
-[2024-04-11 17:18] Loading 2 new models
-[2024-04-11 17:18] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:18] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:19] 100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.01s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.26s/it]
-[2024-04-11 17:19] Requested to load AutoencoderKL
-[2024-04-11 17:19] Loading 1 new model
-[2024-04-11 17:19] Requested to load SDXL
-[2024-04-11 17:19] Requested to load ControlNet
-[2024-04-11 17:19] Loading 2 new models
-[2024-04-11 17:19] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:19] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:21] 100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.18s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.25s/it]
-[2024-04-11 17:21] Requested to load AutoencoderKL
-[2024-04-11 17:21] Loading 1 new model
-[2024-04-11 17:21] [34mWAS Node Suite: [0m[33mQR Code:[0m:
-
-[0m
-[2024-04-11 17:21] Prompt executed in 353.38 seconds
-[2024-04-11 17:27] got prompt
-[2024-04-11 17:27] Requested to load SDXL
-[2024-04-11 17:27] Requested to load ControlNet
-[2024-04-11 17:27] Loading 2 new models
-[2024-04-11 17:27] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:27] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:28] 100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.26s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.36s/it]
-[2024-04-11 17:28] Requested to load AutoencoderKL
-[2024-04-11 17:28] Loading 1 new model
-[2024-04-11 17:28] Requested to load SDXL
-[2024-04-11 17:28] Requested to load ControlNet
-[2024-04-11 17:28] Loading 2 new models
-[2024-04-11 17:28] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:28] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:30] 100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.19s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.29s/it]
-[2024-04-11 17:30] Requested to load AutoencoderKL
-[2024-04-11 17:30] Loading 1 new model
-[2024-04-11 17:30] Requested to load SDXL
-[2024-04-11 17:30] Requested to load ControlNet
-[2024-04-11 17:30] Loading 2 new models
-[2024-04-11 17:30] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:30] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:31] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.18s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.47s/it]
-[2024-04-11 17:31] Requested to load AutoencoderKL
-[2024-04-11 17:31] Loading 1 new model
-[2024-04-11 17:31] Requested to load SDXL
-[2024-04-11 17:31] Requested to load ControlNet
-[2024-04-11 17:31] Loading 2 new models
-[2024-04-11 17:31] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:31] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:33] 100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.31s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.55s/it]
-[2024-04-11 17:33] Requested to load AutoencoderKL
-[2024-04-11 17:33] Loading 1 new model
-[2024-04-11 17:33] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-12 17:07] To see the GUI go to: http://127.0.0.1:8188
+[2024-04-12 17:07] [Impact Pack] Wildcards loading done.
+[2024-04-12 17:07] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-12 17:07] got prompt
+[2024-04-12 17:07] model_type EPS
+[2024-04-12 17:07] Using pytorch attention in VAE
+[2024-04-12 17:07] Using pytorch attention in VAE
+[2024-04-12 17:08] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-12 17:08] style: ads-retail
+[2024-04-12 17:08] text_positive_g: a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 17:08] text_positive_l: chipset, circuits, earth
+[2024-04-12 17:08] text_negative: logo, watermark, brand, signature
+[2024-04-12 17:08] text_positive_g_styled: retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 17:08] text_positive_l_styled: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 17:08] text_positive_styled: retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 17:08] text_negative_g_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] text_negative_l_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] text_negative_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] style: sai-enhance
+[2024-04-12 17:08] text_positive_g: retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 17:08] text_positive_l: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 17:08] text_negative: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] text_positive_g_styled: breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 17:08] text_positive_l_styled: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 17:08] text_positive_styled: breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 17:08] text_negative_g_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] text_negative_l_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] text_negative_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] style: sai-photographic
+[2024-04-12 17:08] text_positive_g: breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 17:08] text_positive_l: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 17:08] text_negative: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] text_positive_g_styled: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 17:08] text_positive_l_styled: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 17:08] text_positive_styled: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 17:08] text_negative_g_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] text_negative_l_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] text_negative_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] style: sai-line art
+[2024-04-12 17:08] text_positive_g: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 17:08] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 17:08] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] text_positive_g_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 17:08] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 17:08] text_positive_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 17:08] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 17:08] Requested to load SDXLClipModel
+[2024-04-12 17:08] Loading 1 new model
+[2024-04-12 17:08] Requested to load AutoencoderKL
+[2024-04-12 17:08] Loading 1 new model
+[2024-04-12 17:08] Requested to load SDXL
+[2024-04-12 17:08] Requested to load ControlNet
+[2024-04-12 17:08] Loading 2 new models
+[2024-04-12 17:08] loading in lowvram mode 3057.692307472229
+[2024-04-12 17:08] loading in lowvram mode 705.8527956008911
+[2024-04-12 17:10] 100%|███████████████████████████████████████████████████████| 25/25 [01:45<00:00,  3.66s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:45<00:00,  4.20s/it]
+[2024-04-12 17:10] Requested to load AutoencoderKL
+[2024-04-12 17:10] Loading 1 new model
+[2024-04-12 17:10] Requested to load SDXL
+[2024-04-12 17:10] Requested to load ControlNet
+[2024-04-12 17:10] Loading 2 new models
+[2024-04-12 17:10] loading in lowvram mode 3054.6153841018677
+[2024-04-12 17:10] loading in lowvram mode 704.9679737091064
+[2024-04-12 17:11] 100%|███████████████████████████████████████████████████████| 21/21 [01:09<00:00,  3.09s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:09<00:00,  3.31s/it]
+[2024-04-12 17:11] Requested to load AutoencoderKL
+[2024-04-12 17:11] Loading 1 new model
+[2024-04-12 17:11] Requested to load SDXL
+[2024-04-12 17:11] Requested to load ControlNet
+[2024-04-12 17:11] Loading 2 new models
+[2024-04-12 17:11] loading in lowvram mode 3054.6153841018677
+[2024-04-12 17:11] loading in lowvram mode 704.9679737091064
+[2024-04-12 17:13] 100%|███████████████████████████████████████████████████████| 35/35 [01:56<00:00,  3.19s/it]100%|███████████████████████████████████████████████████████| 35/35 [01:56<00:00,  3.34s/it]
+[2024-04-12 17:13] Requested to load AutoencoderKL
+[2024-04-12 17:13] Loading 1 new model
+[2024-04-12 17:13] [34mWAS Node Suite: [0m[33mdenoise100[0m:
 
 [0m
-[2024-04-11 17:33] Prompt executed in 363.95 seconds
-[2024-04-11 17:34] got prompt
-[2024-04-11 17:34] Requested to load SDXL
-[2024-04-11 17:34] Requested to load ControlNet
-[2024-04-11 17:34] Loading 2 new models
-[2024-04-11 17:34] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:34] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:35] 100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.36s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.49s/it]
-[2024-04-11 17:35] Requested to load AutoencoderKL
-[2024-04-11 17:35] Loading 1 new model
-[2024-04-11 17:35] Requested to load SDXL
-[2024-04-11 17:35] Requested to load ControlNet
-[2024-04-11 17:35] Loading 2 new models
-[2024-04-11 17:35] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:35] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:37] 100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.41s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.54s/it]
-[2024-04-11 17:37] Requested to load AutoencoderKL
-[2024-04-11 17:37] Loading 1 new model
-[2024-04-11 17:37] Requested to load SDXL
-[2024-04-11 17:37] Requested to load ControlNet
-[2024-04-11 17:37] Loading 2 new models
-[2024-04-11 17:37] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:37] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:38] 100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.13s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.32s/it]
-[2024-04-11 17:38] Requested to load AutoencoderKL
-[2024-04-11 17:38] Loading 1 new model
-[2024-04-11 17:38] Requested to load SDXL
-[2024-04-11 17:38] Requested to load ControlNet
-[2024-04-11 17:38] Loading 2 new models
-[2024-04-11 17:38] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:39] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:40] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.36s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.48s/it]
-[2024-04-11 17:40] Requested to load AutoencoderKL
-[2024-04-11 17:40] Loading 1 new model
-[2024-04-11 17:40] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-12 17:13] Requested to load SDXL
+[2024-04-12 17:13] Requested to load ControlNet
+[2024-04-12 17:13] Loading 2 new models
+[2024-04-12 17:13] loading in lowvram mode 3054.6153841018677
+[2024-04-12 17:13] loading in lowvram mode 704.9679737091064
+[2024-04-12 17:16] 100%|███████████████████████████████████████████████████████| 35/35 [02:09<00:00,  3.01s/it]100%|███████████████████████████████████████████████████████| 35/35 [02:09<00:00,  3.71s/it]
+[2024-04-12 17:16] Requested to load AutoencoderKL
+[2024-04-12 17:16] Loading 1 new model
+[2024-04-12 17:16] [34mWAS Node Suite: [0m[33mdenoise67[0m:
 
 [0m
-[2024-04-11 17:40] Prompt executed in 366.75 seconds
-[2024-04-11 17:42] got prompt
-[2024-04-11 17:42] Requested to load SDXL
-[2024-04-11 17:42] Requested to load ControlNet
-[2024-04-11 17:42] Loading 2 new models
-[2024-04-11 17:42] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:42] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:44] 100%|███████████████████████████████████████████████████████| 25/25 [01:16<00:00,  2.93s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:16<00:00,  3.06s/it]
-[2024-04-11 17:44] Requested to load AutoencoderKL
-[2024-04-11 17:44] Loading 1 new model
-[2024-04-11 17:44] Requested to load SDXL
-[2024-04-11 17:44] Requested to load ControlNet
-[2024-04-11 17:44] Loading 2 new models
-[2024-04-11 17:44] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:44] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:45] 100%|███████████████████████████████████████████████████████| 25/25 [01:19<00:00,  3.15s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:19<00:00,  3.20s/it]
-[2024-04-11 17:45] Requested to load AutoencoderKL
-[2024-04-11 17:45] Loading 1 new model
-[2024-04-11 17:45] Requested to load SDXL
-[2024-04-11 17:45] Requested to load ControlNet
-[2024-04-11 17:45] Loading 2 new models
-[2024-04-11 17:45] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:45] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:47] 100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.26s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.49s/it]
-[2024-04-11 17:47] Requested to load AutoencoderKL
-[2024-04-11 17:47] Loading 1 new model
-[2024-04-11 17:47] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-12 17:16] Requested to load SDXL
+[2024-04-12 17:16] Requested to load ControlNet
+[2024-04-12 17:16] Loading 2 new models
+[2024-04-12 17:16] loading in lowvram mode 3054.6153841018677
+[2024-04-12 17:16] loading in lowvram mode 704.9679737091064
+[2024-04-12 17:18] 100%|███████████████████████████████████████████████████████| 35/35 [02:25<00:00,  3.05s/it]100%|███████████████████████████████████████████████████████| 35/35 [02:25<00:00,  4.15s/it]
+[2024-04-12 17:18] Requested to load AutoencoderKL
+[2024-04-12 17:18] Loading 1 new model
+[2024-04-12 17:18] [34mWAS Node Suite: [0m[33mdenoise33[0m:
 
 [0m
-[2024-04-11 17:47] Prompt executed in 259.80 seconds
-[2024-04-11 17:48] got prompt
-[2024-04-11 17:48] Requested to load SDXL
-[2024-04-11 17:48] Requested to load ControlNet
-[2024-04-11 17:48] Loading 2 new models
-[2024-04-11 17:48] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:48] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:50] 100%|███████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.53s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.62s/it]
-[2024-04-11 17:50] Requested to load AutoencoderKL
-[2024-04-11 17:50] Loading 1 new model
-[2024-04-11 17:50] Requested to load SDXL
-[2024-04-11 17:50] Requested to load ControlNet
-[2024-04-11 17:50] Loading 2 new models
-[2024-04-11 17:50] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:50] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:51] 100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.24s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:22<00:00,  3.32s/it]
-[2024-04-11 17:51] Requested to load AutoencoderKL
-[2024-04-11 17:51] Loading 1 new model
-[2024-04-11 17:51] Requested to load SDXL
-[2024-04-11 17:51] Requested to load ControlNet
-[2024-04-11 17:51] Loading 2 new models
-[2024-04-11 17:51] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:51] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:53] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.41s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.46s/it]
-[2024-04-11 17:53] Requested to load AutoencoderKL
-[2024-04-11 17:53] Loading 1 new model
-[2024-04-11 17:53] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-12 17:18] Prompt executed in 681.71 seconds
+[2024-04-12 17:22] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-12 17:22] got prompt
+[2024-04-12 17:22] Requested to load SDXLClipModel
+[2024-04-12 17:22] Loading 1 new model
+[2024-04-12 17:23] Requested to load SDXL
+[2024-04-12 17:23] Requested to load ControlNet
+[2024-04-12 17:23] Loading 2 new models
+[2024-04-12 17:23] loading in lowvram mode 3054.6153841018677
+[2024-04-12 17:23] loading in lowvram mode 704.9679737091064
+[2024-04-12 17:25] 100%|███████████████████████████████████████████████████████| 25/25 [02:08<00:00,  3.69s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:08<00:00,  5.15s/it]
+[2024-04-12 17:25] Requested to load AutoencoderKL
+[2024-04-12 17:25] Loading 1 new model
+[2024-04-12 17:25] Requested to load SDXL
+[2024-04-12 17:25] Requested to load ControlNet
+[2024-04-12 17:25] Loading 2 new models
+[2024-04-12 17:25] loading in lowvram mode 3054.6153841018677
+[2024-04-12 17:25] loading in lowvram mode 704.9679737091064
+[2024-04-12 17:27] 100%|███████████████████████████████████████████████████████| 21/21 [01:25<00:00,  3.83s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:25<00:00,  4.09s/it]
+[2024-04-12 17:27] Requested to load AutoencoderKL
+[2024-04-12 17:27] Loading 1 new model
+[2024-04-12 17:27] Requested to load SDXL
+[2024-04-12 17:27] Requested to load ControlNet
+[2024-04-12 17:27] Loading 2 new models
+[2024-04-12 17:27] loading in lowvram mode 3054.6153841018677
+[2024-04-12 17:27] loading in lowvram mode 704.9679737091064
+[2024-04-12 17:29] 100%|███████████████████████████████████████████████████████| 35/35 [02:21<00:00,  3.87s/it]100%|███████████████████████████████████████████████████████| 35/35 [02:21<00:00,  4.04s/it]
+[2024-04-12 17:29] Requested to load AutoencoderKL
+[2024-04-12 17:29] Loading 1 new model
+[2024-04-12 17:29] [34mWAS Node Suite: [0m[33mdenoise100[0m:
 
 [0m
-[2024-04-11 17:53] Prompt executed in 276.93 seconds
-[2024-04-11 17:56] got prompt
-[2024-04-11 17:56] Requested to load SDXL
-[2024-04-11 17:56] Requested to load ControlNet
-[2024-04-11 17:56] Loading 2 new models
-[2024-04-11 17:56] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:56] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:57] 100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.31s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.33s/it]
-[2024-04-11 17:57] Requested to load AutoencoderKL
-[2024-04-11 17:57] Loading 1 new model
-[2024-04-11 17:57] Requested to load SDXL
-[2024-04-11 17:57] Requested to load ControlNet
-[2024-04-11 17:57] Loading 2 new models
-[2024-04-11 17:57] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:58] loading in lowvram mode 704.9679737091064
-[2024-04-11 17:59] 100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.30s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.44s/it]
-[2024-04-11 17:59] Requested to load AutoencoderKL
-[2024-04-11 17:59] Loading 1 new model
-[2024-04-11 17:59] Requested to load SDXL
-[2024-04-11 17:59] Requested to load ControlNet
-[2024-04-11 17:59] Loading 2 new models
-[2024-04-11 17:59] loading in lowvram mode 3054.6153841018677
-[2024-04-11 17:59] loading in lowvram mode 704.9679737091064
-[2024-04-11 18:01] 100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.38s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.50s/it]
-[2024-04-11 18:01] Requested to load AutoencoderKL
-[2024-04-11 18:01] Loading 1 new model
-[2024-04-11 18:01] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-12 17:29] Requested to load SDXL
+[2024-04-12 17:29] Requested to load ControlNet
+[2024-04-12 17:29] Loading 2 new models
+[2024-04-12 17:29] loading in lowvram mode 3054.6153841018677
+[2024-04-12 17:29] loading in lowvram mode 704.9679737091064
+[2024-04-12 17:32] 100%|███████████████████████████████████████████████████████| 35/35 [02:39<00:00,  3.83s/it]100%|███████████████████████████████████████████████████████| 35/35 [02:39<00:00,  4.56s/it]
+[2024-04-12 17:32] Requested to load AutoencoderKL
+[2024-04-12 17:32] Loading 1 new model
+[2024-04-12 17:32] [34mWAS Node Suite: [0m[33mdenoise67[0m:
 
 [0m
-[2024-04-11 18:01] Requested to load SDXL
-[2024-04-11 18:01] Requested to load ControlNet
-[2024-04-11 18:01] Loading 2 new models
-[2024-04-11 18:01] loading in lowvram mode 3054.6153841018677
-[2024-04-11 18:01] loading in lowvram mode 704.9679737091064
-[2024-04-11 18:02] 100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.39s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:28<00:00,  3.53s/it]
-[2024-04-11 18:02] Requested to load AutoencoderKL
-[2024-04-11 18:02] Loading 1 new model
-[2024-04-11 18:02] Prompt executed in 367.69 seconds
-[2024-04-11 18:11] got prompt
-[2024-04-11 18:11] Requested to load SDXL
-[2024-04-11 18:11] Requested to load ControlNet
-[2024-04-11 18:11] Loading 2 new models
-[2024-04-11 18:11] loading in lowvram mode 3054.6153841018677
-[2024-04-11 18:11] loading in lowvram mode 704.9679737091064
-[2024-04-11 18:12] 100%|███████████████████████████████████████████████████████| 25/25 [01:16<00:00,  2.97s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:16<00:00,  3.06s/it]
-[2024-04-11 18:12] Requested to load AutoencoderKL
-[2024-04-11 18:12] Loading 1 new model
-[2024-04-11 18:12] Requested to load SDXL
-[2024-04-11 18:12] Requested to load ControlNet
-[2024-04-11 18:12] Loading 2 new models
-[2024-04-11 18:12] loading in lowvram mode 3054.6153841018677
-[2024-04-11 18:12] loading in lowvram mode 704.9679737091064
-[2024-04-11 18:13] 100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.27s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:21<00:00,  3.24s/it]
-[2024-04-11 18:13] Requested to load AutoencoderKL
-[2024-04-11 18:13] Loading 1 new model
-[2024-04-11 18:14] Requested to load SDXL
-[2024-04-11 18:14] Requested to load ControlNet
-[2024-04-11 18:14] Loading 2 new models
-[2024-04-11 18:14] loading in lowvram mode 3054.6153841018677
-[2024-04-11 18:14] loading in lowvram mode 704.9679737091064
-[2024-04-11 18:15] 100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.30s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:27<00:00,  3.51s/it]
-[2024-04-11 18:15] Requested to load AutoencoderKL
-[2024-04-11 18:15] Loading 1 new model
-[2024-04-11 18:15] Requested to load SDXL
-[2024-04-11 18:15] Requested to load ControlNet
-[2024-04-11 18:15] Loading 2 new models
-[2024-04-11 18:15] loading in lowvram mode 3054.6153841018677
-[2024-04-11 18:15] loading in lowvram mode 704.9679737091064
-[2024-04-11 18:17] 100%|███████████████████████████████████████████████████████| 25/25 [01:29<00:00,  3.58s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:29<00:00,  3.58s/it]
-[2024-04-11 18:17] Requested to load AutoencoderKL
-[2024-04-11 18:17] Loading 1 new model
-[2024-04-11 18:17] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-12 17:32] Requested to load SDXL
+[2024-04-12 17:32] Requested to load ControlNet
+[2024-04-12 17:32] Loading 2 new models
+[2024-04-12 17:32] loading in lowvram mode 3054.6153841018677
+[2024-04-12 17:32] loading in lowvram mode 704.9679737091064
+[2024-04-12 17:35] 100%|███████████████████████████████████████████████████████| 35/35 [02:32<00:00,  3.21s/it]100%|███████████████████████████████████████████████████████| 35/35 [02:32<00:00,  4.37s/it]
+[2024-04-12 17:35] Requested to load AutoencoderKL
+[2024-04-12 17:35] Loading 1 new model
+[2024-04-12 17:35] [34mWAS Node Suite: [0m[33mdenoise33[0m:
 
 [0m
-[2024-04-11 18:17] Prompt executed in 357.01 seconds
-[2024-04-11 18:18] got prompt
-[2024-04-11 18:18] Failed to validate prompt for output 500:
-[2024-04-11 18:18] * KSamplerAdvanced 498:
-[2024-04-11 18:18]   - Required input is missing: noise_seed
-[2024-04-11 18:18] Output will be ignored
-[2024-04-11 18:18] Requested to load SDXL
-[2024-04-11 18:18] Requested to load ControlNet
-[2024-04-11 18:18] Loading 2 new models
-[2024-04-11 18:18] loading in lowvram mode 3054.6153841018677
-[2024-04-11 18:18] loading in lowvram mode 704.9679737091064
-[2024-04-11 18:20] 100%|███████████████████████████████████████████████████████| 25/25 [01:31<00:00,  3.71s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:31<00:00,  3.66s/it]
-[2024-04-11 18:20] Requested to load AutoencoderKL
-[2024-04-11 18:20] Loading 1 new model
-[2024-04-11 18:20] Requested to load SDXL
-[2024-04-11 18:20] Requested to load ControlNet
-[2024-04-11 18:20] Loading 2 new models
-[2024-04-11 18:20] loading in lowvram mode 3054.6153841018677
-[2024-04-11 18:20] loading in lowvram mode 704.9679737091064
-[2024-04-11 18:22] 100%|███████████████████████████████████████████████████████| 25/25 [01:34<00:00,  3.40s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:34<00:00,  3.80s/it]
-[2024-04-11 18:22] Requested to load AutoencoderKL
-[2024-04-11 18:22] Loading 1 new model
-[2024-04-11 18:22] Requested to load SDXL
-[2024-04-11 18:22] Requested to load ControlNet
-[2024-04-11 18:22] Loading 2 new models
-[2024-04-11 18:22] loading in lowvram mode 3054.6153841018677
-[2024-04-11 18:22] loading in lowvram mode 704.9679737091064
-[2024-04-11 18:22] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-11 18:23] 100%|███████████████████████████████████████████████████████| 25/25 [01:33<00:00,  3.59s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:33<00:00,  3.73s/it]
-[2024-04-11 18:23] Requested to load AutoencoderKL
-[2024-04-11 18:23] Loading 1 new model
-[2024-04-11 18:23] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-12 17:35] Prompt executed in 771.37 seconds
+[2024-04-12 17:52] got prompt
+[2024-04-12 17:52] Requested to load SDXL
+[2024-04-12 17:52] Requested to load ControlNet
+[2024-04-12 17:52] Loading 2 new models
+[2024-04-12 17:52] loading in lowvram mode 3054.6153841018677
+[2024-04-12 17:52] loading in lowvram mode 704.9679737091064
+[2024-04-12 17:52] got prompt
+[2024-04-12 17:54] 100%|███████████████████████████████████████████████████████| 25/25 [01:29<00:00,  3.61s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:29<00:00,  3.57s/it]
+[2024-04-12 17:54] Requested to load AutoencoderKL
+[2024-04-12 17:54] Loading 1 new model
+[2024-04-12 17:54] Requested to load SDXL
+[2024-04-12 17:54] Requested to load ControlNet
+[2024-04-12 17:54] Loading 2 new models
+[2024-04-12 17:54] loading in lowvram mode 3054.6153841018677
+[2024-04-12 17:54] loading in lowvram mode 704.9679737091064
+[2024-04-12 17:55] 100%|███████████████████████████████████████████████████████| 21/21 [01:23<00:00,  3.65s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:23<00:00,  3.99s/it]
+[2024-04-12 17:55] Requested to load AutoencoderKL
+[2024-04-12 17:55] Loading 1 new model
+[2024-04-12 17:55] Requested to load SDXL
+[2024-04-12 17:55] Requested to load ControlNet
+[2024-04-12 17:55] Loading 2 new models
+[2024-04-12 17:55] loading in lowvram mode 3054.6153841018677
+[2024-04-12 17:55] loading in lowvram mode 704.9679737091064
+[2024-04-12 17:58] 100%|███████████████████████████████████████████████████████| 35/35 [02:21<00:00,  3.06s/it]100%|███████████████████████████████████████████████████████| 35/35 [02:21<00:00,  4.05s/it]
+[2024-04-12 17:58] Requested to load AutoencoderKL
+[2024-04-12 17:58] Loading 1 new model
+[2024-04-12 17:58] [34mWAS Node Suite: [0m[33mdenoise100[0m:
 
 [0m
-[2024-04-11 18:23] Prompt executed in 299.20 seconds
-[2024-04-11 18:25] got prompt
-[2024-04-11 18:25] model_type EPS
-[2024-04-11 18:25] Using pytorch attention in VAE
-[2024-04-11 18:25] Using pytorch attention in VAE
-[2024-04-11 18:26] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-04-11 18:26] loaded straight to GPU
-[2024-04-11 18:26] Requested to load SDXL
-[2024-04-11 18:26] Loading 1 new model
-[2024-04-11 18:26] loading in lowvram mode 64.0
-[2024-04-11 18:26] style: base
-[2024-04-11 18:26] text_positive: a cyborg dog puppy, jack russel, blue and pink neon lights, made of gold plated metal, centered motive, sideview, looking at the camera
-[2024-04-11 18:26] text_negative: signature, watermark
-[2024-04-11 18:26] text_positive_styled: a cyborg dog puppy, jack russel, blue and pink neon lights, made of gold plated metal, centered motive, sideview, looking at the camera
-[2024-04-11 18:26] text_negative_styled: signature, watermark
-[2024-04-11 18:26] Requested to load SDXLClipModel
-[2024-04-11 18:26] Loading 1 new model
-[2024-04-11 18:26] error checkpoint does not contain controlnet or t2i adapter data /root/code/Romain-Ber/ComfyUI/models/controlnet/qrpatternSdxl_v01256512eSdxl.safetensors
-[2024-04-11 18:26] !!! Exception during processing !!!
-[2024-04-11 18:26] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/nodes.py", line 815, in apply_controlnet
-    c_net = control_net.copy().set_cond_hint(control_hint, strength, (start_percent, end_percent))
-AttributeError: 'NoneType' object has no attribute 'copy'
-
-[2024-04-11 18:26] Prompt executed in 74.00 seconds
-[2024-04-11 18:31] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-11 18:32] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-11 18:34] got prompt
-[2024-04-11 18:34] model_type EPS
-[2024-04-11 18:35] Using pytorch attention in VAE
-[2024-04-11 18:35] Using pytorch attention in VAE
-[2024-04-11 18:35] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-04-11 18:35] loaded straight to GPU
-[2024-04-11 18:35] Requested to load SDXL
-[2024-04-11 18:35] Loading 1 new model
-[2024-04-11 18:35] loading in lowvram mode 64.0
-[2024-04-11 18:35] Requested to load SDXLClipModel
-[2024-04-11 18:35] Loading 1 new model
-[2024-04-11 18:35] Requested to load SDXL
-[2024-04-11 18:35] Requested to load ControlNet
-[2024-04-11 18:35] Loading 2 new models
-[2024-04-11 18:36] loading in lowvram mode 64.0
-[2024-04-11 18:37] 100%|███████████████████████████████████████████████████████| 25/25 [00:49<00:00,  1.64s/it]100%|███████████████████████████████████████████████████████| 25/25 [00:49<00:00,  1.97s/it]
-[2024-04-11 18:37] Requested to load AutoencoderKL
-[2024-04-11 18:37] Loading 1 new model
-[2024-04-11 18:37] Requested to load SDXL
-[2024-04-11 18:37] Requested to load ControlNet
-[2024-04-11 18:37] Loading 2 new models
-[2024-04-11 18:37] loading in lowvram mode 3054.6153841018677
-[2024-04-11 18:37] loading in lowvram mode 704.9679737091064
-[2024-04-11 18:38] 100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.31s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:26<00:00,  3.45s/it]
-[2024-04-11 18:38] Requested to load AutoencoderKL
-[2024-04-11 18:38] Loading 1 new model
-[2024-04-11 18:38] Requested to load SDXL
-[2024-04-11 18:38] Requested to load ControlNet
-[2024-04-11 18:38] Loading 2 new models
-[2024-04-11 18:38] loading in lowvram mode 3054.6153841018677
-[2024-04-11 18:38] loading in lowvram mode 704.9679737091064
-[2024-04-11 18:40] 100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.22s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:25<00:00,  3.43s/it]
-[2024-04-11 18:40] Requested to load AutoencoderKL
-[2024-04-11 18:40] Loading 1 new model
-[2024-04-11 18:40] Requested to load SDXL
-[2024-04-11 18:40] Requested to load ControlNet
-[2024-04-11 18:40] Loading 2 new models
-[2024-04-11 18:40] loading in lowvram mode 3054.6153841018677
-[2024-04-11 18:40] loading in lowvram mode 704.9679737091064
-[2024-04-11 18:41] 100%|███████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.24s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:30<00:00,  3.60s/it]
-[2024-04-11 18:41] Requested to load AutoencoderKL
-[2024-04-11 18:41] Loading 1 new model
-[2024-04-11 18:41] [34mWAS Node Suite: [0m[33mQR Code:[0m:
+[2024-04-12 17:58] Requested to load SDXL
+[2024-04-12 17:58] Requested to load ControlNet
+[2024-04-12 17:58] Loading 2 new models
+[2024-04-12 17:58] loading in lowvram mode 3054.6153841018677
+[2024-04-12 17:58] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:00] 100%|███████████████████████████████████████████████████████| 35/35 [02:31<00:00,  3.33s/it]100%|███████████████████████████████████████████████████████| 35/35 [02:31<00:00,  4.32s/it]
+[2024-04-12 18:00] Requested to load AutoencoderKL
+[2024-04-12 18:00] Loading 1 new model
+[2024-04-12 18:00] [34mWAS Node Suite: [0m[33mdenoise67[0m:
 
 [0m
-[2024-04-11 18:41] Prompt executed in 441.48 seconds
+[2024-04-12 18:00] Requested to load SDXL
+[2024-04-12 18:00] Requested to load ControlNet
+[2024-04-12 18:00] Loading 2 new models
+[2024-04-12 18:00] loading in lowvram mode 3054.6153841018677
+[2024-04-12 18:00] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:02] 
+[2024-04-12 18:02] Processing interrupted
+[2024-04-12 18:02] Prompt executed in 579.03 seconds
+[2024-04-12 18:02] got prompt
+[2024-04-12 18:02] Requested to load ControlNet
+[2024-04-12 18:02] Loading 1 new model
+[2024-04-12 18:03] 100%|███████████████████████████████████████████████████████| 25/25 [01:35<00:00,  4.02s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:35<00:00,  3.80s/it]
+[2024-04-12 18:03] Requested to load AutoencoderKL
+[2024-04-12 18:03] Loading 1 new model
+[2024-04-12 18:03] Requested to load SDXL
+[2024-04-12 18:03] Requested to load ControlNet
+[2024-04-12 18:03] Loading 2 new models
+[2024-04-12 18:03] loading in lowvram mode 3050.0
+[2024-04-12 18:03] loading in lowvram mode 703.847092628479
+[2024-04-12 18:05] 100%|███████████████████████████████████████████████████████| 21/21 [01:20<00:00,  3.51s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:20<00:00,  3.81s/it]
+[2024-04-12 18:05] Requested to load AutoencoderKL
+[2024-04-12 18:05] Loading 1 new model
+[2024-04-12 18:05] [34mWAS Node Suite: [0m[33mlatent[0m:
+
+[0m
+[2024-04-12 18:05] Requested to load SDXL
+[2024-04-12 18:05] Requested to load ControlNet
+[2024-04-12 18:05] Loading 2 new models
+[2024-04-12 18:05] loading in lowvram mode 3050.0
+[2024-04-12 18:05] loading in lowvram mode 703.847092628479
+[2024-04-12 18:07] 100%|███████████████████████████████████████████████████████| 35/35 [02:30<00:00,  3.16s/it]100%|███████████████████████████████████████████████████████| 35/35 [02:30<00:00,  4.30s/it]
+[2024-04-12 18:07] Requested to load AutoencoderKL
+[2024-04-12 18:07] Loading 1 new model
+[2024-04-12 18:07] [34mWAS Node Suite: [0m[33mdenoise100[0m:
+
+[0m
+[2024-04-12 18:07] Requested to load SDXL
+[2024-04-12 18:07] Requested to load ControlNet
+[2024-04-12 18:07] Loading 2 new models
+[2024-04-12 18:07] loading in lowvram mode 3054.6153841018677
+[2024-04-12 18:08] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:10] 100%|███████████████████████████████████████████████████████| 35/35 [02:33<00:00,  3.74s/it]100%|███████████████████████████████████████████████████████| 35/35 [02:33<00:00,  4.39s/it]
+[2024-04-12 18:10] Requested to load AutoencoderKL
+[2024-04-12 18:10] Loading 1 new model
+[2024-04-12 18:10] [34mWAS Node Suite: [0m[33mdenoise67[0m:
+
+[0m
+[2024-04-12 18:10] Requested to load SDXL
+[2024-04-12 18:10] Requested to load ControlNet
+[2024-04-12 18:10] Loading 2 new models
+[2024-04-12 18:10] loading in lowvram mode 3054.6153841018677
+[2024-04-12 18:10] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:13] 100%|███████████████████████████████████████████████████████| 35/35 [02:28<00:00,  3.41s/it]100%|███████████████████████████████████████████████████████| 35/35 [02:28<00:00,  4.23s/it]
+[2024-04-12 18:13] Requested to load AutoencoderKL
+[2024-04-12 18:13] Loading 1 new model
+[2024-04-12 18:13] [34mWAS Node Suite: [0m[33mdenoise33[0m:
+
+[0m
+[2024-04-12 18:13] Requested to load SDXL
+[2024-04-12 18:13] Requested to load ControlNet
+[2024-04-12 18:13] Loading 2 new models
+[2024-04-12 18:13] loading in lowvram mode 3054.6153841018677
+[2024-04-12 18:13] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:15] 100%|███████████████████████████████████████████████████████| 35/35 [02:22<00:00,  3.88s/it]100%|███████████████████████████████████████████████████████| 35/35 [02:22<00:00,  4.07s/it]
+[2024-04-12 18:15] Requested to load AutoencoderKL
+[2024-04-12 18:15] Loading 1 new model
+[2024-04-12 18:15] [34mWAS Node Suite: [0m[33mdenoise33[0m:
+
+[0m
+[2024-04-12 18:15] Prompt executed in 808.39 seconds
+[2024-04-12 18:18] got prompt
+[2024-04-12 18:18] style: ads-retail
+[2024-04-12 18:18] text_positive_g: a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 18:18] text_positive_l: chipset, circuits, earth
+[2024-04-12 18:18] text_negative: logo, watermark, brand, signature
+[2024-04-12 18:18] text_positive_g_styled: retail packaging style a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 18:18] text_positive_l_styled: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 18:18] text_positive_styled: retail packaging style a computer chipset with a picture representing earth, electric circuits, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 18:18] text_negative_g_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] text_negative_l_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] text_negative_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] style: sai-enhance
+[2024-04-12 18:18] text_positive_g: retail packaging style a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 18:18] text_positive_l: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 18:18] text_negative: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] text_positive_g_styled: breathtaking retail packaging style a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 18:18] text_positive_l_styled: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 18:18] text_positive_styled: breathtaking retail packaging style a computer chipset with a picture representing earth, electric circuits, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 18:18] text_negative_g_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] text_negative_l_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] text_negative_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] style: sai-photographic
+[2024-04-12 18:18] text_positive_g: breathtaking retail packaging style a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 18:18] text_positive_l: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 18:18] text_negative: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] text_positive_g_styled: cinematic photo breathtaking retail packaging style a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 18:18] text_positive_l_styled: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 18:18] text_positive_styled: cinematic photo breathtaking retail packaging style a computer chipset with a picture representing earth, electric circuits, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 18:18] text_negative_g_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] text_negative_l_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] text_negative_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] style: sai-line art
+[2024-04-12 18:18] text_positive_g: cinematic photo breathtaking retail packaging style a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 18:18] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 18:18] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] text_positive_g_styled: line art drawing cinematic photo breathtaking retail packaging style a computer chipset with a picture representing earth, electric circuits
+[2024-04-12 18:18] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 18:18] text_positive_styled: line art drawing cinematic photo breathtaking retail packaging style a computer chipset with a picture representing earth, electric circuits, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-12 18:18] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-12 18:18] Requested to load SDXLClipModel
+[2024-04-12 18:18] Loading 1 new model
+[2024-04-12 18:18] Requested to load SDXL
+[2024-04-12 18:18] Requested to load ControlNet
+[2024-04-12 18:18] Loading 2 new models
+[2024-04-12 18:18] loading in lowvram mode 3054.6153841018677
+[2024-04-12 18:18] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:20] 100%|███████████████████████████████████████████████████████| 25/25 [01:31<00:00,  3.31s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:31<00:00,  3.65s/it]
+[2024-04-12 18:20] Requested to load AutoencoderKL
+[2024-04-12 18:20] Loading 1 new model
+[2024-04-12 18:20] Requested to load SDXL
+[2024-04-12 18:20] Requested to load ControlNet
+[2024-04-12 18:20] Loading 2 new models
+[2024-04-12 18:20] loading in lowvram mode 3054.6153841018677
+[2024-04-12 18:20] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:21] 100%|███████████████████████████████████████████████████████| 21/21 [01:25<00:00,  3.77s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:25<00:00,  4.10s/it]
+[2024-04-12 18:21] Requested to load AutoencoderKL
+[2024-04-12 18:21] Loading 1 new model
+[2024-04-12 18:22] [34mWAS Node Suite: [0m[33mlatent[0m:
+
+[0m
+[2024-04-12 18:22] Requested to load SDXL
+[2024-04-12 18:22] Requested to load ControlNet
+[2024-04-12 18:22] Loading 2 new models
+[2024-04-12 18:22] loading in lowvram mode 3054.6153841018677
+[2024-04-12 18:22] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:22] 
+[2024-04-12 18:22] Processing interrupted
+[2024-04-12 18:22] Prompt executed in 246.84 seconds
+[2024-04-12 18:22] got prompt
+[2024-04-12 18:22] Requested to load SDXLClipModel
+[2024-04-12 18:22] Loading 1 new model
+[2024-04-12 18:23] Requested to load SDXL
+[2024-04-12 18:23] Requested to load ControlNet
+[2024-04-12 18:23] Loading 2 new models
+[2024-04-12 18:23] loading in lowvram mode 3054.6153841018677
+[2024-04-12 18:23] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:24] 100%|███████████████████████████████████████████████████████| 25/25 [01:35<00:00,  3.67s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:35<00:00,  3.81s/it]
+[2024-04-12 18:24] Requested to load AutoencoderKL
+[2024-04-12 18:24] Loading 1 new model
+[2024-04-12 18:24] Requested to load SDXL
+[2024-04-12 18:24] Requested to load ControlNet
+[2024-04-12 18:24] Loading 2 new models
+[2024-04-12 18:24] loading in lowvram mode 3054.6153841018677
+[2024-04-12 18:24] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:26] 100%|███████████████████████████████████████████████████████| 21/21 [01:24<00:00,  3.58s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:24<00:00,  4.04s/it]
+[2024-04-12 18:26] Requested to load AutoencoderKL
+[2024-04-12 18:26] Loading 1 new model
+[2024-04-12 18:26] [34mWAS Node Suite: [0m[33mlatent[0m:
+
+[0m
+[2024-04-12 18:26] Requested to load SDXL
+[2024-04-12 18:26] Requested to load ControlNet
+[2024-04-12 18:26] Loading 2 new models
+[2024-04-12 18:26] loading in lowvram mode 3054.6153841018677
+[2024-04-12 18:26] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:28] 100%|███████████████████████████████████████████████████████| 25/25 [01:44<00:00,  3.27s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:44<00:00,  4.16s/it]
+[2024-04-12 18:28] Requested to load AutoencoderKL
+[2024-04-12 18:28] Loading 1 new model
+[2024-04-12 18:28] [34mWAS Node Suite: [0m[33mdenoise25[0m:
+
+[0m
+[2024-04-12 18:28] Requested to load SDXL
+[2024-04-12 18:28] Requested to load ControlNet
+[2024-04-12 18:28] Loading 2 new models
+[2024-04-12 18:28] loading in lowvram mode 3054.6153841018677
+[2024-04-12 18:28] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:30] 100%|███████████████████████████████████████████████████████| 25/25 [01:52<00:00,  3.67s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:52<00:00,  4.51s/it]
+[2024-04-12 18:30] Requested to load AutoencoderKL
+[2024-04-12 18:30] Loading 1 new model
+[2024-04-12 18:30] [34mWAS Node Suite: [0m[33mdenoise50[0m:
+
+[0m
+[2024-04-12 18:30] Requested to load SDXL
+[2024-04-12 18:30] Requested to load ControlNet
+[2024-04-12 18:30] Loading 2 new models
+[2024-04-12 18:30] loading in lowvram mode 3054.6153841018677
+[2024-04-12 18:30] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:31] 100%|███████████████████████████████████████████████████████| 25/25 [01:50<00:00,  3.88s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:50<00:00,  4.42s/it]
+[2024-04-12 18:31] Requested to load AutoencoderKL
+[2024-04-12 18:31] Loading 1 new model
+[2024-04-12 18:32] [34mWAS Node Suite: [0m[33mdenoise75[0m:
+
+[0m
+[2024-04-12 18:32] Requested to load SDXL
+[2024-04-12 18:32] Requested to load ControlNet
+[2024-04-12 18:32] Loading 2 new models
+[2024-04-12 18:32] loading in lowvram mode 3054.6153841018677
+[2024-04-12 18:32] loading in lowvram mode 704.9679737091064
+[2024-04-12 18:33] 100%|███████████████████████████████████████████████████████| 25/25 [01:46<00:00,  3.99s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:46<00:00,  4.28s/it]
+[2024-04-12 18:33] Requested to load AutoencoderKL
+[2024-04-12 18:33] Loading 1 new model
+[2024-04-12 18:33] [34mWAS Node Suite: [0m[33mdenoise99[0m:
+
+[0m
+[2024-04-12 18:33] Prompt executed in 662.67 seconds
+[2024-04-12 18:34] 
+Stopped server
