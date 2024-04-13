@@ -1,155 +1,163 @@
-** ComfyUI startup time: 2024-04-13 12:01:54.872812
-[2024-04-13 12:01] ** Platform: Linux
-[2024-04-13 12:01] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
-[2024-04-13 12:01] ** Python executable: /usr/bin/python3
-[2024-04-13 12:01] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
-[2024-04-13 12:01] 
+** ComfyUI startup time: 2024-04-13 18:27:11.920285
+[2024-04-13 18:27] ** Platform: Linux
+[2024-04-13 18:27] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-04-13 18:27] ** Python executable: /usr/bin/python3
+[2024-04-13 18:27] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
+[2024-04-13 18:27] 
 Prestartup times for custom nodes:
-[2024-04-13 12:01]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy
-[2024-04-13 12:01]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-13 12:01] 
+[2024-04-13 18:27]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy
+[2024-04-13 18:27]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-13 18:27] 
 Total VRAM 6144 MB, total RAM 12654 MB
-[2024-04-13 12:02] Set vram state to: NORMAL_VRAM
-[2024-04-13 12:02] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
-[2024-04-13 12:02] VAE dtype: torch.float32
-[2024-04-13 12:02] Using pytorch cross attention
-[2024-04-13 12:02] ### Loading: ComfyUI-Inspire-Pack (V0.69.3)
-[2024-04-13 12:02] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
-[2024-04-13 12:02] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
-[2024-04-13 12:02] [Crystools [0;32mINFO[0m] Crystools version: 1.12.0
-[2024-04-13 12:02] [Crystools [0;32mINFO[0m] CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz - Arch: x86_64 - OS: Linux 5.10.16.3-microsoft-standard-WSL2
-[2024-04-13 12:02] [Crystools [0;32mINFO[0m] GPU/s:
-[2024-04-13 12:02] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 2060
-[2024-04-13 12:02] [Crystools [0;32mINFO[0m] NVIDIA Driver: 546.33
-[2024-04-13 12:02] ### Loading: ComfyUI-Manager (V2.16)
-[2024-04-13 12:02] ### ComfyUI Revision: 2106 [5eaf707a] | Released on '2024-04-12'
-[2024-04-13 12:02] 
-[2024-04-13 12:02] [92m[rgthree] Loaded 37 fantastic nodes.[0m
-[2024-04-13 12:02] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
-[2024-04-13 12:02] 
-[2024-04-13 12:02] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-04-13 12:02] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-04-13 12:02] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-04-13 12:02] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-04-13 12:02] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
-[2024-04-13 12:02] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
-[2024-04-13 12:02] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
-[2024-04-13 12:02] 
-	[3m[93m"The future depends on what you do today."[0m[3m - Mahatma Gandhi[0m
-[2024-04-13 12:02] 
-[2024-04-13 12:02] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
-[2024-04-13 12:02] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
-[2024-04-13 12:02] 
+[2024-04-13 18:27] Set vram state to: NORMAL_VRAM
+[2024-04-13 18:27] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
+[2024-04-13 18:27] VAE dtype: torch.float32
+[2024-04-13 18:27] Using pytorch cross attention
+[2024-04-13 18:27] ### Loading: ComfyUI-Inspire-Pack (V0.69.3)
+[2024-04-13 18:27] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
+[2024-04-13 18:27] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
+[2024-04-13 18:27] [Crystools [0;32mINFO[0m] Crystools version: 1.12.0
+[2024-04-13 18:27] [Crystools [0;32mINFO[0m] CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz - Arch: x86_64 - OS: Linux 5.10.16.3-microsoft-standard-WSL2
+[2024-04-13 18:27] [Crystools [0;32mINFO[0m] GPU/s:
+[2024-04-13 18:27] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 2060
+[2024-04-13 18:27] [Crystools [0;32mINFO[0m] NVIDIA Driver: 546.33
+[2024-04-13 18:27] ### Loading: ComfyUI-Manager (V2.16)
+[2024-04-13 18:27] ### ComfyUI Revision: 2107 [8224f6db] | Released on '2024-04-13'
+[2024-04-13 18:27] 
+[2024-04-13 18:27] [92m[rgthree] Loaded 37 magnificent nodes.[0m
+[2024-04-13 18:27] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-04-13 18:27] 
+[2024-04-13 18:27] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-13 18:27] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-13 18:27] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-13 18:27] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-13 18:27] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-04-13 18:27] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-04-13 18:27] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-04-13 18:27] 
+	[3m[93m"Don't let yesterday take up too much of today."[0m[3m - Will Rogers[0m
+[2024-04-13 18:27] 
+[2024-04-13 18:27] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
+[2024-04-13 18:27] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-04-13 18:27] [Impact Pack] Wildcards loading done.
+[2024-04-13 18:27] 
 Import times for custom nodes:
-[2024-04-13 12:02]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
-[2024-04-13 12:02]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
-[2024-04-13 12:02]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
-[2024-04-13 12:02]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
-[2024-04-13 12:02]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
-[2024-04-13 12:02]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy
-[2024-04-13 12:02]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
-[2024-04-13 12:02]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
-[2024-04-13 12:02]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-13 12:02]    0.9 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
-[2024-04-13 12:02]    1.9 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
-[2024-04-13 12:02]    2.8 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Crystools
-[2024-04-13 12:02] 
-[2024-04-13 12:02] [Impact Pack] Wildcards loading done.
-[2024-04-13 12:02] Starting server
+[2024-04-13 18:27]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-04-13 18:27]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-04-13 18:27]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/loopback
+[2024-04-13 18:27]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
+[2024-04-13 18:27]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy
+[2024-04-13 18:27]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
+[2024-04-13 18:27]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
+[2024-04-13 18:27]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/comfyui-cyclist
+[2024-04-13 18:27]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-04-13 18:27]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
+[2024-04-13 18:27]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-13 18:27]    0.5 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-04-13 18:27]    0.9 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-04-13 18:27]    2.6 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Crystools
+[2024-04-13 18:27] 
+[2024-04-13 18:27] Starting server
 
-[2024-04-13 12:02] To see the GUI go to: http://127.0.0.1:8188
-[2024-04-13 12:02] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-13 12:04] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-13 12:12] got prompt
-[2024-04-13 12:12] Failed to validate prompt for output 741:
-[2024-04-13 12:12] * (prompt):
-[2024-04-13 12:12]   - Required input is missing: images
-[2024-04-13 12:12] * PreviewImage 741:
-[2024-04-13 12:12]   - Required input is missing: images
-[2024-04-13 12:12] Output will be ignored
-[2024-04-13 12:12] Failed to validate prompt for output 736:
-[2024-04-13 12:12] * (prompt):
-[2024-04-13 12:12]   - Required input is missing: images
-[2024-04-13 12:12] * PreviewImage 736:
-[2024-04-13 12:12]   - Required input is missing: images
-[2024-04-13 12:12] Output will be ignored
-[2024-04-13 12:12] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-04-13 12:12] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
-[2024-04-13 12:12] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
-[2024-04-13 12:12] model_type EPS
-[2024-04-13 12:12] Using pytorch attention in VAE
-[2024-04-13 12:12] Using pytorch attention in VAE
-[2024-04-13 12:13] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-04-13 12:13] style: ads-retail
-[2024-04-13 12:13] text_positive_g: a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-13 12:13] text_positive_l: chipset, circuits, earth
-[2024-04-13 12:13] text_negative: logo, watermark, brand, signature
-[2024-04-13 12:13] text_positive_g_styled: retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-13 12:13] text_positive_l_styled: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-13 12:13] text_positive_styled: retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-13 12:13] text_negative_g_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] text_negative_l_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] text_negative_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] style: sai-enhance
-[2024-04-13 12:13] text_positive_g: retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-13 12:13] text_positive_l: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-13 12:13] text_negative: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] text_positive_g_styled: breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-13 12:13] text_positive_l_styled: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-13 12:13] text_positive_styled: breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-13 12:13] text_negative_g_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] text_negative_l_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] text_negative_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] style: sai-photographic
-[2024-04-13 12:13] text_positive_g: breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-13 12:13] text_positive_l: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-13 12:13] text_negative: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] text_positive_g_styled: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-13 12:13] text_positive_l_styled: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-13 12:13] text_positive_styled: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-13 12:13] text_negative_g_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] text_negative_l_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] text_negative_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] style: sai-line art
-[2024-04-13 12:13] text_positive_g: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-13 12:13] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-13 12:13] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] text_positive_g_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-13 12:13] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-13 12:13] text_positive_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-13 12:13] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-13 12:13] Requested to load SDXLClipModel
-[2024-04-13 12:13] Loading 1 new model
-[2024-04-13 12:13] Requested to load AutoencoderKL
-[2024-04-13 12:13] Loading 1 new model
-[2024-04-13 12:13] Requested to load SDXL
-[2024-04-13 12:13] Requested to load ControlNet
-[2024-04-13 12:13] Loading 2 new models
-[2024-04-13 12:13] loading in lowvram mode 2628.4615383148193
-[2024-04-13 12:13] loading in lowvram mode 606.8081369400024
-[2024-04-13 12:16] 100%|███████████████████████████████████████████████████████| 25/25 [02:15<00:00,  4.57s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:15<00:00,  5.42s/it]
-[2024-04-13 12:16] Requested to load AutoencoderKL
-[2024-04-13 12:16] Loading 1 new model
-[2024-04-13 12:16] Requested to load SDXL
-[2024-04-13 12:16] Requested to load ControlNet
-[2024-04-13 12:16] Loading 2 new models
-[2024-04-13 12:16] loading in lowvram mode 2625.384614944458
-[2024-04-13 12:16] loading in lowvram mode 605.8956146240234
-[2024-04-13 12:18] 100%|███████████████████████████████████████████████████████| 21/21 [01:57<00:00,  5.32s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:57<00:00,  5.60s/it]
-[2024-04-13 12:18] Requested to load AutoencoderKL
-[2024-04-13 12:18] Loading 1 new model
-[2024-04-13 12:18] [34mWAS Node Suite: [0m[33mlatent[0m:
+[2024-04-13 18:27] To see the GUI go to: http://127.0.0.1:8188
+[2024-04-13 18:27] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-13 20:00] got prompt
+[2024-04-13 20:00] Failed to validate prompt for output 741:
+[2024-04-13 20:00] * (prompt):
+[2024-04-13 20:00]   - Required input is missing: images
+[2024-04-13 20:00] * PreviewImage 741:
+[2024-04-13 20:00]   - Required input is missing: images
+[2024-04-13 20:00] Output will be ignored
+[2024-04-13 20:00] Failed to validate prompt for output 740:
+[2024-04-13 20:00] * (prompt):
+[2024-04-13 20:00]   - Required input is missing: images
+[2024-04-13 20:00] * PreviewImage 740:
+[2024-04-13 20:00]   - Required input is missing: images
+[2024-04-13 20:00] Output will be ignored
+[2024-04-13 20:00] Failed to validate prompt for output 736:
+[2024-04-13 20:00] * (prompt):
+[2024-04-13 20:00]   - Required input is missing: images
+[2024-04-13 20:00] * PreviewImage 736:
+[2024-04-13 20:00]   - Required input is missing: images
+[2024-04-13 20:00] Output will be ignored
+[2024-04-13 20:00] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 20:00] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
+[2024-04-13 20:00] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
+[2024-04-13 20:00] model_type EPS
+[2024-04-13 20:00] Using pytorch attention in VAE
+[2024-04-13 20:00] Using pytorch attention in VAE
+[2024-04-13 20:01] got prompt
+[2024-04-13 20:01] Failed to validate prompt for output 741:
+[2024-04-13 20:01] * (prompt):
+[2024-04-13 20:01]   - Required input is missing: images
+[2024-04-13 20:01] * PreviewImage 741:
+[2024-04-13 20:01]   - Required input is missing: images
+[2024-04-13 20:01] Output will be ignored
+[2024-04-13 20:01] Failed to validate prompt for output 740:
+[2024-04-13 20:01] * (prompt):
+[2024-04-13 20:01]   - Required input is missing: images
+[2024-04-13 20:01] * PreviewImage 740:
+[2024-04-13 20:01]   - Required input is missing: images
+[2024-04-13 20:01] Output will be ignored
+[2024-04-13 20:01] Failed to validate prompt for output 736:
+[2024-04-13 20:01] * (prompt):
+[2024-04-13 20:01]   - Required input is missing: images
+[2024-04-13 20:01] * PreviewImage 736:
+[2024-04-13 20:01]   - Required input is missing: images
+[2024-04-13 20:01] Output will be ignored
+[2024-04-13 20:01] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-13 20:01] Processing interrupted
+[2024-04-13 20:01] Prompt executed in 68.86 seconds
+[2024-04-13 20:01] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 20:01] style: sai-line art
+[2024-04-13 20:01] text_positive_g: cinematic photo breathtaking professional 3d model breathtaking cinematic line art drawing professional close up photo of a microprocessor, photo of Earth rendering in the center, electric circuits, blue halo
+[2024-04-13 20:01] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, professional, sleek, modern, graphic, line art, vector graphics, 35mm photograph, film, bokeh, 4k, highly detailed, award-winning, octane render, volumetric, dramatic lighting, chipset, earth, circuits, blue halo, straight, electric
+[2024-04-13 20:01] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, anime, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, soft, distorted, grainy, low poly, bokeh, painting, logo, watermark, brand, signature, isometric, tilted
+[2024-04-13 20:01] text_positive_g_styled: line art drawing cinematic photo breathtaking professional 3d model breathtaking cinematic line art drawing professional close up photo of a microprocessor, photo of Earth rendering in the center, electric circuits, blue halo
+[2024-04-13 20:01] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, professional, sleek, modern, graphic, line art, vector graphics, 35mm photograph, film, bokeh, 4k, highly detailed, award-winning, octane render, volumetric, dramatic lighting, chipset, earth, circuits, blue halo, straight, electric
+[2024-04-13 20:01] text_positive_styled: line art drawing cinematic photo breathtaking professional 3d model breathtaking cinematic line art drawing professional close up photo of a microprocessor, photo of Earth rendering in the center, electric circuits, blue halo, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, professional, sleek, modern, graphic, line art, vector graphics, 35mm photograph, film, bokeh, 4k, highly detailed, award-winning, octane render, volumetric, dramatic lighting, chipset, earth, circuits, straight, electric
+[2024-04-13 20:01] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, anime, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, soft, distorted, grainy, low poly, bokeh, painting, logo, watermark, brand, signature, isometric, tilted
+[2024-04-13 20:01] text_negative_l_styled: 
+[2024-04-13 20:01] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, anime, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, soft, distorted, grainy, low poly, bokeh, painting, logo, watermark, brand, signature, isometric, tilted
+[2024-04-13 20:01] Requested to load SDXLClipModel
+[2024-04-13 20:01] Loading 1 new model
+[2024-04-13 20:02] Requested to load AutoencoderKL
+[2024-04-13 20:02] Loading 1 new model
+[2024-04-13 20:02] Requested to load SDXL
+[2024-04-13 20:02] Requested to load ControlNet
+[2024-04-13 20:02] Loading 2 new models
+[2024-04-13 20:02] loading in lowvram mode 2563.8461532592773
+[2024-04-13 20:02] loading in lowvram mode 591.6730146408081
+[2024-04-13 20:05] 100%|███████████████████████████████████████████████████████| 35/35 [03:12<00:00,  4.90s/it]100%|███████████████████████████████████████████████████████| 35/35 [03:12<00:00,  5.50s/it]
+[2024-04-13 20:05] Requested to load AutoencoderKL
+[2024-04-13 20:05] Loading 1 new model
+[2024-04-13 20:05] Requested to load SDXL
+[2024-04-13 20:05] Requested to load ControlNet
+[2024-04-13 20:05] Loading 2 new models
+[2024-04-13 20:05] loading in lowvram mode 2557.692307472229
+[2024-04-13 20:05] loading in lowvram mode 590.3883647918701
+[2024-04-13 20:07] 100%|███████████████████████████████████████████████████████| 21/21 [01:49<00:00,  5.07s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:49<00:00,  5.21s/it]
+[2024-04-13 20:07] Requested to load AutoencoderKL
+[2024-04-13 20:07] Loading 1 new model
+[2024-04-13 20:07] here!
+[2024-04-13 20:07] <loopback.Loop object at 0x7ff72013aa10>
+[2024-04-13 20:07] [34mWAS Node Suite: [0m[33mlatent[0m:
 
 [0m
-[2024-04-13 12:18] Requested to load SDXL
-[2024-04-13 12:18] Requested to load ControlNet
-[2024-04-13 12:18] Loading 2 new models
-[2024-04-13 12:18] loading in lowvram mode 2625.384614944458
-[2024-04-13 12:18] loading in lowvram mode 605.8956146240234
-[2024-04-13 12:18] 
-[2024-04-13 12:18] Processing interrupted
-[2024-04-13 12:18] Prompt executed in 353.02 seconds
-[2024-04-13 12:19] 
+[2024-04-13 20:07] Requested to load SDXL
+[2024-04-13 20:07] Requested to load ControlNet
+[2024-04-13 20:07] Loading 2 new models
+[2024-04-13 20:07] loading in lowvram mode 2557.692307472229
+[2024-04-13 20:07] loading in lowvram mode 590.3883647918701
+[2024-04-13 20:11] 100%|███████████████████████████████████████████████████████| 35/35 [03:20<00:00,  4.68s/it]100%|███████████████████████████████████████████████████████| 35/35 [03:20<00:00,  5.74s/it]
+[2024-04-13 20:11] Requested to load AutoencoderKL
+[2024-04-13 20:11] Loading 1 new model
+[2024-04-13 20:11] [34mWAS Node Suite: [0m[33mQR read:[0m:
+
+[0m
+[2024-04-13 20:11] Processing is intentionally interrupted by 'Interrupt' node.
+Guess the work is done! 😎
+[2024-04-13 20:11] Processing interrupted
+[2024-04-13 20:11] Prompt executed in 584.31 seconds
+[2024-04-13 20:12] 
 Stopped server
