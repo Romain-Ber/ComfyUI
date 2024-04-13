@@ -1,158 +1,1054 @@
-** ComfyUI startup time: 2024-04-12 19:58:27.814405
-[2024-04-12 19:58] ** Platform: Linux
-[2024-04-12 19:58] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
-[2024-04-12 19:58] ** Python executable: /usr/bin/python3
-[2024-04-12 19:58] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
-[2024-04-12 19:58] 
+** ComfyUI startup time: 2024-04-13 12:19:33.556573
+[2024-04-13 12:19] ** Platform: Linux
+[2024-04-13 12:19] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-04-13 12:19] ** Python executable: /usr/bin/python3
+[2024-04-13 12:19] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
+[2024-04-13 12:19] 
 Prestartup times for custom nodes:
-[2024-04-12 19:58]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-12 19:58] 
+[2024-04-13 12:19]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy
+[2024-04-13 12:19]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-13 12:19] 
 Total VRAM 6144 MB, total RAM 12654 MB
-[2024-04-12 19:58] Set vram state to: NORMAL_VRAM
-[2024-04-12 19:58] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
-[2024-04-12 19:58] VAE dtype: torch.float32
-[2024-04-12 19:58] Using pytorch cross attention
-[2024-04-12 19:58] ### Loading: ComfyUI-Inspire-Pack (V0.69.3)
-[2024-04-12 19:58] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
-[2024-04-12 19:58] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
-[2024-04-12 19:58] [Crystools [0;32mINFO[0m] Crystools version: 1.12.0
-[2024-04-12 19:58] [Crystools [0;32mINFO[0m] CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz - Arch: x86_64 - OS: Linux 5.10.16.3-microsoft-standard-WSL2
-[2024-04-12 19:58] [Crystools [0;32mINFO[0m] GPU/s:
-[2024-04-12 19:58] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 2060
-[2024-04-12 19:58] [Crystools [0;32mINFO[0m] NVIDIA Driver: 546.33
-[2024-04-12 19:58] ### Loading: ComfyUI-Manager (V2.16)
-[2024-04-12 19:58] ### ComfyUI Revision: 2105 [ac7f5394] | Released on '2024-04-12'
-[2024-04-12 19:58] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-04-12 19:58] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-04-12 19:58] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-04-12 19:58] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-04-12 19:58] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
-[2024-04-12 19:58] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
-[2024-04-12 19:58] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
-[2024-04-12 19:58] 
-	[3m[93m"Art is not a thing; it is a way."[0m[3m - Elbert Hubbard[0m
-[2024-04-12 19:58] 
-[2024-04-12 19:58] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
-[2024-04-12 19:58] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
-[2024-04-12 19:58] 
+[2024-04-13 12:19] Set vram state to: NORMAL_VRAM
+[2024-04-13 12:19] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
+[2024-04-13 12:19] VAE dtype: torch.float32
+[2024-04-13 12:19] Using pytorch cross attention
+[2024-04-13 12:19] ### Loading: ComfyUI-Inspire-Pack (V0.69.3)
+[2024-04-13 12:19] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
+[2024-04-13 12:19] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
+[2024-04-13 12:19] [Crystools [0;32mINFO[0m] Crystools version: 1.12.0
+[2024-04-13 12:19] [Crystools [0;32mINFO[0m] CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz - Arch: x86_64 - OS: Linux 5.10.16.3-microsoft-standard-WSL2
+[2024-04-13 12:19] [Crystools [0;32mINFO[0m] GPU/s:
+[2024-04-13 12:19] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 2060
+[2024-04-13 12:19] [Crystools [0;32mINFO[0m] NVIDIA Driver: 546.33
+[2024-04-13 12:19] ### Loading: ComfyUI-Manager (V2.16)
+[2024-04-13 12:19] ### ComfyUI Revision: 2106 [5eaf707a] | Released on '2024-04-12'
+[2024-04-13 12:19] 
+[2024-04-13 12:19] [92m[rgthree] Loaded 37 fantastic nodes.[0m
+[2024-04-13 12:19] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-04-13 12:19] 
+[2024-04-13 12:19] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-13 12:19] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-13 12:19] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-13 12:19] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-13 12:19] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-04-13 12:19] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-04-13 12:19] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-04-13 12:19] 
+	[3m[93m"Success is not in what you have, but who you are."[0m[3m - Bo Bennett[0m
+[2024-04-13 12:19] 
+[2024-04-13 12:19] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
+[2024-04-13 12:19] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-04-13 12:19] 
 Import times for custom nodes:
-[2024-04-12 19:58]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
-[2024-04-12 19:58]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
-[2024-04-12 19:58]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
-[2024-04-12 19:58]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
-[2024-04-12 19:58]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
-[2024-04-12 19:58]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
-[2024-04-12 19:58]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
-[2024-04-12 19:58]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-12 19:58]    0.7 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
-[2024-04-12 19:58]    1.5 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
-[2024-04-12 19:58]    2.6 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Crystools
-[2024-04-12 19:58] 
-[2024-04-12 19:58] Starting server
+[2024-04-13 12:19]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-04-13 12:19]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-04-13 12:19]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
+[2024-04-13 12:19]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-04-13 12:19]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
+[2024-04-13 12:19]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy
+[2024-04-13 12:19]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
+[2024-04-13 12:19]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
+[2024-04-13 12:19]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-13 12:19]    0.9 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-04-13 12:19] [Impact Pack] Wildcards loading done.
+[2024-04-13 12:19]    2.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-04-13 12:19]    2.7 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Crystools
+[2024-04-13 12:19] 
+[2024-04-13 12:19] Starting server
 
-[2024-04-12 19:58] To see the GUI go to: http://127.0.0.1:8188
-[2024-04-12 19:58] [Impact Pack] Wildcards loading done.
-[2024-04-12 19:58] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-12 19:59] got prompt
-[2024-04-12 19:59] Failed to validate prompt for output 740:
-[2024-04-12 19:59] * VAEDecode 661:
-[2024-04-12 19:59]   - Required input is missing: samples
-[2024-04-12 19:59] Output will be ignored
-[2024-04-12 19:59] Failed to validate prompt for output 651:
-[2024-04-12 19:59] * VAEDecode 59:
-[2024-04-12 19:59]   - Required input is missing: samples
-[2024-04-12 19:59] Output will be ignored
-[2024-04-12 19:59] Failed to validate prompt for output 670:
-[2024-04-12 19:59] Output will be ignored
-[2024-04-12 19:59] Failed to validate prompt for output 736:
-[2024-04-12 19:59] Output will be ignored
-[2024-04-12 19:59] Failed to validate prompt for output 63:
-[2024-04-12 19:59] Output will be ignored
-[2024-04-12 19:59] Failed to validate prompt for output 667:
-[2024-04-12 19:59] Output will be ignored
-[2024-04-12 19:59] model_type EPS
-[2024-04-12 19:59] Using pytorch attention in VAE
-[2024-04-12 19:59] Using pytorch attention in VAE
-[2024-04-12 19:59] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-04-12 19:59] style: ads-retail
-[2024-04-12 19:59] text_positive_g: a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-12 19:59] text_positive_l: chipset, circuits, earth
-[2024-04-12 19:59] text_negative: logo, watermark, brand, signature
-[2024-04-12 19:59] text_positive_g_styled: retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-12 19:59] text_positive_l_styled: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-12 19:59] text_positive_styled: retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-12 19:59] text_negative_g_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] text_negative_l_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] text_negative_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] style: sai-enhance
-[2024-04-12 19:59] text_positive_g: retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-12 19:59] text_positive_l: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-12 19:59] text_negative: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] text_positive_g_styled: breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-12 19:59] text_positive_l_styled: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-12 19:59] text_positive_styled: breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-12 19:59] text_negative_g_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] text_negative_l_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] text_negative_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] style: sai-photographic
-[2024-04-12 19:59] text_positive_g: breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-12 19:59] text_positive_l: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-12 19:59] text_negative: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] text_positive_g_styled: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-12 19:59] text_positive_l_styled: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-12 19:59] text_positive_styled: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-12 19:59] text_negative_g_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] text_negative_l_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] text_negative_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] style: sai-line art
-[2024-04-12 19:59] text_positive_g: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-12 19:59] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-12 19:59] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] text_positive_g_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits
-[2024-04-12 19:59] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-12 19:59] text_positive_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset wwith a picture representing earth on it, electric circuits, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
-[2024-04-12 19:59] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
-[2024-04-12 19:59] Requested to load SDXLClipModel
-[2024-04-12 19:59] Loading 1 new model
-[2024-04-12 19:59] Requested to load AutoencoderKL
-[2024-04-12 19:59] Loading 1 new model
-[2024-04-12 19:59] Requested to load SDXL
-[2024-04-12 19:59] Requested to load ControlNet
-[2024-04-12 19:59] Loading 2 new models
-[2024-04-12 19:59] loading in lowvram mode 3057.692307472229
-[2024-04-12 20:00] loading in lowvram mode 705.8527956008911
-[2024-04-12 20:02] 100%|███████████████████████████████████████████████████████| 25/25 [01:43<00:00,  3.66s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:43<00:00,  4.13s/it]
-[2024-04-12 20:02] Requested to load AutoencoderKL
-[2024-04-12 20:02] Loading 1 new model
-[2024-04-12 20:02] Requested to load SDXL
-[2024-04-12 20:02] Requested to load ControlNet
-[2024-04-12 20:02] Loading 2 new models
-[2024-04-12 20:02] loading in lowvram mode 3054.6153841018677
-[2024-04-12 20:02] loading in lowvram mode 704.9679737091064
-[2024-04-12 20:02] got prompt
-[2024-04-12 20:02] Failed to validate prompt for output 740:
-[2024-04-12 20:02] * VAEDecode 661:
-[2024-04-12 20:02]   - Required input is missing: samples
-[2024-04-12 20:02] Output will be ignored
-[2024-04-12 20:02] Failed to validate prompt for output 651:
-[2024-04-12 20:02] * VAEDecode 59:
-[2024-04-12 20:02]   - Required input is missing: samples
-[2024-04-12 20:02] Output will be ignored
-[2024-04-12 20:02] Failed to validate prompt for output 670:
-[2024-04-12 20:02] Output will be ignored
-[2024-04-12 20:02] Failed to validate prompt for output 736:
-[2024-04-12 20:02] Output will be ignored
-[2024-04-12 20:02] Failed to validate prompt for output 63:
-[2024-04-12 20:02] Output will be ignored
-[2024-04-12 20:02] Failed to validate prompt for output 667:
-[2024-04-12 20:02] Output will be ignored
-[2024-04-12 20:02] 
-[2024-04-12 20:02] Processing interrupted
-[2024-04-12 20:02] Prompt executed in 215.44 seconds
-[2024-04-12 20:02] Requested to load ControlNet
-[2024-04-12 20:02] Loading 1 new model
-[2024-04-12 20:02] 
-[2024-04-12 20:02] Processing interrupted
-[2024-04-12 20:02] Prompt executed in 9.63 seconds
+[2024-04-13 12:19] To see the GUI go to: http://127.0.0.1:8188
+[2024-04-13 12:19] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-13 12:20] got prompt
+[2024-04-13 12:20] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 12:20] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
+[2024-04-13 12:20] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
+[2024-04-13 12:20] model_type EPS
+[2024-04-13 12:21] Using pytorch attention in VAE
+[2024-04-13 12:21] Using pytorch attention in VAE
+[2024-04-13 12:21] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-13 12:21] style: ads-retail
+[2024-04-13 12:21] text_positive_g: a close up shot of a computer chipset with a picture representing earth on it, electric circuits
+[2024-04-13 12:21] text_positive_l: chipset, circuits, earth
+[2024-04-13 12:21] text_negative: logo, watermark, brand, signature
+[2024-04-13 12:21] text_positive_g_styled: retail packaging style a close up shot of a computer chipset with a picture representing earth on it, electric circuits
+[2024-04-13 12:21] text_positive_l_styled: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:21] text_positive_styled: retail packaging style a close up shot of a computer chipset with a picture representing earth on it, electric circuits, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:21] text_negative_g_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] text_negative_l_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] text_negative_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] style: sai-enhance
+[2024-04-13 12:21] text_positive_g: retail packaging style a close up shot of a computer chipset with a picture representing earth on it, electric circuits
+[2024-04-13 12:21] text_positive_l: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:21] text_negative: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] text_positive_g_styled: breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth on it, electric circuits
+[2024-04-13 12:21] text_positive_l_styled: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:21] text_positive_styled: breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth on it, electric circuits, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:21] text_negative_g_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] text_negative_l_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] text_negative_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] style: sai-photographic
+[2024-04-13 12:21] text_positive_g: breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth on it, electric circuits
+[2024-04-13 12:21] text_positive_l: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:21] text_negative: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] text_positive_g_styled: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth on it, electric circuits
+[2024-04-13 12:21] text_positive_l_styled: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:21] text_positive_styled: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth on it, electric circuits, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:21] text_negative_g_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] text_negative_l_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] text_negative_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] style: sai-line art
+[2024-04-13 12:21] text_positive_g: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth on it, electric circuits
+[2024-04-13 12:21] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:21] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] text_positive_g_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth on it, electric circuits
+[2024-04-13 12:21] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:21] text_positive_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth on it, electric circuits, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:21] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:21] Requested to load SDXLClipModel
+[2024-04-13 12:21] Loading 1 new model
+[2024-04-13 12:21] Requested to load AutoencoderKL
+[2024-04-13 12:21] Loading 1 new model
+[2024-04-13 12:21] Requested to load SDXL
+[2024-04-13 12:21] Requested to load ControlNet
+[2024-04-13 12:21] Loading 2 new models
+[2024-04-13 12:21] loading in lowvram mode 3057.692307472229
+[2024-04-13 12:21] loading in lowvram mode 705.8527956008911
+[2024-04-13 12:23] 100%|███████████████████████████████████████████████████████| 25/25 [01:39<00:00,  3.66s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:39<00:00,  3.99s/it]
+[2024-04-13 12:23] Requested to load AutoencoderKL
+[2024-04-13 12:23] Loading 1 new model
+[2024-04-13 12:23] Requested to load SDXL
+[2024-04-13 12:23] Requested to load ControlNet
+[2024-04-13 12:23] Loading 2 new models
+[2024-04-13 12:23] loading in lowvram mode 3054.6153841018677
+[2024-04-13 12:23] loading in lowvram mode 704.9679737091064
+[2024-04-13 12:24] 100%|███████████████████████████████████████████████████████| 21/21 [01:17<00:00,  3.39s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:17<00:00,  3.67s/it]
+[2024-04-13 12:24] Requested to load AutoencoderKL
+[2024-04-13 12:24] Loading 1 new model
+[2024-04-13 12:24] [34mWAS Node Suite: [0m[33mlatent[0m:
+
+[0m
+[2024-04-13 12:24] Requested to load SDXL
+[2024-04-13 12:24] Requested to load ControlNet
+[2024-04-13 12:24] Loading 2 new models
+[2024-04-13 12:24] loading in lowvram mode 3054.6153841018677
+[2024-04-13 12:24] loading in lowvram mode 704.9679737091064
+[2024-04-13 12:26] 100%|███████████████████████████████████████████████████████| 25/25 [01:47<00:00,  3.96s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:47<00:00,  4.31s/it]
+[2024-04-13 12:26] Requested to load AutoencoderKL
+[2024-04-13 12:26] Loading 1 new model
+[2024-04-13 12:26] [34mWAS Node Suite: [0m[33mz-denoise0.7000000000000001[0m:
+
+[0m
+[2024-04-13 12:26] Requested to load SDXL
+[2024-04-13 12:26] Requested to load ControlNet
+[2024-04-13 12:26] Loading 2 new models
+[2024-04-13 12:26] loading in lowvram mode 3054.6153841018677
+[2024-04-13 12:26] loading in lowvram mode 704.9679737091064
+[2024-04-13 12:28] 100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  4.33s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  4.09s/it]
+[2024-04-13 12:28] Requested to load AutoencoderKL
+[2024-04-13 12:28] Loading 1 new model
+[2024-04-13 12:28] [34mWAS Node Suite: [0m[33mz-denoise0.9[0m:
+
+[0m
+[2024-04-13 12:28] Requested to load SDXL
+[2024-04-13 12:28] Requested to load ControlNet
+[2024-04-13 12:28] Loading 2 new models
+[2024-04-13 12:28] loading in lowvram mode 3054.6153841018677
+[2024-04-13 12:28] loading in lowvram mode 704.9679737091064
+[2024-04-13 12:30] 100%|███████████████████████████████████████████████████████| 25/25 [02:07<00:00,  4.93s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:07<00:00,  5.10s/it]
+[2024-04-13 12:30] Requested to load AutoencoderKL
+[2024-04-13 12:30] Loading 1 new model
+[2024-04-13 12:30] [34mWAS Node Suite: [0m[33mz-denoise0.9500000000000001[0m:
+
+[0m
+[2024-04-13 12:30] Requested to load SDXL
+[2024-04-13 12:30] Requested to load ControlNet
+[2024-04-13 12:30] Loading 2 new models
+[2024-04-13 12:30] loading in lowvram mode 3054.6153841018677
+[2024-04-13 12:30] loading in lowvram mode 704.9679737091064
+[2024-04-13 12:33] 100%|███████████████████████████████████████████████████████| 25/25 [02:09<00:00,  4.96s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:09<00:00,  5.20s/it]
+[2024-04-13 12:33] Requested to load AutoencoderKL
+[2024-04-13 12:33] Loading 1 new model
+[2024-04-13 12:33] [34mWAS Node Suite: [0m[33mz-denoise1[0m:
+
+[0m
+[2024-04-13 12:33] Prompt executed in 745.03 seconds
+[2024-04-13 12:39] got prompt
+[2024-04-13 12:39] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 12:39] Requested to load SDXL
+[2024-04-13 12:39] Requested to load ControlNet
+[2024-04-13 12:39] Loading 2 new models
+[2024-04-13 12:39] loading in lowvram mode 3054.6153841018677
+[2024-04-13 12:39] loading in lowvram mode 704.9679737091064
+[2024-04-13 12:41] 100%|███████████████████████████████████████████████████████| 25/25 [01:40<00:00,  4.12s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:40<00:00,  4.03s/it]
+[2024-04-13 12:41] Requested to load AutoencoderKL
+[2024-04-13 12:41] Loading 1 new model
+[2024-04-13 12:41] Requested to load SDXL
+[2024-04-13 12:41] Requested to load ControlNet
+[2024-04-13 12:41] Loading 2 new models
+[2024-04-13 12:41] loading in lowvram mode 3054.6153841018677
+[2024-04-13 12:41] loading in lowvram mode 704.9679737091064
+[2024-04-13 12:43] 100%|███████████████████████████████████████████████████████| 21/21 [01:47<00:00,  4.91s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:47<00:00,  5.14s/it]
+[2024-04-13 12:43] Requested to load AutoencoderKL
+[2024-04-13 12:43] Loading 1 new model
+[2024-04-13 12:43] [34mWAS Node Suite: [0m[33mlatent[0m:
+
+[0m
+[2024-04-13 12:43] Requested to load SDXL
+[2024-04-13 12:43] Requested to load ControlNet
+[2024-04-13 12:43] Loading 2 new models
+[2024-04-13 12:43] loading in lowvram mode 3054.6153841018677
+[2024-04-13 12:43] loading in lowvram mode 704.9679737091064
+[2024-04-13 12:45] 100%|███████████████████████████████████████████████████████| 25/25 [02:12<00:00,  4.24s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:12<00:00,  5.31s/it]
+[2024-04-13 12:45] Requested to load AutoencoderKL
+[2024-04-13 12:45] Loading 1 new model
+[2024-04-13 12:45] Requested to load SDXL
+[2024-04-13 12:45] Requested to load ControlNet
+[2024-04-13 12:45] Loading 2 new models
+[2024-04-13 12:45] loading in lowvram mode 3054.6153841018677
+[2024-04-13 12:45] loading in lowvram mode 704.9679737091064
+[2024-04-13 12:47] 100%|███████████████████████████████████████████████████████| 25/25 [02:18<00:00,  4.47s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:18<00:00,  5.54s/it]
+[2024-04-13 12:47] Requested to load AutoencoderKL
+[2024-04-13 12:47] Loading 1 new model
+[2024-04-13 12:48] [34mWAS Node Suite: [0m[33mz-denoise0.4[0m:
+
+[0m
+[2024-04-13 12:48] Requested to load SDXL
+[2024-04-13 12:48] Requested to load ControlNet
+[2024-04-13 12:48] Loading 2 new models
+[2024-04-13 12:48] loading in lowvram mode 3054.6153841018677
+[2024-04-13 12:48] loading in lowvram mode 704.9679737091064
+[2024-04-13 12:50] 100%|███████████████████████████████████████████████████████| 25/25 [02:25<00:00,  4.66s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:25<00:00,  5.80s/it]
+[2024-04-13 12:50] Requested to load AutoencoderKL
+[2024-04-13 12:50] Loading 1 new model
+[2024-04-13 12:50] [34mWAS Node Suite: [0m[33mz-denoise0.5[0m:
+
+[0m
+[2024-04-13 12:50] Requested to load SDXL
+[2024-04-13 12:50] Requested to load ControlNet
+[2024-04-13 12:50] Loading 2 new models
+[2024-04-13 12:50] loading in lowvram mode 3054.6153841018677
+[2024-04-13 12:50] loading in lowvram mode 704.9679737091064
+[2024-04-13 12:53] 100%|███████████████████████████████████████████████████████| 25/25 [02:23<00:00,  5.34s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:23<00:00,  5.73s/it]
+[2024-04-13 12:53] Requested to load AutoencoderKL
+[2024-04-13 12:53] Loading 1 new model
+[2024-04-13 12:53] [34mWAS Node Suite: [0m[33mz-denoise0.6[0m:
+
+[0m
+[2024-04-13 12:53] [34mWAS Node Suite: [0m[33mz-denoise0.70[0m:
+
+[0m
+[2024-04-13 12:53] Prompt executed in 824.35 seconds
+[2024-04-13 12:53] got prompt
+[2024-04-13 12:53] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 12:53] Requested to load SDXL
+[2024-04-13 12:53] Requested to load ControlNet
+[2024-04-13 12:53] Loading 2 new models
+[2024-04-13 12:53] loading in lowvram mode 3054.6153841018677
+[2024-04-13 12:53] loading in lowvram mode 704.9679737091064
+[2024-04-13 12:53] 
+[2024-04-13 12:53] Processing interrupted
+[2024-04-13 12:53] Prompt executed in 33.91 seconds
+[2024-04-13 12:54] got prompt
+[2024-04-13 12:54] Failed to validate prompt for output 736:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 736:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 735:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 735:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 487:
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 567:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 565:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 558:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 465:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 560:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 740:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 740:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 488:
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 466:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 741:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 741:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 742:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 742:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 12:54] Prompt executed in 3.27 seconds
+[2024-04-13 12:54] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-13 12:54] got prompt
+[2024-04-13 12:54] Failed to validate prompt for output 736:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 736:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 735:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 735:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 487:
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 567:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 565:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 558:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 465:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 560:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 740:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 740:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 488:
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 466:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 741:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 741:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 742:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 742:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 12:54] Prompt executed in 0.01 seconds
+[2024-04-13 12:54] got prompt
+[2024-04-13 12:54] Failed to validate prompt for output 736:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 736:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 735:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 735:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 487:
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 567:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 565:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 558:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 465:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 560:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 740:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 740:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 488:
+[2024-04-13 12:54] * ReroutePrimitive|pysssss 466:
+[2024-04-13 12:54]   - Required input is missing: value
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 741:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 741:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] Failed to validate prompt for output 742:
+[2024-04-13 12:54] * (prompt):
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] * PreviewImage 742:
+[2024-04-13 12:54]   - Required input is missing: images
+[2024-04-13 12:54] Output will be ignored
+[2024-04-13 12:54] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 12:54] Prompt executed in 0.01 seconds
+[2024-04-13 12:55] got prompt
+[2024-04-13 12:55] Failed to validate prompt for output 736:
+[2024-04-13 12:55] * (prompt):
+[2024-04-13 12:55]   - Required input is missing: images
+[2024-04-13 12:55] * PreviewImage 736:
+[2024-04-13 12:55]   - Required input is missing: images
+[2024-04-13 12:55] Output will be ignored
+[2024-04-13 12:55] Failed to validate prompt for output 735:
+[2024-04-13 12:55] * (prompt):
+[2024-04-13 12:55]   - Required input is missing: images
+[2024-04-13 12:55] * PreviewImage 735:
+[2024-04-13 12:55]   - Required input is missing: images
+[2024-04-13 12:55] Output will be ignored
+[2024-04-13 12:55] Failed to validate prompt for output 487:
+[2024-04-13 12:55] * ReroutePrimitive|pysssss 567:
+[2024-04-13 12:55]   - Required input is missing: value
+[2024-04-13 12:55] * ReroutePrimitive|pysssss 565:
+[2024-04-13 12:55]   - Required input is missing: value
+[2024-04-13 12:55] * ReroutePrimitive|pysssss 558:
+[2024-04-13 12:55]   - Required input is missing: value
+[2024-04-13 12:55] * ReroutePrimitive|pysssss 465:
+[2024-04-13 12:55]   - Required input is missing: value
+[2024-04-13 12:55] * ReroutePrimitive|pysssss 560:
+[2024-04-13 12:55]   - Required input is missing: value
+[2024-04-13 12:55] Output will be ignored
+[2024-04-13 12:55] Failed to validate prompt for output 740:
+[2024-04-13 12:55] * (prompt):
+[2024-04-13 12:55]   - Required input is missing: images
+[2024-04-13 12:55] * PreviewImage 740:
+[2024-04-13 12:55]   - Required input is missing: images
+[2024-04-13 12:55] Output will be ignored
+[2024-04-13 12:55] Failed to validate prompt for output 488:
+[2024-04-13 12:55] * ReroutePrimitive|pysssss 466:
+[2024-04-13 12:55]   - Required input is missing: value
+[2024-04-13 12:55] Output will be ignored
+[2024-04-13 12:55] Failed to validate prompt for output 741:
+[2024-04-13 12:55] * (prompt):
+[2024-04-13 12:55]   - Required input is missing: images
+[2024-04-13 12:55] * PreviewImage 741:
+[2024-04-13 12:55]   - Required input is missing: images
+[2024-04-13 12:55] Output will be ignored
+[2024-04-13 12:55] Failed to validate prompt for output 742:
+[2024-04-13 12:55] * (prompt):
+[2024-04-13 12:55]   - Required input is missing: images
+[2024-04-13 12:55] * PreviewImage 742:
+[2024-04-13 12:55]   - Required input is missing: images
+[2024-04-13 12:55] Output will be ignored
+[2024-04-13 12:55] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 12:55] Prompt executed in 0.10 seconds
+[2024-04-13 12:58] got prompt
+[2024-04-13 12:58] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 12:58] model_type EPS
+[2024-04-13 12:58] Using pytorch attention in VAE
+[2024-04-13 12:58] Using pytorch attention in VAE
+[2024-04-13 12:58] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-13 12:58] style: ads-retail
+[2024-04-13 12:58] text_positive_g: a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-13 12:58] text_positive_l: chipset, circuits, earth
+[2024-04-13 12:58] text_negative: logo, watermark, brand, signature
+[2024-04-13 12:58] text_positive_g_styled: retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-13 12:58] text_positive_l_styled: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:58] text_positive_styled: retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:58] text_negative_g_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] text_negative_l_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] text_negative_styled: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] style: sai-enhance
+[2024-04-13 12:58] text_positive_g: retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-13 12:58] text_positive_l: vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:58] text_negative: noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] text_positive_g_styled: breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-13 12:58] text_positive_l_styled: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:58] text_positive_styled: breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:58] text_negative_g_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] text_negative_l_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] text_negative_styled: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] style: sai-photographic
+[2024-04-13 12:58] text_positive_g: breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-13 12:58] text_positive_l: award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:58] text_negative: ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] text_positive_g_styled: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-13 12:58] text_positive_l_styled: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:58] text_positive_styled: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:58] text_negative_g_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] text_negative_l_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] text_negative_styled: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] style: sai-line art
+[2024-04-13 12:58] text_positive_g: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-13 12:58] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:58] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] text_positive_g_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-13 12:58] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:58] text_positive_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 12:58] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 12:58] Requested to load SDXLClipModel
+[2024-04-13 12:58] Loading 1 new model
+[2024-04-13 12:59] Requested to load AutoencoderKL
+[2024-04-13 12:59] Loading 1 new model
+[2024-04-13 12:59] Requested to load SDXL
+[2024-04-13 12:59] Requested to load ControlNet
+[2024-04-13 12:59] Loading 2 new models
+[2024-04-13 12:59] loading in lowvram mode 3054.6153841018677
+[2024-04-13 12:59] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:02] 100%|███████████████████████████████████████████████████████| 25/25 [02:16<00:00,  4.49s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:16<00:00,  5.46s/it]
+[2024-04-13 13:02] Requested to load AutoencoderKL
+[2024-04-13 13:02] Loading 1 new model
+[2024-04-13 13:02] Requested to load SDXL
+[2024-04-13 13:02] Requested to load ControlNet
+[2024-04-13 13:02] Loading 2 new models
+[2024-04-13 13:02] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:02] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:04] 100%|███████████████████████████████████████████████████████| 21/21 [01:46<00:00,  4.80s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:46<00:00,  5.07s/it]
+[2024-04-13 13:04] Requested to load AutoencoderKL
+[2024-04-13 13:04] Loading 1 new model
+[2024-04-13 13:04] [34mWAS Node Suite: [0m[33mlatent[0m:
+
+[0m
+[2024-04-13 13:04] Requested to load SDXL
+[2024-04-13 13:04] Requested to load ControlNet
+[2024-04-13 13:04] Loading 2 new models
+[2024-04-13 13:04] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:04] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:06] 100%|███████████████████████████████████████████████████████| 25/25 [02:19<00:00,  4.48s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:19<00:00,  5.59s/it]
+[2024-04-13 13:06] Requested to load AutoencoderKL
+[2024-04-13 13:06] Loading 1 new model
+[2024-04-13 13:06] [34mWAS Node Suite: [0m[33mz-denoise0.4[0m:
+
+[0m
+[2024-04-13 13:06] Requested to load SDXL
+[2024-04-13 13:06] Requested to load ControlNet
+[2024-04-13 13:06] Loading 2 new models
+[2024-04-13 13:06] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:06] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:08] 
+[2024-04-13 13:08] Processing interrupted
+[2024-04-13 13:08] Prompt executed in 589.75 seconds
+[2024-04-13 13:08] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-13 13:08] got prompt
+[2024-04-13 13:08] Failed to validate prompt for output 741:
+[2024-04-13 13:08] * (prompt):
+[2024-04-13 13:08]   - Required input is missing: images
+[2024-04-13 13:08] * PreviewImage 741:
+[2024-04-13 13:08]   - Required input is missing: images
+[2024-04-13 13:08] Output will be ignored
+[2024-04-13 13:08] Failed to validate prompt for output 742:
+[2024-04-13 13:08] * (prompt):
+[2024-04-13 13:08]   - Required input is missing: images
+[2024-04-13 13:08] * PreviewImage 742:
+[2024-04-13 13:08]   - Required input is missing: images
+[2024-04-13 13:08] Output will be ignored
+[2024-04-13 13:08] Failed to validate prompt for output 736:
+[2024-04-13 13:08] * (prompt):
+[2024-04-13 13:08]   - Required input is missing: images
+[2024-04-13 13:08] * PreviewImage 736:
+[2024-04-13 13:08]   - Required input is missing: images
+[2024-04-13 13:08] Output will be ignored
+[2024-04-13 13:08] Failed to validate prompt for output 740:
+[2024-04-13 13:08] * (prompt):
+[2024-04-13 13:08]   - Required input is missing: images
+[2024-04-13 13:08] * PreviewImage 740:
+[2024-04-13 13:08]   - Required input is missing: images
+[2024-04-13 13:08] Output will be ignored
+[2024-04-13 13:08] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 13:08] style: sai-line art
+[2024-04-13 13:08] text_positive_g: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-13 13:08] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 13:08] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 13:08] text_positive_g_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits
+[2024-04-13 13:08] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 13:08] text_positive_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth
+[2024-04-13 13:08] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 13:08] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 13:08] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 13:08] Requested to load SDXLClipModel
+[2024-04-13 13:08] Loading 1 new model
+[2024-04-13 13:09] Requested to load SDXL
+[2024-04-13 13:09] Requested to load ControlNet
+[2024-04-13 13:09] Loading 2 new models
+[2024-04-13 13:09] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:09] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:11] 100%|███████████████████████████████████████████████████████| 25/25 [02:10<00:00,  4.55s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:10<00:00,  5.22s/it]
+[2024-04-13 13:11] Requested to load AutoencoderKL
+[2024-04-13 13:11] Loading 1 new model
+[2024-04-13 13:11] Requested to load SDXL
+[2024-04-13 13:11] Requested to load ControlNet
+[2024-04-13 13:11] Loading 2 new models
+[2024-04-13 13:11] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:11] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:13] 100%|███████████████████████████████████████████████████████| 21/21 [01:47<00:00,  4.82s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:47<00:00,  5.12s/it]
+[2024-04-13 13:13] Requested to load AutoencoderKL
+[2024-04-13 13:13] Loading 1 new model
+[2024-04-13 13:13] Requested to load SDXL
+[2024-04-13 13:13] Requested to load ControlNet
+[2024-04-13 13:13] Loading 2 new models
+[2024-04-13 13:13] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:13] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:15] 100%|███████████████████████████████████████████████████████| 25/25 [02:12<00:00,  5.25s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:12<00:00,  5.30s/it]
+[2024-04-13 13:15] Requested to load AutoencoderKL
+[2024-04-13 13:15] Loading 1 new model
+[2024-04-13 13:15] Requested to load SDXL
+[2024-04-13 13:15] Requested to load ControlNet
+[2024-04-13 13:15] Loading 2 new models
+[2024-04-13 13:15] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:16] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:18] 100%|███████████████████████████████████████████████████████| 25/25 [02:02<00:00,  4.60s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:02<00:00,  4.91s/it]
+[2024-04-13 13:18] Requested to load AutoencoderKL
+[2024-04-13 13:18] Loading 1 new model
+[2024-04-13 13:18] [34mWAS Node Suite: [0m[33mlatent[0m:
+
+[0m
+[2024-04-13 13:18] Prompt executed in 568.37 seconds
+[2024-04-13 13:18] got prompt
+[2024-04-13 13:18] Failed to validate prompt for output 741:
+[2024-04-13 13:18] * (prompt):
+[2024-04-13 13:18]   - Required input is missing: images
+[2024-04-13 13:18] * PreviewImage 741:
+[2024-04-13 13:18]   - Required input is missing: images
+[2024-04-13 13:18] Output will be ignored
+[2024-04-13 13:18] Failed to validate prompt for output 742:
+[2024-04-13 13:18] * (prompt):
+[2024-04-13 13:18]   - Required input is missing: images
+[2024-04-13 13:18] * PreviewImage 742:
+[2024-04-13 13:18]   - Required input is missing: images
+[2024-04-13 13:18] Output will be ignored
+[2024-04-13 13:18] Failed to validate prompt for output 736:
+[2024-04-13 13:18] * (prompt):
+[2024-04-13 13:18]   - Required input is missing: images
+[2024-04-13 13:18] * PreviewImage 736:
+[2024-04-13 13:18]   - Required input is missing: images
+[2024-04-13 13:18] Output will be ignored
+[2024-04-13 13:18] Failed to validate prompt for output 740:
+[2024-04-13 13:18] * (prompt):
+[2024-04-13 13:18]   - Required input is missing: images
+[2024-04-13 13:18] * PreviewImage 740:
+[2024-04-13 13:18]   - Required input is missing: images
+[2024-04-13 13:18] Output will be ignored
+[2024-04-13 13:18] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 13:18] Requested to load SDXL
+[2024-04-13 13:18] Requested to load ControlNet
+[2024-04-13 13:18] Loading 2 new models
+[2024-04-13 13:18] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:18] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:20] 100%|███████████████████████████████████████████████████████| 25/25 [02:05<00:00,  4.97s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:05<00:00,  5.01s/it]
+[2024-04-13 13:20] Requested to load AutoencoderKL
+[2024-04-13 13:20] Loading 1 new model
+[2024-04-13 13:21] Requested to load SDXL
+[2024-04-13 13:21] Requested to load ControlNet
+[2024-04-13 13:21] Loading 2 new models
+[2024-04-13 13:21] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:21] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:23] 100%|███████████████████████████████████████████████████████| 25/25 [02:12<00:00,  4.95s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:12<00:00,  5.29s/it]
+[2024-04-13 13:23] Requested to load AutoencoderKL
+[2024-04-13 13:23] Loading 1 new model
+[2024-04-13 13:23] !!! Exception during processing !!!
+[2024-04-13 13:23] Traceback (most recent call last):
+  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
+    output_data, output_ui = get_output_data(obj, input_data_all)
+  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
+    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
+  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 69, in map_node_over_list
+    results.append(getattr(obj, func)())
+TypeError: ReroutePrimitive.route() missing 1 required positional argument: 'value'
+
+[2024-04-13 13:23] Prompt executed in 274.62 seconds
+[2024-04-13 13:23] got prompt
+[2024-04-13 13:23] Failed to validate prompt for output 735:
+[2024-04-13 13:23] * (prompt):
+[2024-04-13 13:23]   - Required input is missing: images
+[2024-04-13 13:23] * PreviewImage 735:
+[2024-04-13 13:23]   - Required input is missing: images
+[2024-04-13 13:23] Output will be ignored
+[2024-04-13 13:23] Failed to validate prompt for output 741:
+[2024-04-13 13:23] * (prompt):
+[2024-04-13 13:23]   - Required input is missing: images
+[2024-04-13 13:23] * PreviewImage 741:
+[2024-04-13 13:23]   - Required input is missing: images
+[2024-04-13 13:23] Output will be ignored
+[2024-04-13 13:23] Failed to validate prompt for output 742:
+[2024-04-13 13:23] * (prompt):
+[2024-04-13 13:23]   - Required input is missing: images
+[2024-04-13 13:23] * PreviewImage 742:
+[2024-04-13 13:23]   - Required input is missing: images
+[2024-04-13 13:23] Output will be ignored
+[2024-04-13 13:23] Failed to validate prompt for output 736:
+[2024-04-13 13:23] * (prompt):
+[2024-04-13 13:23]   - Required input is missing: images
+[2024-04-13 13:23] * PreviewImage 736:
+[2024-04-13 13:23]   - Required input is missing: images
+[2024-04-13 13:23] Output will be ignored
+[2024-04-13 13:23] Failed to validate prompt for output 740:
+[2024-04-13 13:23] * (prompt):
+[2024-04-13 13:23]   - Required input is missing: images
+[2024-04-13 13:23] * PreviewImage 740:
+[2024-04-13 13:23]   - Required input is missing: images
+[2024-04-13 13:23] Output will be ignored
+[2024-04-13 13:23] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 13:23] Requested to load SDXL
+[2024-04-13 13:23] Requested to load ControlNet
+[2024-04-13 13:23] Loading 2 new models
+[2024-04-13 13:23] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:23] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:25] 100%|███████████████████████████████████████████████████████| 25/25 [02:09<00:00,  4.90s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:09<00:00,  5.17s/it]
+[2024-04-13 13:25] Requested to load AutoencoderKL
+[2024-04-13 13:25] Loading 1 new model
+[2024-04-13 13:25] Requested to load SDXL
+[2024-04-13 13:25] Requested to load ControlNet
+[2024-04-13 13:25] Loading 2 new models
+[2024-04-13 13:25] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:26] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:28] 100%|███████████████████████████████████████████████████████| 25/25 [02:13<00:00,  4.86s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:13<00:00,  5.35s/it]
+[2024-04-13 13:28] Requested to load AutoencoderKL
+[2024-04-13 13:28] Loading 1 new model
+[2024-04-13 13:28] Prompt executed in 281.37 seconds
+[2024-04-13 13:30] got prompt
+[2024-04-13 13:30] Failed to validate prompt for output 741:
+[2024-04-13 13:30] * (prompt):
+[2024-04-13 13:30]   - Required input is missing: images
+[2024-04-13 13:30] * PreviewImage 741:
+[2024-04-13 13:30]   - Required input is missing: images
+[2024-04-13 13:30] Output will be ignored
+[2024-04-13 13:30] Failed to validate prompt for output 742:
+[2024-04-13 13:30] * (prompt):
+[2024-04-13 13:30]   - Required input is missing: images
+[2024-04-13 13:30] * PreviewImage 742:
+[2024-04-13 13:30]   - Required input is missing: images
+[2024-04-13 13:30] Output will be ignored
+[2024-04-13 13:30] Failed to validate prompt for output 736:
+[2024-04-13 13:30] * (prompt):
+[2024-04-13 13:30]   - Required input is missing: images
+[2024-04-13 13:30] * PreviewImage 736:
+[2024-04-13 13:30]   - Required input is missing: images
+[2024-04-13 13:30] Output will be ignored
+[2024-04-13 13:30] Failed to validate prompt for output 740:
+[2024-04-13 13:30] * (prompt):
+[2024-04-13 13:30]   - Required input is missing: images
+[2024-04-13 13:30] * PreviewImage 740:
+[2024-04-13 13:30]   - Required input is missing: images
+[2024-04-13 13:30] Output will be ignored
+[2024-04-13 13:30] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 13:30] Requested to load SDXL
+[2024-04-13 13:30] Requested to load ControlNet
+[2024-04-13 13:30] Loading 2 new models
+[2024-04-13 13:30] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:30] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:32] 100%|███████████████████████████████████████████████████████| 21/21 [01:44<00:00,  4.82s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:44<00:00,  4.96s/it]
+[2024-04-13 13:32] Requested to load AutoencoderKL
+[2024-04-13 13:32] Loading 1 new model
+[2024-04-13 13:32] [34mWAS Node Suite: [0m[33mlatent[0m:
+
+[0m
+[2024-04-13 13:32] Prompt executed in 119.52 seconds
+[2024-04-13 13:32] got prompt
+[2024-04-13 13:32] Failed to validate prompt for output 741:
+[2024-04-13 13:32] * (prompt):
+[2024-04-13 13:32]   - Required input is missing: images
+[2024-04-13 13:32] * PreviewImage 741:
+[2024-04-13 13:32]   - Required input is missing: images
+[2024-04-13 13:32] Output will be ignored
+[2024-04-13 13:32] Failed to validate prompt for output 742:
+[2024-04-13 13:32] * (prompt):
+[2024-04-13 13:32]   - Required input is missing: images
+[2024-04-13 13:32] * PreviewImage 742:
+[2024-04-13 13:32]   - Required input is missing: images
+[2024-04-13 13:32] Output will be ignored
+[2024-04-13 13:32] Failed to validate prompt for output 736:
+[2024-04-13 13:32] * (prompt):
+[2024-04-13 13:32]   - Required input is missing: images
+[2024-04-13 13:32] * PreviewImage 736:
+[2024-04-13 13:32]   - Required input is missing: images
+[2024-04-13 13:32] Output will be ignored
+[2024-04-13 13:32] Failed to validate prompt for output 740:
+[2024-04-13 13:32] * (prompt):
+[2024-04-13 13:32]   - Required input is missing: images
+[2024-04-13 13:32] * PreviewImage 740:
+[2024-04-13 13:32]   - Required input is missing: images
+[2024-04-13 13:32] Output will be ignored
+[2024-04-13 13:32] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 13:32] style: sai-line art
+[2024-04-13 13:32] text_positive_g: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits, blue halo
+[2024-04-13 13:32] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth, halo
+[2024-04-13 13:32] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 13:32] text_positive_g_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits, blue halo
+[2024-04-13 13:32] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth, halo
+[2024-04-13 13:32] text_positive_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a picture representing earth, electric circuits, blue halo, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth, halo
+[2024-04-13 13:32] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 13:32] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 13:32] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 13:32] Requested to load SDXLClipModel
+[2024-04-13 13:32] Loading 1 new model
+[2024-04-13 13:33] Requested to load SDXL
+[2024-04-13 13:33] Requested to load ControlNet
+[2024-04-13 13:33] Loading 2 new models
+[2024-04-13 13:33] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:33] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:35] 100%|███████████████████████████████████████████████████████| 25/25 [02:09<00:00,  4.88s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:09<00:00,  5.18s/it]
+[2024-04-13 13:35] Requested to load AutoencoderKL
+[2024-04-13 13:35] Loading 1 new model
+[2024-04-13 13:35] Requested to load SDXL
+[2024-04-13 13:35] Requested to load ControlNet
+[2024-04-13 13:35] Loading 2 new models
+[2024-04-13 13:35] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:35] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:37] 100%|███████████████████████████████████████████████████████| 21/21 [01:57<00:00,  5.24s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:57<00:00,  5.61s/it]
+[2024-04-13 13:37] Requested to load AutoencoderKL
+[2024-04-13 13:37] Loading 1 new model
+[2024-04-13 13:37] [34mWAS Node Suite: [0m[33mlatent[0m:
+
+[0m
+[2024-04-13 13:37] Prompt executed in 295.29 seconds
+[2024-04-13 13:38] got prompt
+[2024-04-13 13:38] Failed to validate prompt for output 736:
+[2024-04-13 13:38] * (prompt):
+[2024-04-13 13:38]   - Required input is missing: images
+[2024-04-13 13:38] * PreviewImage 736:
+[2024-04-13 13:38]   - Required input is missing: images
+[2024-04-13 13:38] Output will be ignored
+[2024-04-13 13:38] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 13:38] Requested to load SDXL
+[2024-04-13 13:38] Requested to load ControlNet
+[2024-04-13 13:38] Loading 2 new models
+[2024-04-13 13:38] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:38] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:41] 100%|███████████████████████████████████████████████████████| 30/30 [02:29<00:00,  3.66s/it]100%|███████████████████████████████████████████████████████| 30/30 [02:29<00:00,  5.00s/it]
+[2024-04-13 13:41] Requested to load AutoencoderKL
+[2024-04-13 13:41] Loading 1 new model
+[2024-04-13 13:41] Requested to load SDXL
+[2024-04-13 13:41] Requested to load ControlNet
+[2024-04-13 13:41] Loading 2 new models
+[2024-04-13 13:41] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:41] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:43] 100%|███████████████████████████████████████████████████████| 26/26 [02:08<00:00,  4.34s/it]100%|███████████████████████████████████████████████████████| 26/26 [02:08<00:00,  4.93s/it]
+[2024-04-13 13:43] Requested to load AutoencoderKL
+[2024-04-13 13:43] Loading 1 new model
+[2024-04-13 13:43] [34mWAS Node Suite: [0m[33mlatent[0m:
+
+[0m
+[2024-04-13 13:43] Requested to load SDXL
+[2024-04-13 13:43] Requested to load ControlNet
+[2024-04-13 13:43] Loading 2 new models
+[2024-04-13 13:43] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:43] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:45] 100%|███████████████████████████████████████████████████████| 25/25 [02:18<00:00,  3.95s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:18<00:00,  5.53s/it]
+[2024-04-13 13:45] Requested to load AutoencoderKL
+[2024-04-13 13:45] Loading 1 new model
+[2024-04-13 13:45] Requested to load SDXL
+[2024-04-13 13:45] Requested to load ControlNet
+[2024-04-13 13:45] Loading 2 new models
+[2024-04-13 13:45] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:45] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:47] 100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  3.67s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  4.11s/it]
+[2024-04-13 13:47] Requested to load AutoencoderKL
+[2024-04-13 13:47] Loading 1 new model
+[2024-04-13 13:47] [34mWAS Node Suite: [0m[33mz-denoise0.6[0m:
+
+[0m
+[2024-04-13 13:47] Requested to load SDXL
+[2024-04-13 13:47] Requested to load ControlNet
+[2024-04-13 13:47] Loading 2 new models
+[2024-04-13 13:47] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:47] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:49] 100%|███████████████████████████████████████████████████████| 25/25 [01:55<00:00,  5.12s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:55<00:00,  4.63s/it]
+[2024-04-13 13:49] Requested to load AutoencoderKL
+[2024-04-13 13:49] Loading 1 new model
+[2024-04-13 13:49] [34mWAS Node Suite: [0m[33mz-denoise0.8[0m:
+
+[0m
+[2024-04-13 13:49] [34mWAS Node Suite: [0m[33mz-denoise0.99[0m:
+
+[0m
+[2024-04-13 13:49] Prompt executed in 670.56 seconds
+[2024-04-13 13:52] got prompt
+[2024-04-13 13:52] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 13:52] Requested to load SDXL
+[2024-04-13 13:52] Requested to load ControlNet
+[2024-04-13 13:52] Loading 2 new models
+[2024-04-13 13:52] loading in lowvram mode 3054.6153841018677
+[2024-04-13 13:52] loading in lowvram mode 704.9679737091064
+[2024-04-13 13:55] 100%|███████████████████████████████████████████████████████| 30/30 [02:26<00:00,  4.86s/it]100%|███████████████████████████████████████████████████████| 30/30 [02:26<00:00,  4.88s/it]
+[2024-04-13 13:55] Requested to load AutoencoderKL
+[2024-04-13 13:55] Loading 1 new model
+[2024-04-13 13:55] Requested to load SDXL
+[2024-04-13 13:55] Requested to load ControlNet
+[2024-04-13 13:55] Loading 2 new models
+[2024-04-13 13:55] loading in lowvram mode 3051.5384607315063
+[2024-04-13 13:55] loading in lowvram mode 704.2014722824097
+[2024-04-13 13:56] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-04-13 13:56] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-04-13 13:57] 100%|███████████████████████████████████████████████████████| 26/26 [02:10<00:00,  3.88s/it]100%|███████████████████████████████████████████████████████| 26/26 [02:10<00:00,  5.03s/it]
+[2024-04-13 13:57] Requested to load AutoencoderKL
+[2024-04-13 13:57] Loading 1 new model
+[2024-04-13 13:57] [34mWAS Node Suite: [0m[33mlatent[0m:
+
+[0m
+[2024-04-13 13:57] Requested to load SDXL
+[2024-04-13 13:57] Requested to load ControlNet
+[2024-04-13 13:57] Loading 2 new models
+[2024-04-13 13:57] loading in lowvram mode 3051.5384607315063
+[2024-04-13 13:57] loading in lowvram mode 704.2014722824097
+[2024-04-13 13:59] 100%|███████████████████████████████████████████████████████| 25/25 [01:59<00:00,  5.47s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:59<00:00,  4.78s/it]
+[2024-04-13 13:59] Requested to load AutoencoderKL
+[2024-04-13 13:59] Loading 1 new model
+[2024-04-13 13:59] Requested to load SDXL
+[2024-04-13 13:59] Requested to load ControlNet
+[2024-04-13 13:59] Loading 2 new models
+[2024-04-13 13:59] loading in lowvram mode 3051.5384607315063
+[2024-04-13 13:59] loading in lowvram mode 704.2014722824097
+[2024-04-13 14:02] 100%|███████████████████████████████████████████████████████| 25/25 [02:11<00:00,  4.92s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:11<00:00,  5.28s/it]
+[2024-04-13 14:02] Requested to load AutoencoderKL
+[2024-04-13 14:02] Loading 1 new model
+[2024-04-13 14:02] [34mWAS Node Suite: [0m[33mz-denoise0.70[0m:
+
+[0m
+[2024-04-13 14:02] Requested to load SDXL
+[2024-04-13 14:02] Requested to load ControlNet
+[2024-04-13 14:02] Loading 2 new models
+[2024-04-13 14:02] loading in lowvram mode 3051.5384607315063
+[2024-04-13 14:02] loading in lowvram mode 704.2014722824097
+[2024-04-13 14:04] 100%|███████████████████████████████████████████████████████| 25/25 [02:20<00:00,  5.54s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:20<00:00,  5.64s/it]
+[2024-04-13 14:04] Requested to load AutoencoderKL
+[2024-04-13 14:04] Loading 1 new model
+[2024-04-13 14:04] [34mWAS Node Suite: [0m[33mz-denoise0.8[0m:
+
+[0m
+[2024-04-13 14:04] Requested to load SDXL
+[2024-04-13 14:04] Requested to load ControlNet
+[2024-04-13 14:04] Loading 2 new models
+[2024-04-13 14:04] loading in lowvram mode 3051.5384607315063
+[2024-04-13 14:04] loading in lowvram mode 704.2014722824097
+[2024-04-13 14:07] 100%|███████████████████████████████████████████████████████| 25/25 [02:21<00:00,  5.22s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:21<00:00,  5.68s/it]
+[2024-04-13 14:07] Requested to load AutoencoderKL
+[2024-04-13 14:07] Loading 1 new model
+[2024-04-13 14:07] [34mWAS Node Suite: [0m[33mz-denoise0.9[0m:
+
+[0m
+[2024-04-13 14:07] [34mWAS Node Suite: [0m[33mz-denoise0.99[0m:
+
+[0m
+[2024-04-13 14:07] Prompt executed in 860.14 seconds
+[2024-04-13 14:07] got prompt
+[2024-04-13 14:07] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 14:07] style: sai-line art
+[2024-04-13 14:07] text_positive_g: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a 3D render of Earth, electric circuits, blue halo
+[2024-04-13 14:07] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth, halo
+[2024-04-13 14:07] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 14:07] text_positive_g_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a 3D render of Earth, electric circuits, blue halo
+[2024-04-13 14:07] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth, halo
+[2024-04-13 14:07] text_positive_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a 3D render of Earth, electric circuits, blue halo, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth, halo
+[2024-04-13 14:07] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 14:07] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 14:07] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 14:07] Requested to load SDXLClipModel
+[2024-04-13 14:07] Loading 1 new model
+[2024-04-13 14:07] Requested to load SDXL
+[2024-04-13 14:07] Requested to load ControlNet
+[2024-04-13 14:07] Loading 2 new models
+[2024-04-13 14:07] loading in lowvram mode 3051.5384607315063
+[2024-04-13 14:08] loading in lowvram mode 704.2014722824097
+[2024-04-13 14:11] 100%|███████████████████████████████████████████████████████| 35/35 [03:31<00:00,  5.36s/it]100%|███████████████████████████████████████████████████████| 35/35 [03:31<00:00,  6.06s/it]
+[2024-04-13 14:11] Requested to load AutoencoderKL
+[2024-04-13 14:11] Loading 1 new model
+[2024-04-13 14:11] Requested to load SDXL
+[2024-04-13 14:11] Requested to load ControlNet
+[2024-04-13 14:11] Loading 2 new models
+[2024-04-13 14:11] loading in lowvram mode 3051.5384607315063
+[2024-04-13 14:11] loading in lowvram mode 704.2014722824097
+[2024-04-13 14:13] 100%|███████████████████████████████████████████████████████| 21/21 [02:04<00:00,  5.62s/it]100%|███████████████████████████████████████████████████████| 21/21 [02:04<00:00,  5.91s/it]
+[2024-04-13 14:13] Requested to load AutoencoderKL
+[2024-04-13 14:13] Loading 1 new model
+[2024-04-13 14:14] [34mWAS Node Suite: [0m[33mlatent[0m:
+
+[0m
+[2024-04-13 14:14] Requested to load SDXL
+[2024-04-13 14:14] Requested to load ControlNet
+[2024-04-13 14:14] Loading 2 new models
+[2024-04-13 14:14] loading in lowvram mode 3051.5384607315063
+[2024-04-13 14:14] loading in lowvram mode 704.2014722824097
+[2024-04-13 14:16] 100%|███████████████████████████████████████████████████████| 25/25 [02:39<00:00,  5.95s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:39<00:00,  6.40s/it]
+[2024-04-13 14:16] Requested to load AutoencoderKL
+[2024-04-13 14:16] Loading 1 new model
+[2024-04-13 14:16] [34mWAS Node Suite: [0m[33mz-denoise0.70[0m:
+
+[0m
+[2024-04-13 14:16] Requested to load SDXL
+[2024-04-13 14:16] Requested to load ControlNet
+[2024-04-13 14:16] Loading 2 new models
+[2024-04-13 14:16] loading in lowvram mode 3051.5384607315063
+[2024-04-13 14:16] loading in lowvram mode 704.2014722824097
+[2024-04-13 14:19] 100%|███████████████████████████████████████████████████████| 25/25 [02:33<00:00,  5.36s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:33<00:00,  6.13s/it]
+[2024-04-13 14:19] Requested to load AutoencoderKL
+[2024-04-13 14:19] Loading 1 new model
+[2024-04-13 14:19] [34mWAS Node Suite: [0m[33mz-denoise0.8[0m:
+
+[0m
+[2024-04-13 14:19] Requested to load SDXL
+[2024-04-13 14:19] Requested to load ControlNet
+[2024-04-13 14:19] Loading 2 new models
+[2024-04-13 14:19] loading in lowvram mode 3051.5384607315063
+[2024-04-13 14:19] loading in lowvram mode 704.2014722824097
+[2024-04-13 14:22] 100%|███████████████████████████████████████████████████████| 25/25 [02:25<00:00,  5.29s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:25<00:00,  5.83s/it]
+[2024-04-13 14:22] Requested to load AutoencoderKL
+[2024-04-13 14:22] Loading 1 new model
+[2024-04-13 14:22] [34mWAS Node Suite: [0m[33mz-denoise0.9[0m:
+
+[0m
+[2024-04-13 14:22] Requested to load SDXL
+[2024-04-13 14:22] Requested to load ControlNet
+[2024-04-13 14:22] Loading 2 new models
+[2024-04-13 14:22] loading in lowvram mode 3051.5384607315063
+[2024-04-13 14:22] loading in lowvram mode 704.2014722824097
+[2024-04-13 14:23] 
+[2024-04-13 14:23] Processing interrupted
+[2024-04-13 14:23] Prompt executed in 979.70 seconds
+[2024-04-13 14:24] got prompt
+[2024-04-13 14:24] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 14:24] style: sai-line art
+[2024-04-13 14:24] text_positive_g: cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a 3D hologram of Earth, electric circuits, blue halo
+[2024-04-13 14:24] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth, halo
+[2024-04-13 14:24] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 14:24] text_positive_g_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a 3D hologram of Earth, electric circuits, blue halo
+[2024-04-13 14:24] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth, halo
+[2024-04-13 14:24] text_positive_styled: line art drawing cinematic photo breathtaking retail packaging style a close up shot of a computer chipset with a 3D hologram of Earth, electric circuits, blue halo, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed, chipset, circuits, earth, halo
+[2024-04-13 14:24] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 14:24] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 14:24] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature
+[2024-04-13 14:24] Requested to load SDXLClipModel
+[2024-04-13 14:24] Loading 1 new model
+[2024-04-13 14:24] Requested to load SDXL
+[2024-04-13 14:24] Requested to load ControlNet
+[2024-04-13 14:24] Loading 2 new models
+[2024-04-13 14:24] loading in lowvram mode 3051.5384607315063
+[2024-04-13 14:24] loading in lowvram mode 704.2014722824097
+[2024-04-13 14:27] 100%|███████████████████████████████████████████████████████| 35/35 [03:12<00:00,  5.54s/it]100%|███████████████████████████████████████████████████████| 35/35 [03:12<00:00,  5.51s/it]
+[2024-04-13 14:27] Requested to load AutoencoderKL
+[2024-04-13 14:27] Loading 1 new model
+[2024-04-13 14:27] Requested to load SDXL
+[2024-04-13 14:27] Requested to load ControlNet
+[2024-04-13 14:27] Loading 2 new models
+[2024-04-13 14:27] loading in lowvram mode 3051.5384607315063
+[2024-04-13 14:28] loading in lowvram mode 704.2014722824097
+[2024-04-13 14:28] 
+[2024-04-13 14:28] Processing interrupted
+[2024-04-13 14:28] Prompt executed in 251.97 seconds
+[2024-04-13 14:29] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-13 14:29] got prompt
+[2024-04-13 14:29] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-13 14:29] Requested to load ControlNet
+[2024-04-13 14:29] Loading 1 new model
+[2024-04-13 14:30] 
+[2024-04-13 14:30] Processing interrupted
+[2024-04-13 14:30] Prompt executed in 25.10 seconds
+[2024-04-13 14:30] 
+Stopped server
