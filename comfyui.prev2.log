@@ -1,113 +1,124 @@
-** ComfyUI startup time: 2024-04-13 23:22:15.351190
-[2024-04-13 23:22] ** Platform: Linux
-[2024-04-13 23:22] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
-[2024-04-13 23:22] ** Python executable: /usr/bin/python3
-[2024-04-13 23:22] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
-[2024-04-13 23:22] 
+** ComfyUI startup time: 2024-04-14 13:23:28.357544
+[2024-04-14 13:23] ** Platform: Linux
+[2024-04-14 13:23] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-04-14 13:23] ** Python executable: /usr/bin/python3
+[2024-04-14 13:23] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
+[2024-04-14 13:23] 
 Prestartup times for custom nodes:
-[2024-04-13 23:22]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy
-[2024-04-13 23:22]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-13 23:22] 
+[2024-04-14 13:23]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy
+[2024-04-14 13:23]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-14 13:23] 
 Total VRAM 6144 MB, total RAM 12654 MB
-[2024-04-13 23:22] Set vram state to: NORMAL_VRAM
-[2024-04-13 23:22] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
-[2024-04-13 23:22] VAE dtype: torch.float32
-[2024-04-13 23:22] Using pytorch cross attention
-[2024-04-13 23:22] ### Loading: ComfyUI-Inspire-Pack (V0.69.3)
-[2024-04-13 23:22] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
-[2024-04-13 23:22] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
-[2024-04-13 23:22] [Crystools [0;32mINFO[0m] Crystools version: 1.12.0
-[2024-04-13 23:22] [Crystools [0;32mINFO[0m] CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz - Arch: x86_64 - OS: Linux 5.10.16.3-microsoft-standard-WSL2
-[2024-04-13 23:22] [Crystools [0;32mINFO[0m] GPU/s:
-[2024-04-13 23:22] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 2060
-[2024-04-13 23:22] [Crystools [0;32mINFO[0m] NVIDIA Driver: 546.33
-[2024-04-13 23:22] ### Loading: ComfyUI-Manager (V2.16)
-[2024-04-13 23:22] ### ComfyUI Revision: 2108 [d47099f9] | Released on '2024-04-13'
-[2024-04-13 23:22] 
-[2024-04-13 23:22] [92m[rgthree] Loaded 37 magnificent nodes.[0m
-[2024-04-13 23:22] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
-[2024-04-13 23:22] 
-[2024-04-13 23:22] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-04-13 23:22] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-04-13 23:22] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-04-13 23:22] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-04-13 23:22] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
-[2024-04-13 23:22] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
-[2024-04-13 23:22] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
-[2024-04-13 23:22] 
-	[3m[93m"Art is the light that shines even in the darkest corners."[0m[3m - Unknown[0m
-[2024-04-13 23:22] 
-[2024-04-13 23:22] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
-[2024-04-13 23:22] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
-[2024-04-13 23:22] [Impact Pack] Wildcards loading done.
-[2024-04-13 23:22] 
+[2024-04-14 13:23] Set vram state to: NORMAL_VRAM
+[2024-04-14 13:23] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
+[2024-04-14 13:23] VAE dtype: torch.float32
+[2024-04-14 13:23] Using pytorch cross attention
+[2024-04-14 13:23] ### Loading: ComfyUI-Inspire-Pack (V0.69.3)
+[2024-04-14 13:23] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
+[2024-04-14 13:23] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
+[2024-04-14 13:23] [Crystools [0;32mINFO[0m] Crystools version: 1.12.0
+[2024-04-14 13:23] [Crystools [0;32mINFO[0m] CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz - Arch: x86_64 - OS: Linux 5.10.16.3-microsoft-standard-WSL2
+[2024-04-14 13:23] [Crystools [0;32mINFO[0m] GPU/s:
+[2024-04-14 13:23] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 2060
+[2024-04-14 13:23] [Crystools [0;32mINFO[0m] NVIDIA Driver: 546.33
+[2024-04-14 13:23] ### Loading: ComfyUI-Manager (V2.16)
+[2024-04-14 13:23] ### ComfyUI Revision: 2110 [adeec788] | Released on '2024-04-14'
+[2024-04-14 13:23] 
+[2024-04-14 13:23] [92m[rgthree] Loaded 37 fantastic nodes.[0m
+[2024-04-14 13:23] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-04-14 13:23] 
+[2024-04-14 13:23] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-14 13:23] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-14 13:23] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-14 13:23] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-14 13:23] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-04-14 13:23] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-04-14 13:23] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-04-14 13:23] 
+	[3m[93m"Be the change that you wish to see in the world."[0m[3m - Mahatma Gandhi[0m
+[2024-04-14 13:23] 
+[2024-04-14 13:23] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
+[2024-04-14 13:23] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-04-14 13:23] 
 Import times for custom nodes:
-[2024-04-13 23:22]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
-[2024-04-13 23:22]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/loopback
-[2024-04-13 23:22]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
-[2024-04-13 23:22]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/comfyui-cyclist
-[2024-04-13 23:22]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
-[2024-04-13 23:22]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
-[2024-04-13 23:22]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy
-[2024-04-13 23:22]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
-[2024-04-13 23:22]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
-[2024-04-13 23:22]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
-[2024-04-13 23:22]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-13 23:22]    0.7 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
-[2024-04-13 23:22]    1.3 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
-[2024-04-13 23:22]    2.6 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Crystools
-[2024-04-13 23:22] 
-[2024-04-13 23:22] Starting server
+[2024-04-14 13:23]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-04-14 13:23] [Impact Pack] Wildcards loading done.[2024-04-14 13:23]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
 
-[2024-04-13 23:22] To see the GUI go to: http://127.0.0.1:8188
-[2024-04-13 23:22] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-13 23:23] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
-[2024-04-13 23:23] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
-[2024-04-13 23:28] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
-[2024-04-13 23:28] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
-[2024-04-13 23:52] got prompt
-[2024-04-13 23:52] Failed to validate prompt for output 740:
-[2024-04-13 23:52] * (prompt):
-[2024-04-13 23:52]   - Required input is missing: images
-[2024-04-13 23:52] * PreviewImage 740:
-[2024-04-13 23:52]   - Required input is missing: images
-[2024-04-13 23:52] Output will be ignored
-[2024-04-13 23:52] Failed to validate prompt for output 736:
-[2024-04-13 23:52] * (prompt):
-[2024-04-13 23:52]   - Required input is missing: images
-[2024-04-13 23:52] * PreviewImage 736:
-[2024-04-13 23:52]   - Required input is missing: images
-[2024-04-13 23:52] Output will be ignored
-[2024-04-13 23:52] Failed to validate prompt for output 741:
-[2024-04-13 23:52] * (prompt):
-[2024-04-13 23:52]   - Required input is missing: images
-[2024-04-13 23:52] * PreviewImage 741:
-[2024-04-13 23:52]   - Required input is missing: images
-[2024-04-13 23:52] Output will be ignored
-[2024-04-13 23:52] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-04-13 23:52] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
-[2024-04-13 23:52] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
-[2024-04-13 23:52] model_type EPS
-[2024-04-13 23:52] Using pytorch attention in VAE
-[2024-04-13 23:52] Using pytorch attention in VAE
-[2024-04-13 23:52] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-04-13 23:52] style: sai-line art
-[2024-04-13 23:52] text_positive_g: cinematic photo breathtaking professional 3d model breathtaking cinematic line art drawing professional close up photo of a microprocessor, photo of Earth rendering in the center, electric circuits, blue halo
-[2024-04-13 23:52] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, professional, sleek, modern, graphic, line art, vector graphics, 35mm photograph, film, bokeh, 4k, highly detailed, award-winning, octane render, volumetric, dramatic lighting, chipset, earth, circuits, blue halo, straight, electric
-[2024-04-13 23:52] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, anime, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, soft, distorted, grainy, low poly, bokeh, painting, logo, watermark, brand, signature, isometric, tilted
-[2024-04-13 23:52] text_positive_g_styled: line art drawing cinematic photo breathtaking professional 3d model breathtaking cinematic line art drawing professional close up photo of a microprocessor, photo of Earth rendering in the center, electric circuits, blue halo
-[2024-04-13 23:52] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, professional, sleek, modern, graphic, line art, vector graphics, 35mm photograph, film, bokeh, 4k, highly detailed, award-winning, octane render, volumetric, dramatic lighting, chipset, earth, circuits, blue halo, straight, electric
-[2024-04-13 23:52] text_positive_styled: line art drawing cinematic photo breathtaking professional 3d model breathtaking cinematic line art drawing professional close up photo of a microprocessor, photo of Earth rendering in the center, electric circuits, blue halo, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, professional, sleek, modern, graphic, line art, vector graphics, 35mm photograph, film, bokeh, 4k, highly detailed, award-winning, octane render, volumetric, dramatic lighting, chipset, earth, circuits, straight, electric
-[2024-04-13 23:52] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, anime, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, soft, distorted, grainy, low poly, bokeh, painting, logo, watermark, brand, signature, isometric, tilted
-[2024-04-13 23:52] text_negative_l_styled: 
-[2024-04-13 23:52] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, anime, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, soft, distorted, grainy, low poly, bokeh, painting, logo, watermark, brand, signature, isometric, tilted
-[2024-04-13 23:52] Requested to load SDXLClipModel
-[2024-04-13 23:52] Loading 1 new model
-[2024-04-13 23:53] Requested to load AutoencoderKL
-[2024-04-13 23:53] Loading 1 new model
-[2024-04-13 23:55] Requested to load SDXL
-[2024-04-13 23:55] Requested to load ControlNet
-[2024-04-13 23:55] Loading 2 new models
-[2024-04-13 23:55] loading in lowvram mode 3057.692307472229
-[2024-04-13 23:56] 
+[2024-04-14 13:23]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/comfyui-cyclist
+[2024-04-14 13:23]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
+[2024-04-14 13:23]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy
+[2024-04-14 13:23]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
+[2024-04-14 13:23]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
+[2024-04-14 13:23]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-04-14 13:23]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
+[2024-04-14 13:23]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-04-14 13:23]    0.5 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-04-14 13:23]    0.7 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-04-14 13:23]    2.5 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Crystools
+[2024-04-14 13:23] 
+[2024-04-14 13:23] Starting server
+
+[2024-04-14 13:23] To see the GUI go to: http://127.0.0.1:8188
+[2024-04-14 13:23] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-14 13:23] got prompt
+[2024-04-14 13:23] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-14 13:23] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
+[2024-04-14 13:23] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
+[2024-04-14 13:23] ERROR: Can't load image file, and fallback is not provided. 
+Load path: /root/code/Romain-Ber/ComfyUI/output/ForLoop_1.png
+[2024-04-14 13:23] !!! Exception during processing !!!
+[2024-04-14 13:23] Traceback (most recent call last):
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/comfyui-cyclist/cyclist.py", line 393, in read
+    image = Image.open(full_filepath)
+  File "/usr/local/lib/python3.10/dist-packages/PIL/Image.py", line 3236, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/root/code/Romain-Ber/ComfyUI/output/ForLoop_1.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
+    output_data, output_ui = get_output_data(obj, input_data_all)
+  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
+    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
+  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
+    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/comfyui-cyclist/cyclist.py", line 406, in read
+    raise Exception(err)
+Exception: ERROR: Can't load image file, and fallback is not provided. 
+Load path: /root/code/Romain-Ber/ComfyUI/output/ForLoop_1.png
+
+[2024-04-14 13:23] Prompt executed in 0.01 seconds
+[2024-04-14 13:24] got prompt
+[2024-04-14 13:24] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-14 13:24] Exception in thread Thread-5 (prompt_worker):
+[2024-04-14 13:24] Traceback (most recent call last):
+[2024-04-14 13:24]   File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+[2024-04-14 13:24]     self.run()
+[2024-04-14 13:24]   File "/usr/lib/python3.10/threading.py", line 953, in run
+[2024-04-14 13:24]     self._target(*self._args, **self._kwargs)
+[2024-04-14 13:24]   File "/root/code/Romain-Ber/ComfyUI/main.py", line 111, in prompt_worker
+[2024-04-14 13:24]     e.execute(item[2], prompt_id, item[3], item[4])
+[2024-04-14 13:24]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy/__init__.py", line 211, in rgthree_execute
+[2024-04-14 13:24]     return self.rgthree_old_execute(*args, **kwargs)
+[2024-04-14 13:24]   File "/root/code/Romain-Ber/ComfyUI/execution.py", line 385, in execute
+[2024-04-14 13:24]     to_execute = sorted(list(map(lambda a: (len(recursive_will_execute(prompt, self.outputs, a[-1], memo)), a[-1]), to_execute)))
+[2024-04-14 13:24]   File "/root/code/Romain-Ber/ComfyUI/execution.py", line 385, in <lambda>
+[2024-04-14 13:24]     to_execute = sorted(list(map(lambda a: (len(recursive_will_execute(prompt, self.outputs, a[-1], memo)), a[-1]), to_execute)))
+[2024-04-14 13:24]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy/__init__.py", line 242, in rgthree_recursive_will_execute
+[2024-04-14 13:24]     will_execute_value = execution.recursive_will_execute(prompt, outputs, input_unique_id,
+[2024-04-14 13:24]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy/__init__.py", line 242, in rgthree_recursive_will_execute
+[2024-04-14 13:24]     will_execute_value = execution.recursive_will_execute(prompt, outputs, input_unique_id,
+[2024-04-14 13:24]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy/__init__.py", line 242, in rgthree_recursive_will_execute
+[2024-04-14 13:24]     will_execute_value = execution.recursive_will_execute(prompt, outputs, input_unique_id,
+[2024-04-14 13:24]   [Previous line repeated 988 more times]
+[2024-04-14 13:24]   File "/root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy/__init__.py", line 225, in rgthree_recursive_will_execute
+[2024-04-14 13:24]     will_execute = RgthreePatchRecursiveExecute_Set_patch_recursive_execution_to_false_if_not_working(
+[2024-04-14 13:24] RecursionError: maximum recursion depth exceeded
+[2024-04-14 13:25] got prompt
+[2024-04-14 13:25] Failed to validate prompt for output 1045:
+[2024-04-14 13:25] * comfy-qr-read 932:
+[2024-04-14 13:25]   - Required input is missing: image
+[2024-04-14 13:25] Output will be ignored
+[2024-04-14 13:26] 
 Stopped server
