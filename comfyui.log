@@ -92,3 +92,11 @@ ModuleNotFoundError: No module named 'spandrel'
 [2024-11-01 15:56:09.805] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
 [2024-11-01 15:56:10.302] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
 [2024-11-01 15:56:10.324] [Impact Pack] Wildcards loading done.
+[2024-11-01 16:00:35.952] Update ComfyUI
+[2024-11-01 16:00:38.486] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json [DONE]
+[2024-11-01 16:00:38.492] Start updating...[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-GGUF[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes[2024-11-01 16:00:39.654] 
+Updating failed: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+Cmd('git') failed due to: exit code(1)
+  cmdline: git pull -v -- origin
+  stderr: 'error: Your local changes to the following files would be overwritten by merge:'
+[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Crystools[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Image-Saver[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/comfyui-cyclist[2KAll extensions are already up-to-date.
