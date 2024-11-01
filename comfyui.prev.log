@@ -1,559 +1,139 @@
-** ComfyUI startup time: 2024-04-15 11:04:09.954763
-[2024-04-15 11:04] ** Platform: Linux
-[2024-04-15 11:04] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
-[2024-04-15 11:04] ** Python executable: /usr/bin/python3
-[2024-04-15 11:04] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
-[2024-04-15 11:04] 
+## ComfyUI-Manager: installing dependencies done.
+[2024-11-01 14:17:04.098] ** ComfyUI startup time: 2024-11-01 14:17:04.098499
+[2024-11-01 14:17:04.098] ** Platform: Linux
+[2024-11-01 14:17:04.098] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-11-01 14:17:04.098] ** Python executable: /usr/bin/python3
+[2024-11-01 14:17:04.099] ** ComfyUI Path: /root/code/Romain-Ber/ComfyUI
+[2024-11-01 14:17:04.099] ** Log path: /root/code/Romain-Ber/ComfyUI/comfyui.log
+[2024-11-01 14:17:04.106] 
 Prestartup times for custom nodes:
-[2024-04-15 11:04]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy
-[2024-04-15 11:04]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-15 11:04] 
-Total VRAM 6144 MB, total RAM 12654 MB
-[2024-04-15 11:04] Set vram state to: NORMAL_VRAM
-[2024-04-15 11:04] Device: cuda:0 NVIDIA GeForce RTX 2060 : cudaMallocAsync
-[2024-04-15 11:04] VAE dtype: torch.float32
-[2024-04-15 11:04] Using pytorch cross attention
-[2024-04-15 11:04] ### Loading: ComfyUI-Inspire-Pack (V0.69.3)
-[2024-04-15 11:04] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
-[2024-04-15 11:04] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
-[2024-04-15 11:04] [Crystools [0;32mINFO[0m] Crystools version: 1.12.0
-[2024-04-15 11:04] [Crystools [0;32mINFO[0m] CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz - Arch: x86_64 - OS: Linux 5.10.16.3-microsoft-standard-WSL2
-[2024-04-15 11:04] [Crystools [0;32mINFO[0m] GPU/s:
-[2024-04-15 11:04] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 2060
-[2024-04-15 11:04] [Crystools [0;32mINFO[0m] NVIDIA Driver: 546.33
-[2024-04-15 11:04] ### Loading: ComfyUI-Manager (V2.16)
-[2024-04-15 11:04] ### ComfyUI Revision: 2114 [ba46af45] | Released on '2024-04-15'
-[2024-04-15 11:04] 
-[2024-04-15 11:04] [92m[rgthree] Loaded 37 exciting nodes.[0m
-[2024-04-15 11:04] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
-[2024-04-15 11:04] 
-[2024-04-15 11:04] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-04-15 11:04] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-04-15 11:04] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-04-15 11:04] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-04-15 11:04] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
-[2024-04-15 11:04] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
-[2024-04-15 11:04] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
-[2024-04-15 11:04] 
-	[3m[93m"You have within you right now, everything you need to deal with whatever the world can throw at you."[0m[3m - Brian Tracy[0m
-[2024-04-15 11:04] 
-[2024-04-15 11:04] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
-[2024-04-15 11:04] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
-[2024-04-15 11:04] [Impact Pack] Wildcards loading done.
-[2024-04-15 11:04] 
-Import times for custom nodes:
-[2024-04-15 11:04]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/websocket_image_save.py
-[2024-04-15 11:04]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/comfyui-cyclist
-[2024-04-15 11:04]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler
-[2024-04-15 11:04]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions
-[2024-04-15 11:04]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy
-[2024-04-15 11:04]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
-[2024-04-15 11:04]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes
-[2024-04-15 11:04]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR
-[2024-04-15 11:04]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
-[2024-04-15 11:04]    0.1 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-04-15 11:04]    0.8 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
-[2024-04-15 11:04]    1.8 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui
-[2024-04-15 11:04]    2.8 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Crystools
-[2024-04-15 11:04] 
-[2024-04-15 11:04] Starting server
+[2024-11-01 14:17:04.106]    0.0 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy
+[2024-11-01 14:17:04.106]    0.9 seconds: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-11-01 14:17:04.106] 
+[2024-11-01 14:17:08.454] ### Loading: ComfyUI-Inspire-Pack (V1.6)
+Traceback (most recent call last):
+  File "/root/code/Romain-Ber/ComfyUI/nodes.py", line 1889, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack/__init__.py", line 34, in <module>
+    imported_module = importlib.import_module(".inspire.{}".format(module_name), __name__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack/inspire/sampler_nodes.py", line 6, in <module>
+    from comfy.samplers import CFGGuider
+ImportError: cannot import name 'CFGGuider' from 'comfy.samplers' (/root/code/Romain-Ber/ComfyUI/comfy/samplers.py)
 
-[2024-04-15 11:04] To see the GUI go to: http://127.0.0.1:8188
-[2024-04-15 11:04] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-04-15 11:04] got prompt
-[2024-04-15 11:04] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-04-15 11:04] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
-[2024-04-15 11:04] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
-[2024-04-15 11:04] model_type EPS
-[2024-04-15 11:05] Using pytorch attention in VAE
-[2024-04-15 11:05] Using pytorch attention in VAE
-[2024-04-15 11:05] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-04-15 11:05] style: sai-line art
-[2024-04-15 11:05] text_positive_g: cinematic photo breathtaking professional 3d model an hologram of Earth, blue halo
-[2024-04-15 11:05] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, minimalist
-[2024-04-15 11:05] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, bokeh, sun, galaxy, stars
-[2024-04-15 11:05] text_positive_g_styled: line art drawing cinematic photo breathtaking professional 3d model an hologram of Earth, blue halo
-[2024-04-15 11:05] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, minimalist
-[2024-04-15 11:05] text_positive_styled: line art drawing cinematic photo breathtaking professional 3d model an hologram of Earth, blue halo, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, minimalist
-[2024-04-15 11:05] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, bokeh, sun, galaxy, stars
-[2024-04-15 11:05] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, bokeh, sun, galaxy, stars
-[2024-04-15 11:05] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, bokeh, sun, galaxy, stars
-[2024-04-15 11:05] Requested to load SDXLClipModel
-[2024-04-15 11:05] Loading 1 new model
-[2024-04-15 11:05] Requested to load AutoencoderKL
-[2024-04-15 11:05] Loading 1 new model
-[2024-04-15 11:05] Requested to load SDXL
-[2024-04-15 11:05] Requested to load ControlNet
-[2024-04-15 11:05] Loading 2 new models
-[2024-04-15 11:05] loading in lowvram mode 3057.692307472229
-[2024-04-15 11:05] loading in lowvram mode 705.8527956008911
-[2024-04-15 11:07] 100%|███████████████████████████████████████████████████████| 25/25 [02:06<00:00,  3.95s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:06<00:00,  5.05s/it]
-[2024-04-15 11:07] Requested to load AutoencoderKL
-[2024-04-15 11:07] Loading 1 new model
-[2024-04-15 11:08] style: sai-line art
-[2024-04-15 11:08] text_positive_g: cinematic photo breathtaking retail packaging style a microprocessor with a photo of Earth, electric circuits, blue halo
-[2024-04-15 11:08] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed
-[2024-04-15 11:08] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature, isometric, tilted
-[2024-04-15 11:08] text_positive_g_styled: line art drawing cinematic photo breathtaking retail packaging style a microprocessor with a photo of Earth, electric circuits, blue halo
-[2024-04-15 11:08] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed
-[2024-04-15 11:08] text_positive_styled: line art drawing cinematic photo breathtaking retail packaging style a microprocessor with a photo of Earth, electric circuits, blue halo, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed
-[2024-04-15 11:08] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature, isometric, tilted
-[2024-04-15 11:08] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature, isometric, tilted
-[2024-04-15 11:08] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature, isometric, tilted
-[2024-04-15 11:08] Requested to load SDXLClipModel
-[2024-04-15 11:08] Loading 1 new model
-[2024-04-15 11:08] Requested to load SDXL
-[2024-04-15 11:08] Requested to load ControlNet
-[2024-04-15 11:08] Loading 2 new models
-[2024-04-15 11:08] loading in lowvram mode 3051.5384607315063
-[2024-04-15 11:08] loading in lowvram mode 704.2014722824097
-[2024-04-15 11:09] 
-[2024-04-15 11:09] Processing interrupted
-[2024-04-15 11:09] Prompt executed in 269.14 seconds
-[2024-04-15 11:09] got prompt
-[2024-04-15 11:09] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-04-15 11:10] 100%|███████████████████████████████████████████████████████| 21/21 [01:31<00:00,  3.94s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:31<00:00,  4.37s/it]
-[2024-04-15 11:10] Requested to load AutoencoderKL
-[2024-04-15 11:10] Loading 1 new model
-[2024-04-15 11:10] Requested to load SDXL
-[2024-04-15 11:10] Requested to load ControlNet
-[2024-04-15 11:10] Loading 2 new models
-[2024-04-15 11:10] loading in lowvram mode 3051.5384607315063
-[2024-04-15 11:10] loading in lowvram mode 704.2014722824097
-[2024-04-15 11:12] 100%|███████████████████████████████████████████████████████| 25/25 [01:50<00:00,  4.35s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:50<00:00,  4.40s/it]
-[2024-04-15 11:12] Requested to load AutoencoderKL
-[2024-04-15 11:12] Loading 1 new model
-[2024-04-15 11:12] Requested to load SDXL
-[2024-04-15 11:12] Requested to load ControlNet
-[2024-04-15 11:12] Loading 2 new models
-[2024-04-15 11:12] loading in lowvram mode 3051.5384607315063
-[2024-04-15 11:12] loading in lowvram mode 704.2014722824097
-[2024-04-15 11:14] 100%|███████████████████████████████████████████████████████| 21/21 [01:37<00:00,  4.17s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:37<00:00,  4.66s/it]
-[2024-04-15 11:14] Requested to load AutoencoderKL
-[2024-04-15 11:14] Loading 1 new model
-[2024-04-15 11:14] Requested to load SDXL
-[2024-04-15 11:14] Requested to load ControlNet
-[2024-04-15 11:14] Loading 2 new models
-[2024-04-15 11:14] loading in lowvram mode 3051.5384607315063
-[2024-04-15 11:14] loading in lowvram mode 704.2014722824097
-[2024-04-15 11:16] 100%|███████████████████████████████████████████████████████| 25/25 [01:54<00:00,  3.49s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:54<00:00,  4.58s/it]
-[2024-04-15 11:16] Requested to load AutoencoderKL
-[2024-04-15 11:16] Loading 1 new model
-[2024-04-15 11:16] [34mWAS Node Suite: [0m[33mQR Read:[0m:
+[2024-11-01 14:17:08.613] Cannot import /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack module for custom nodes: cannot import name 'CFGGuider' from 'comfy.samplers' (/root/code/Romain-Ber/ComfyUI/comfy/samplers.py)
+[2024-11-01 14:17:08.626] /root/code/Romain-Ber/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
+[2024-11-01 14:17:08.626] /root/code/Romain-Ber/ComfyUI/web/extensions/failfast-comfyui-extensions
+[2024-11-01 14:17:08.640] Traceback (most recent call last):
+  File "/root/code/Romain-Ber/ComfyUI/nodes.py", line 1889, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-GGUF/__init__.py", line 7, in <module>
+    from .nodes import NODE_CLASS_MAPPINGS
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-GGUF/nodes.py", line 3, in <module>
+    import gguf
+  File "/usr/local/lib/python3.10/dist-packages/gguf/__init__.py", line 7, in <module>
+    from .vocab import *
+  File "/usr/local/lib/python3.10/dist-packages/gguf/vocab.py", line 10, in <module>
+    from sentencepiece import SentencePieceProcessor
+ModuleNotFoundError: No module named 'sentencepiece'
 
-[0m
-[2024-04-15 11:16] Prompt executed in 447.62 seconds
-[2024-04-15 11:50] got prompt
-[2024-04-15 11:50] Failed to validate prompt for output 1380:
-[2024-04-15 11:50] * KSampler (WAS) 1376:
-[2024-04-15 11:50]   - Required input is missing: latent_image
-[2024-04-15 11:50] Output will be ignored
-[2024-04-15 11:50] Failed to validate prompt for output 1394:
-[2024-04-15 11:50] * KSampler (WAS) 1391:
-[2024-04-15 11:50]   - Required input is missing: latent_image
-[2024-04-15 11:50] Output will be ignored
-[2024-04-15 11:50] Failed to validate prompt for output 1379:
-[2024-04-15 11:50] Output will be ignored
-[2024-04-15 11:50] Failed to validate prompt for output 1395:
-[2024-04-15 11:50] Output will be ignored
-[2024-04-15 11:50] Failed to validate prompt for output 1373:
-[2024-04-15 11:50] Output will be ignored
-[2024-04-15 11:50] Failed to validate prompt for output 1388:
-[2024-04-15 11:50] Output will be ignored
-[2024-04-15 11:50] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-04-15 11:50] Requested to load SDXL
-[2024-04-15 11:50] Requested to load ControlNet
-[2024-04-15 11:50] Loading 2 new models
-[2024-04-15 11:50] loading in lowvram mode 3051.5384607315063
-[2024-04-15 11:50] loading in lowvram mode 704.2014722824097
-[2024-04-15 11:50] got prompt
-[2024-04-15 11:50] Failed to validate prompt for output 1380:
-[2024-04-15 11:50] * KSampler (WAS) 1376:
-[2024-04-15 11:50]   - Required input is missing: latent_image
-[2024-04-15 11:50] Output will be ignored
-[2024-04-15 11:50] Failed to validate prompt for output 1394:
-[2024-04-15 11:50] * KSampler (WAS) 1391:
-[2024-04-15 11:50]   - Required input is missing: latent_image
-[2024-04-15 11:50] Output will be ignored
-[2024-04-15 11:50] Failed to validate prompt for output 1379:
-[2024-04-15 11:50] Output will be ignored
-[2024-04-15 11:50] Failed to validate prompt for output 1395:
-[2024-04-15 11:50] Output will be ignored
-[2024-04-15 11:50] Failed to validate prompt for output 1373:
-[2024-04-15 11:50] Output will be ignored
-[2024-04-15 11:50] Failed to validate prompt for output 1388:
-[2024-04-15 11:50] Output will be ignored
-[2024-04-15 11:51] 
-[2024-04-15 11:51] Processing interrupted
-[2024-04-15 11:51] Prompt executed in 59.93 seconds
-[2024-04-15 11:51] got prompt
-[2024-04-15 11:51] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-04-15 11:51] Requested to load AutoencoderKL
-[2024-04-15 11:51] Loading 1 new model
-[2024-04-15 11:51] Requested to load SDXL
-[2024-04-15 11:51] Requested to load ControlNet
-[2024-04-15 11:51] Loading 2 new models
-[2024-04-15 11:51] loading in lowvram mode 3051.5384607315063
-[2024-04-15 11:51] loading in lowvram mode 704.2014722824097
-[2024-04-15 11:52] 100%|███████████████████████████████████████████████████████| 21/21 [01:27<00:00,  3.99s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:27<00:00,  4.17s/it]
-[2024-04-15 11:52] Requested to load AutoencoderKL
-[2024-04-15 11:52] Loading 1 new model
-[2024-04-15 11:52] Requested to load SDXL
-[2024-04-15 11:52] Requested to load ControlNet
-[2024-04-15 11:52] Loading 2 new models
-[2024-04-15 11:52] loading in lowvram mode 3051.5384607315063
-[2024-04-15 11:52] loading in lowvram mode 704.2014722824097
-[2024-04-15 11:54] 100%|███████████████████████████████████████████████████████| 21/21 [01:41<00:00,  4.53s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:41<00:00,  4.85s/it]
-[2024-04-15 11:54] Requested to load AutoencoderKL
-[2024-04-15 11:54] Loading 1 new model
-[2024-04-15 11:54] style: sai-line art
-[2024-04-15 11:54] text_positive_g: cinematic photo breathtaking professional 3d model an hologram of Earth, blue halo, white background
-[2024-04-15 11:54] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, minimalist
-[2024-04-15 11:54] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, bokeh, sun, galaxy, stars
-[2024-04-15 11:54] text_positive_g_styled: line art drawing cinematic photo breathtaking professional 3d model an hologram of Earth, blue halo, white background
-[2024-04-15 11:54] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, minimalist
-[2024-04-15 11:54] text_positive_styled: line art drawing cinematic photo breathtaking professional 3d model an hologram of Earth, blue halo, white background, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, minimalist
-[2024-04-15 11:54] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, bokeh, sun, galaxy, stars
-[2024-04-15 11:54] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, bokeh, sun, galaxy, stars
-[2024-04-15 11:54] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, bokeh, sun, galaxy, stars
-[2024-04-15 11:54] Requested to load SDXLClipModel
-[2024-04-15 11:54] Loading 1 new model
-[2024-04-15 11:54] Requested to load SDXL
-[2024-04-15 11:54] Requested to load ControlNet
-[2024-04-15 11:54] Loading 2 new models
-[2024-04-15 11:54] loading in lowvram mode 3051.5384607315063
-[2024-04-15 11:55] loading in lowvram mode 704.2014722824097
-[2024-04-15 11:57] 100%|███████████████████████████████████████████████████████| 25/25 [02:01<00:00,  4.39s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:01<00:00,  4.85s/it]
-[2024-04-15 11:57] Requested to load AutoencoderKL
-[2024-04-15 11:57] Loading 1 new model
-[2024-04-15 11:57] !!! Exception during processing !!!
-[2024-04-15 11:57] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/WAS_Node_Suite.py", line 8901, in sample
-    return nodes.common_ksampler(model, seed['seed'], steps, cfg, sampler_name, scheduler, positive, negative, latent_image, denoise=denoise)
-TypeError: list indices must be integers or slices, not str
+[2024-11-01 14:17:08.640] Cannot import /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-GGUF module for custom nodes: No module named 'sentencepiece'
+[2024-11-01 14:17:08.695] [Crystools [0;32mINFO[0m] Crystools version: 1.20.0
+[2024-11-01 14:17:08.714] [Crystools [0;32mINFO[0m] CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz - Arch: x86_64 - OS: Linux 5.15.153.1-microsoft-standard-WSL2
+[2024-11-01 14:17:08.714] [Crystools [0;32mINFO[0m] Pynvml (Nvidia) initialized.
+[2024-11-01 14:17:08.714] [Crystools [0;32mINFO[0m] GPU/s:
+[2024-11-01 14:17:08.714] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 2060
+[2024-11-01 14:17:08.717] [Crystools [0;32mINFO[0m] NVIDIA Driver: 546.33
+[2024-11-01 14:17:09.080] ------------------------------------------
+[2024-11-01 14:17:09.081] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-11-01 14:17:09.081] ------------------------------------------
+[2024-11-01 14:17:09.081] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-11-01 14:17:09.081] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-11-01 14:17:09.081] ------------------------------------------
+[2024-11-01 14:17:09.095] ### Loading: ComfyUI-Manager (V2.51.9)
+[2024-11-01 14:17:09.156] ### ComfyUI Revision: 2115 [4557dc8c] | Released on '2024-04-15'
+[2024-11-01 14:17:09.174] Traceback (most recent call last):
+  File "/root/code/Romain-Ber/ComfyUI/nodes.py", line 1889, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes/__init__.py", line 1, in <module>
+    from .ttNpy.tinyterraNodes import TTN_VERSIONS
+  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes/ttNpy/tinyterraNodes.py", line 48, in <module>
+    from spandrel import ModelLoader, ImageModelDescriptor
+ModuleNotFoundError: No module named 'spandrel'
 
-[2024-04-15 11:57] Prompt executed in 366.47 seconds
-[2024-04-15 12:06] got prompt
-[2024-04-15 12:06] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-04-15 12:06] Requested to load SDXL
-[2024-04-15 12:06] Requested to load ControlNet
-[2024-04-15 12:06] Loading 2 new models
-[2024-04-15 12:06] loading in lowvram mode 3051.5384607315063
-[2024-04-15 12:06] loading in lowvram mode 704.2014722824097
-[2024-04-15 12:06] got prompt
-[2024-04-15 12:08] 100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  3.99s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:42<00:00,  4.12s/it]
-[2024-04-15 12:08] Requested to load AutoencoderKL
-[2024-04-15 12:08] Loading 1 new model
-[2024-04-15 12:08] Requested to load SDXL
-[2024-04-15 12:08] Requested to load ControlNet
-[2024-04-15 12:08] Loading 2 new models
-[2024-04-15 12:08] loading in lowvram mode 3051.5384607315063
-[2024-04-15 12:08] loading in lowvram mode 704.2014722824097
-[2024-04-15 12:09] 100%|███████████████████████████████████████████████████████| 21/21 [01:28<00:00,  4.01s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:28<00:00,  4.20s/it]
-[2024-04-15 12:09] Requested to load AutoencoderKL
-[2024-04-15 12:09] Loading 1 new model
-[2024-04-15 12:09] Requested to load SDXL
-[2024-04-15 12:09] Requested to load ControlNet
-[2024-04-15 12:09] Loading 2 new models
-[2024-04-15 12:09] loading in lowvram mode 3051.5384607315063
-[2024-04-15 12:09] loading in lowvram mode 704.2014722824097
-[2024-04-15 12:11] 100%|███████████████████████████████████████████████████████| 21/21 [01:35<00:00,  4.28s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:35<00:00,  4.55s/it]
-[2024-04-15 12:11] Requested to load AutoencoderKL
-[2024-04-15 12:11] Loading 1 new model
-[2024-04-15 12:11] !!! Exception during processing !!!
-[2024-04-15 12:11] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/WAS_Node_Suite.py", line 8901, in sample
-    return nodes.common_ksampler(model, seed['seed'], steps, cfg, sampler_name, scheduler, positive, negative, latent_image, denoise=denoise)
-TypeError: list indices must be integers or slices, not str
-
-[2024-04-15 12:11] Prompt executed in 317.54 seconds
-[2024-04-15 12:11] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-04-15 12:11] Requested to load SDXL
-[2024-04-15 12:11] Requested to load ControlNet
-[2024-04-15 12:11] Loading 2 new models
-[2024-04-15 12:11] loading in lowvram mode 3051.5384607315063
-[2024-04-15 12:11] loading in lowvram mode 704.2014722824097
-[2024-04-15 12:13] 100%|███████████████████████████████████████████████████████| 25/25 [01:50<00:00,  4.07s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:50<00:00,  4.40s/it]
-[2024-04-15 12:13] Requested to load AutoencoderKL
-[2024-04-15 12:13] Loading 1 new model
-[2024-04-15 12:13] Requested to load SDXL
-[2024-04-15 12:13] Requested to load ControlNet
-[2024-04-15 12:13] Loading 2 new models
-[2024-04-15 12:13] loading in lowvram mode 3051.5384607315063
-[2024-04-15 12:13] loading in lowvram mode 704.2014722824097
-[2024-04-15 12:15] 100%|███████████████████████████████████████████████████████| 21/21 [01:42<00:00,  4.49s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:42<00:00,  4.88s/it]
-[2024-04-15 12:15] Requested to load AutoencoderKL
-[2024-04-15 12:15] Loading 1 new model
-[2024-04-15 12:15] Requested to load SDXL
-[2024-04-15 12:15] Requested to load ControlNet
-[2024-04-15 12:15] Loading 2 new models
-[2024-04-15 12:15] loading in lowvram mode 3051.5384607315063
-[2024-04-15 12:15] loading in lowvram mode 704.2014722824097
-[2024-04-15 12:17] 100%|███████████████████████████████████████████████████████| 21/21 [01:34<00:00,  4.10s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:34<00:00,  4.49s/it]
-[2024-04-15 12:17] Requested to load AutoencoderKL
-[2024-04-15 12:17] Loading 1 new model
-[2024-04-15 12:17] !!! Exception during processing !!!
-[2024-04-15 12:17] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/WAS_Node_Suite.py", line 8901, in sample
-    return nodes.common_ksampler(model, seed['seed'], steps, cfg, sampler_name, scheduler, positive, negative, latent_image, denoise=denoise)
-TypeError: list indices must be integers or slices, not str
-
-[2024-04-15 12:17] Prompt executed in 340.78 seconds
-[2024-04-15 12:51] got prompt
-[2024-04-15 12:51] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-04-15 12:51] Requested to load SDXL
-[2024-04-15 12:51] Requested to load ControlNet
-[2024-04-15 12:51] Loading 2 new models
-[2024-04-15 12:51] loading in lowvram mode 3051.5384607315063
-[2024-04-15 12:51] loading in lowvram mode 704.2014722824097
-[2024-04-15 12:53] 100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.06s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:23<00:00,  3.33s/it]
-[2024-04-15 12:53] Requested to load AutoencoderKL
-[2024-04-15 12:53] Loading 1 new model
-[2024-04-15 12:53] Requested to load SDXL
-[2024-04-15 12:53] Requested to load ControlNet
-[2024-04-15 12:53] Loading 2 new models
-[2024-04-15 12:53] loading in lowvram mode 3051.5384607315063
-[2024-04-15 12:53] loading in lowvram mode 704.2014722824097
-[2024-04-15 12:54] 100%|███████████████████████████████████████████████████████| 21/21 [01:11<00:00,  3.07s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:11<00:00,  3.42s/it]
-[2024-04-15 12:54] Requested to load AutoencoderKL
-[2024-04-15 12:54] Loading 1 new model
-[2024-04-15 12:54] Requested to load SDXL
-[2024-04-15 12:54] Requested to load ControlNet
-[2024-04-15 12:54] Loading 2 new models
-[2024-04-15 12:54] loading in lowvram mode 3051.5384607315063
-[2024-04-15 12:54] loading in lowvram mode 704.2014722824097
-[2024-04-15 12:55] 100%|███████████████████████████████████████████████████████| 21/21 [01:11<00:00,  3.14s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:11<00:00,  3.42s/it]
-[2024-04-15 12:55] Requested to load AutoencoderKL
-[2024-04-15 12:55] Loading 1 new model
-[2024-04-15 12:55] Requested to load SDXL
-[2024-04-15 12:55] Requested to load ControlNet
-[2024-04-15 12:55] Loading 2 new models
-[2024-04-15 12:55] loading in lowvram mode 3051.5384607315063
-[2024-04-15 12:55] loading in lowvram mode 704.2014722824097
-[2024-04-15 12:57] 100%|███████████████████████████████████████████████████████| 25/25 [01:34<00:00,  3.40s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:34<00:00,  3.80s/it]
-[2024-04-15 12:57] !!! Exception during processing !!!
-[2024-04-15 12:57] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/nodes.py", line 288, in decode
-    return (vae.decode(samples["samples"]), )
-AttributeError: 'int' object has no attribute 'decode'
-
-[2024-04-15 12:57] Prompt executed in 348.29 seconds
-[2024-04-15 12:58] got prompt
-[2024-04-15 12:58] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-04-15 12:58] Requested to load AutoencoderKL
-[2024-04-15 12:58] Loading 1 new model
-[2024-04-15 12:58] got prompt
-[2024-04-15 12:58] Requested to load SDXL
-[2024-04-15 12:58] Requested to load ControlNet
-[2024-04-15 12:58] Loading 2 new models
-[2024-04-15 12:58] loading in lowvram mode 3051.5384607315063
-[2024-04-15 12:58] loading in lowvram mode 704.2014722824097
-[2024-04-15 12:59] 100%|███████████████████████████████████████████████████████| 25/25 [01:49<00:00,  4.38s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:49<00:00,  4.40s/it]
-[2024-04-15 12:59] Requested to load AutoencoderKL
-[2024-04-15 12:59] Loading 1 new model
-[2024-04-15 13:00] Requested to load SDXL
-[2024-04-15 13:00] Requested to load ControlNet
-[2024-04-15 13:00] Loading 2 new models
-[2024-04-15 13:00] loading in lowvram mode 3051.5384607315063
-[2024-04-15 13:00] loading in lowvram mode 704.2014722824097
-[2024-04-15 13:01] 100%|███████████████████████████████████████████████████████| 21/21 [01:36<00:00,  4.17s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:36<00:00,  4.61s/it]
-[2024-04-15 13:01] Requested to load AutoencoderKL
-[2024-04-15 13:01] Loading 1 new model
-[2024-04-15 13:01] Requested to load SDXL
-[2024-04-15 13:01] Requested to load ControlNet
-[2024-04-15 13:01] Loading 2 new models
-[2024-04-15 13:01] loading in lowvram mode 3051.5384607315063
-[2024-04-15 13:01] loading in lowvram mode 704.2014722824097
-[2024-04-15 13:03] 100%|███████████████████████████████████████████████████████| 21/21 [01:35<00:00,  4.38s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:35<00:00,  4.57s/it]
-[2024-04-15 13:03] Requested to load AutoencoderKL
-[2024-04-15 13:03] Loading 1 new model
-[2024-04-15 13:03] Requested to load SDXL
-[2024-04-15 13:03] Requested to load ControlNet
-[2024-04-15 13:03] Loading 2 new models
-[2024-04-15 13:03] loading in lowvram mode 3051.5384607315063
-[2024-04-15 13:03] loading in lowvram mode 704.2014722824097
-[2024-04-15 13:05] 100%|███████████████████████████████████████████████████████| 25/25 [01:59<00:00,  3.95s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:59<00:00,  4.79s/it]
-[2024-04-15 13:05] Requested to load AutoencoderKL
-[2024-04-15 13:05] Loading 1 new model
-[2024-04-15 13:05] [34mWAS Node Suite: [0m[33mQR Read:[0m:
-
-[0m
-[2024-04-15 13:05] Requested to load SDXL
-[2024-04-15 13:05] Requested to load ControlNet
-[2024-04-15 13:05] Loading 2 new models
-[2024-04-15 13:05] loading in lowvram mode 3051.5384607315063
-[2024-04-15 13:05] loading in lowvram mode 704.2014722824097
-[2024-04-15 13:07] 100%|███████████████████████████████████████████████████████| 25/25 [02:04<00:00,  4.24s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:04<00:00,  5.00s/it]
-[2024-04-15 13:07] Requested to load AutoencoderKL
-[2024-04-15 13:07] Loading 1 new model
-[2024-04-15 13:07] Requested to load SDXL
-[2024-04-15 13:07] Requested to load ControlNet
-[2024-04-15 13:07] Loading 2 new models
-[2024-04-15 13:07] loading in lowvram mode 3051.5384607315063
-[2024-04-15 13:08] loading in lowvram mode 704.2014722824097
-[2024-04-15 13:09] 100%|███████████████████████████████████████████████████████| 25/25 [01:54<00:00,  4.34s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:54<00:00,  4.58s/it]
-[2024-04-15 13:09] Requested to load AutoencoderKL
-[2024-04-15 13:09] Loading 1 new model
-[2024-04-15 13:09] [34mWAS Node Suite: [0m[33mQR Read:[0m:
-
-[0m
-[2024-04-15 13:09] [34mWAS Node Suite: [0m[33mQR Read:[0m:
-
-[0m
-[2024-04-15 13:09] !!! Exception during processing !!!
-[2024-04-15 13:09] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes/qr_validation.py", line 106, in validate_qr
-    self.update_text(protocol, text)
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes/qr_validation.py", line 89, in update_text
-    self.text = prefix + text
-TypeError: can only concatenate str (not "VAE") to str
-
-[2024-04-15 13:09] Prompt executed in 715.54 seconds
-[2024-04-15 13:09] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-04-15 13:10] Requested to load SDXL
-[2024-04-15 13:10] Requested to load ControlNet
-[2024-04-15 13:10] Loading 2 new models
-[2024-04-15 13:10] loading in lowvram mode 3051.5384607315063
-[2024-04-15 13:10] loading in lowvram mode 704.2014722824097
-[2024-04-15 13:11] got prompt
-[2024-04-15 13:11] 100%|███████████████████████████████████████████████████████| 25/25 [01:51<00:00,  4.26s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:51<00:00,  4.47s/it]
-[2024-04-15 13:11] Requested to load AutoencoderKL
-[2024-04-15 13:11] Loading 1 new model
-[2024-04-15 13:11] Processing interrupted
-[2024-04-15 13:11] Prompt executed in 119.42 seconds
-[2024-04-15 13:17] got prompt
-[2024-04-15 13:17] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-04-15 13:17] style: sai-line art
-[2024-04-15 13:17] text_positive_g: cinematic photo breathtaking retail packaging style a microprocessor with a photo of Earth, electric circuits, blue halo
-[2024-04-15 13:17] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed
-[2024-04-15 13:17] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature, writing, isometric, tilted
-[2024-04-15 13:17] text_positive_g_styled: line art drawing cinematic photo breathtaking retail packaging style a microprocessor with a photo of Earth, electric circuits, blue halo
-[2024-04-15 13:17] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed
-[2024-04-15 13:17] text_positive_styled: line art drawing cinematic photo breathtaking retail packaging style a microprocessor with a photo of Earth, electric circuits, blue halo, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed
-[2024-04-15 13:17] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature, writing, isometric, tilted
-[2024-04-15 13:17] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature, writing, isometric, tilted
-[2024-04-15 13:17] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, noisy, blurry, amateurish, sloppy, unattractive, logo, watermark, brand, signature, writing, isometric, tilted
-[2024-04-15 13:17] Requested to load SDXLClipModel
-[2024-04-15 13:17] Loading 1 new model
-[2024-04-15 13:17] style: sai-line art
-[2024-04-15 13:17] text_positive_g: cinematic photo breathtaking professional 3d model an hologram of Earth, blue halo, white background
-[2024-04-15 13:17] text_positive_l: 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, minimalist
-[2024-04-15 13:17] text_negative: drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, bokeh, sun, galaxy, stars, logo, watermark, brand, signature, isometric, tilted, writing
-[2024-04-15 13:17] text_positive_g_styled: line art drawing cinematic photo breathtaking professional 3d model an hologram of Earth, blue halo, white background
-[2024-04-15 13:17] text_positive_l_styled: professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, minimalist
-[2024-04-15 13:17] text_positive_styled: line art drawing cinematic photo breathtaking professional 3d model an hologram of Earth, blue halo, white background, professional, sleek, modern, minimalist, graphic, line art, vector graphics, 35mm photograph, film, bokeh, professional, 4k, highly detailed, award-winning, professional, highly detailed, octane render, highly detailed, volumetric, dramatic lighting, minimalist
-[2024-04-15 13:17] text_negative_g_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, bokeh, sun, galaxy, stars, logo, watermark, brand, signature, isometric, tilted, writing
-[2024-04-15 13:17] text_negative_l_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, bokeh, sun, galaxy, stars, logo, watermark, brand, signature, isometric, tilted, writing
-[2024-04-15 13:17] text_negative_styled: anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, ugly, deformed, noisy, blurry, distorted, grainy, ugly, deformed, noisy, low poly, blurry, painting, bokeh, sun, galaxy, stars, logo, watermark, brand, signature, isometric, tilted, writing
-[2024-04-15 13:17] Requested to load SDXL
-[2024-04-15 13:17] Requested to load ControlNet
-[2024-04-15 13:17] Loading 2 new models
-[2024-04-15 13:17] loading in lowvram mode 3051.5384607315063
-[2024-04-15 13:18] loading in lowvram mode 704.2014722824097
-[2024-04-15 13:20] 100%|███████████████████████████████████████████████████████| 25/25 [02:14<00:00,  3.18s/it]100%|███████████████████████████████████████████████████████| 25/25 [02:14<00:00,  5.39s/it]
-[2024-04-15 13:20] Requested to load AutoencoderKL
-[2024-04-15 13:20] Loading 1 new model
-[2024-04-15 13:20] Requested to load SDXL
-[2024-04-15 13:20] Requested to load ControlNet
-[2024-04-15 13:20] Loading 2 new models
-[2024-04-15 13:20] loading in lowvram mode 3051.5384607315063
-[2024-04-15 13:20] loading in lowvram mode 704.2014722824097
-[2024-04-15 13:22] 100%|███████████████████████████████████████████████████████| 21/21 [01:24<00:00,  3.90s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:24<00:00,  4.03s/it]
-[2024-04-15 13:22] Requested to load AutoencoderKL
-[2024-04-15 13:22] Loading 1 new model
-[2024-04-15 13:22] Requested to load SDXL
-[2024-04-15 13:22] Requested to load ControlNet
-[2024-04-15 13:22] Loading 2 new models
-[2024-04-15 13:22] loading in lowvram mode 3051.5384607315063
-[2024-04-15 13:22] loading in lowvram mode 704.2014722824097
-[2024-04-15 13:23] 100%|███████████████████████████████████████████████████████| 21/21 [01:31<00:00,  4.03s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:31<00:00,  4.38s/it]
-[2024-04-15 13:23] Requested to load AutoencoderKL
-[2024-04-15 13:23] Loading 1 new model
-[2024-04-15 13:23] !!! Exception during processing !!!
-[2024-04-15 13:23] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/WAS_Node_Suite.py", line 8901, in sample
-    return nodes.common_ksampler(model, seed['seed'], steps, cfg, sampler_name, scheduler, positive, negative, latent_image, denoise=denoise)
-TypeError: list indices must be integers or slices, not str
-
-[2024-04-15 13:23] Prompt executed in 397.67 seconds
-[2024-04-15 13:47] got prompt
-[2024-04-15 13:47] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-04-15 13:47] Requested to load SDXL
-[2024-04-15 13:47] Requested to load ControlNet
-[2024-04-15 13:47] Loading 2 new models
-[2024-04-15 13:47] loading in lowvram mode 3051.5384607315063
-[2024-04-15 13:47] loading in lowvram mode 704.2014722824097
-[2024-04-15 13:49] 100%|███████████████████████████████████████████████████████| 25/25 [01:34<00:00,  3.60s/it]100%|███████████████████████████████████████████████████████| 25/25 [01:34<00:00,  3.78s/it]
-[2024-04-15 13:49] Requested to load AutoencoderKL
-[2024-04-15 13:49] Loading 1 new model
-[2024-04-15 13:49] Requested to load SDXL
-[2024-04-15 13:49] Requested to load ControlNet
-[2024-04-15 13:49] Loading 2 new models
-[2024-04-15 13:49] loading in lowvram mode 3051.5384607315063
-[2024-04-15 13:49] loading in lowvram mode 704.2014722824097
-[2024-04-15 13:50] 100%|███████████████████████████████████████████████████████| 21/21 [01:22<00:00,  3.59s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:22<00:00,  3.92s/it]
-[2024-04-15 13:50] Requested to load AutoencoderKL
-[2024-04-15 13:50] Loading 1 new model
-[2024-04-15 13:51] Requested to load SDXL
-[2024-04-15 13:51] Requested to load ControlNet
-[2024-04-15 13:51] Loading 2 new models
-[2024-04-15 13:51] loading in lowvram mode 3051.5384607315063
-[2024-04-15 13:51] loading in lowvram mode 704.2014722824097
-[2024-04-15 13:52] 100%|███████████████████████████████████████████████████████| 21/21 [01:25<00:00,  3.78s/it]100%|███████████████████████████████████████████████████████| 21/21 [01:25<00:00,  4.05s/it]
-[2024-04-15 13:52] Requested to load AutoencoderKL
-[2024-04-15 13:52] Loading 1 new model
-[2024-04-15 13:52] !!! Exception during processing !!!
-[2024-04-15 13:52] Traceback (most recent call last):
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 151, in recursive_execute
-    output_data, output_ui = get_output_data(obj, input_data_all)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 81, in get_output_data
-    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
-  File "/root/code/Romain-Ber/ComfyUI/execution.py", line 74, in map_node_over_list
-    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
-  File "/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/WAS_Node_Suite.py", line 8901, in sample
-    return nodes.common_ksampler(model, seed['seed'], steps, cfg, sampler_name, scheduler, positive, negative, latent_image, denoise=denoise)
-  File "/root/code/Romain-Ber/ComfyUI/nodes.py", line 1337, in common_ksampler
-    callback = latent_preview.prepare_callback(model, steps)
-  File "/root/code/Romain-Ber/ComfyUI/latent_preview.py", line 86, in prepare_callback
-    previewer = get_previewer(model.load_device, model.model.latent_format)
-AttributeError: 'list' object has no attribute 'load_device'
-
-[2024-04-15 13:52] Prompt executed in 290.31 seconds
-[2024-04-15 14:01] 
-Stopped server
+[2024-11-01 14:17:09.174] Cannot import /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes module for custom nodes: No module named 'spandrel'
+[2024-11-01 14:17:09.187] 
+[2024-11-01 14:17:09.187] [92m[rgthree-comfy] Loaded 42 epic nodes. 🎉[00m
+[2024-11-01 14:17:09.187] 
+[2024-11-01 14:17:09.754] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-11-01 14:17:09.841] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-11-01 14:17:09.881] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-11-01 14:17:09.884] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-11-01 14:17:09.884] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-11-01 14:17:09.917] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-11-01 14:17:09.936] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-11-01 14:17:10.396] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m218[0m [32mnodes successfully.[0m
+[2024-11-01 14:17:10.396] 
+	[3m[93m"Success is not in what you have, but who you are."[0m[3m - Bo Bennett[0m
+[2024-11-01 14:17:10.396] 
+[2024-11-01 14:17:10.399] ### Loading: ComfyUI-Impact-Pack (V4.87.1)
+[2024-11-01 14:17:10.825] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-11-01 14:17:10.848] [Impact Pack] Wildcards loading done.
+[2024-11-01 14:29:52.548] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
+[2024-11-01 14:30:02.059] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json [DONE]
+[2024-11-01 14:52:02.112] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json [DONE]
+[2024-11-01 14:53:16.190] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
+[2024-11-01 14:53:30.950] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json [DONE]
+[2024-11-01 14:53:38.471] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json [DONE]
+[2024-11-01 14:53:38.472] Install model 'city96/flux1-dev-Q3_K_S.gguf' into '/root/code/Romain-Ber/ComfyUI/models/diffusion_models/FLUX1/flux1-dev-Q3_K_S.gguf'
+[2024-11-01 14:53:39.357] Downloading https://cdn-lfs-us-1.hf.co/repos/3e/5c/3e5c1f82226fc1460150126b5513fa266f4b8aea7194d1a31c944ad9da31ae10/f65bb921fe637ba9588278f54981afc567be408e38ee038d2fe3acf3e11188bd?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27flux1-dev-Q3_K_S.gguf%3B+filename%3D%22flux1-dev-Q3_K_S.gguf%22%3B&Expires=1730728417&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczMDcyODQxN319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzNlLzVjLzNlNWMxZjgyMjI2ZmMxNDYwMTUwMTI2YjU1MTNmYTI2NmY0YjhhZWE3MTk0ZDFhMzFjOTQ0YWQ5ZGEzMWFlMTAvZjY1YmI5MjFmZTYzN2JhOTU4ODI3OGY1NDk4MWFmYzU2N2JlNDA4ZTM4ZWUwMzhkMmZlM2FjZjNlMTExODhiZD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=RJFzu5KYgEyat65ClfOCS2VAQF4c04W6alyEUSDLiix3iOuZoIw0eKhMun14NZN9nlfYjJ-KV26IZ5fxwhGrqGzjD0QCXzEKMS4mb8shs489o-CusTZUKEV4eyfwnpvaBxBgn3lQd3JXaAFGW%7E5wvax-zOYDWjLicN84K5zyUAXJg-BH8T9GclRW4wL0fP4tExVaecXbhlfoOeak8U%7Ev0c-4guPrm0-pglI05fhBObDCJuaEKKWNm0TVEniaJr9Zzt3WqFeyqCyuF%7ESJiiWWfndcKLTZC55sK4tsGgdQCaWS03gHH8-H18Dmu9UrOCuJ%7EFASAX9VZ4GurYO6jBLYJQ__&Key-Pair-Id=K24J24Z295AEI9 to /root/code/Romain-Ber/ComfyUI/models/diffusion_models/FLUX1/flux1-dev-Q3_K_S.gguf
+[2024-11-01 15:40:16.907] 100%|█████████████████████████████████▊| 5208375296/5234255136 [46:37<00:09, 2684120.56it/s]100%|█████████████████████████████████▊| 5208702976/5234255136 [46:37<00:09, 2805689.25it/s]100%|█████████████████████████████████▊| 5208997888/5234255136 [46:37<00:08, 2839687.60it/s]100%|█████████████████████████████████▊| 5209292800/5234255136 [46:37<00:10, 2384252.48it/s]100%|█████████████████████████████████▊| 5209718784/5234255136 [46:37<00:08, 2802223.81it/s]100%|█████████████████████████████████▊| 5210046464/5234255136 [46:37<00:08, 2821383.88it/s]100%|█████████████████████████████████▊| 5210374144/5234255136 [46:38<00:08, 2901973.24it/s]100%|█████████████████████████████████▊| 5210701824/5234255136 [46:38<00:08, 2861532.20it/s]100%|█████████████████████████████████▊| 5210996736/5234255136 [46:38<00:08, 2865970.55it/s]100%|█████████████████████████████████▊| 5211324416/5234255136 [46:38<00:07, 2896066.42it/s]100%|█████████████████████████████████▊| 5211652096/5234255136 [46:38<00:07, 2887810.34it/s]100%|█████████████████████████████████▊| 5211947008/5234255136 [46:38<00:07, 2853829.32it/s]100%|█████████████████████████████████▊| 5212274688/5234255136 [46:38<00:07, 2881348.54it/s]100%|█████████████████████████████████▊| 5212602368/5234255136 [46:38<00:07, 2911906.81it/s]100%|█████████████████████████████████▊| 5212897280/5234255136 [46:39<00:08, 2466339.23it/s]100%|█████████████████████████████████▊| 5213323264/5234255136 [46:39<00:07, 2864028.63it/s]100%|█████████████████████████████████▊| 5213650944/5234255136 [46:39<00:07, 2870592.14it/s]100%|█████████████████████████████████▊| 5213978624/5234255136 [46:39<00:08, 2511653.71it/s]100%|█████████████████████████████████▊| 5214273536/5234255136 [46:39<00:07, 2552664.54it/s]100%|█████████████████████████████████▊| 5214568448/5234255136 [46:39<00:07, 2615942.43it/s]100%|█████████████████████████████████▊| 5214863360/5234255136 [46:39<00:08, 2364171.59it/s]100%|█████████████████████████████████▉| 5215125504/5234255136 [46:39<00:08, 2210618.23it/s]100%|█████████████████████████████████▉| 5215354880/5234255136 [46:40<00:09, 2070964.06it/s]100%|█████████████████████████████████▉| 5215584256/5234255136 [46:40<00:10, 1771537.99it/s]100%|█████████████████████████████████▉| 5215780864/5234255136 [46:40<00:11, 1599653.03it/s]100%|█████████████████████████████████▉| 5215977472/5234255136 [46:40<00:12, 1510615.02it/s]100%|█████████████████████████████████▉| 5216141312/5234255136 [46:40<00:12, 1476943.27it/s]100%|█████████████████████████████████▉| 5216305152/5234255136 [46:40<00:12, 1441025.30it/s]100%|█████████████████████████████████▉| 5216501760/5234255136 [46:40<00:11, 1502545.07it/s]100%|█████████████████████████████████▉| 5216698368/5234255136 [46:41<00:11, 1578079.12it/s]100%|█████████████████████████████████▉| 5216993280/5234255136 [46:41<00:09, 1893203.97it/s]100%|█████████████████████████████████▉| 5217222656/5234255136 [46:41<00:08, 1998136.81it/s]100%|█████████████████████████████████▉| 5217452032/5234255136 [46:41<00:08, 2019246.81it/s]100%|█████████████████████████████████▉| 5217714176/5234255136 [46:41<00:07, 2089500.45it/s]100%|█████████████████████████████████▉| 5217943552/5234255136 [46:41<00:07, 2083661.92it/s]100%|█████████████████████████████████▉| 5218238464/5234255136 [46:41<00:07, 2243519.12it/s]100%|█████████████████████████████████▉| 5218467840/5234255136 [46:41<00:07, 2176417.52it/s]100%|█████████████████████████████████▉| 5218729984/5234255136 [46:41<00:06, 2224853.44it/s]100%|█████████████████████████████████▉| 5218959360/5234255136 [46:42<00:07, 2125170.37it/s]100%|█████████████████████████████████▉| 5219188736/5234255136 [46:42<00:07, 2043537.18it/s]100%|█████████████████████████████████▉| 5219418112/5234255136 [46:42<00:08, 1836316.37it/s]100%|█████████████████████████████████▉| 5219614720/5234255136 [46:42<00:10, 1455520.96it/s]100%|█████████████████████████████████▉| 5219778560/5234255136 [46:42<00:12, 1186823.92it/s]100%|█████████████████████████████████▉| 5219942400/5234255136 [46:42<00:13, 1082419.12it/s]100%|█████████████████████████████████▉| 5220073472/5234255136 [46:43<00:13, 1025999.86it/s]100%|██████████████████████████████████▉| 5220204544/5234255136 [46:43<00:14, 997338.43it/s]100%|█████████████████████████████████▉| 5220335616/5234255136 [46:43<00:13, 1022181.78it/s]100%|█████████████████████████████████▉| 5220532224/5234255136 [46:43<00:11, 1206915.75it/s]100%|█████████████████████████████████▉| 5220728832/5234255136 [46:43<00:10, 1346682.16it/s]100%|█████████████████████████████████▉| 5220892672/5234255136 [46:43<00:11, 1171848.25it/s]100%|█████████████████████████████████▉| 5221023744/5234255136 [46:43<00:12, 1077884.65it/s]100%|██████████████████████████████████▉| 5221154816/5234255136 [46:44<00:13, 994959.86it/s]100%|██████████████████████████████████▉| 5221285888/5234255136 [46:44<00:13, 927558.57it/s]100%|██████████████████████████████████▉| 5221384192/5234255136 [46:44<00:14, 910174.59it/s]100%|██████████████████████████████████▉| 5221482496/5234255136 [46:44<00:13, 915115.55it/s]100%|██████████████████████████████████▉| 5221580800/5234255136 [46:44<00:14, 884259.06it/s]100%|██████████████████████████████████▉| 5221679104/5234255136 [46:44<00:21, 579632.27it/s]100%|██████████████████████████████████▉| 5221810176/5234255136 [46:45<00:18, 680390.05it/s]100%|██████████████████████████████████▉| 5221908480/5234255136 [46:45<00:16, 736890.28it/s]100%|██████████████████████████████████▉| 5222006784/5234255136 [46:45<00:16, 752609.99it/s]100%|██████████████████████████████████▉| 5222137856/5234255136 [46:45<00:14, 810370.09it/s]100%|██████████████████████████████████▉| 5222236160/5234255136 [46:45<00:15, 772108.28it/s]100%|██████████████████████████████████▉| 5222334464/5234255136 [46:45<00:15, 769735.97it/s]100%|██████████████████████████████████▉| 5222432768/5234255136 [46:45<00:16, 736152.47it/s]100%|█████████████████████████████████▉| 5222662144/5234255136 [46:45<00:10, 1063461.74it/s]100%|█████████████████████████████████▉| 5222825984/5234255136 [46:46<00:09, 1187434.19it/s]100%|█████████████████████████████████▉| 5222989824/5234255136 [46:46<00:09, 1242310.46it/s]100%|█████████████████████████████████▉| 5223153664/5234255136 [46:46<00:08, 1279994.77it/s]100%|█████████████████████████████████▉| 5223317504/5234255136 [46:46<00:09, 1182801.22it/s]100%|█████████████████████████████████▉| 5223514112/5234255136 [46:46<00:08, 1315505.19it/s]100%|█████████████████████████████████▉| 5223677952/5234255136 [46:46<00:07, 1359452.22it/s]100%|█████████████████████████████████▉| 5223841792/5234255136 [46:46<00:07, 1379883.97it/s]100%|█████████████████████████████████▉| 5224005632/5234255136 [46:46<00:07, 1415990.69it/s]100%|█████████████████████████████████▉| 5224169472/5234255136 [46:47<00:07, 1419101.11it/s]100%|█████████████████████████████████▉| 5224333312/5234255136 [46:47<00:06, 1465646.38it/s]100%|█████████████████████████████████▉| 5224497152/5234255136 [46:47<00:06, 1461229.33it/s]100%|█████████████████████████████████▉| 5224660992/5234255136 [46:47<00:06, 1486828.43it/s]100%|█████████████████████████████████▉| 5224824832/5234255136 [46:47<00:06, 1471693.51it/s]100%|█████████████████████████████████▉| 5224988672/5234255136 [46:47<00:06, 1488941.78it/s]100%|█████████████████████████████████▉| 5225152512/5234255136 [46:47<00:06, 1469940.39it/s]100%|█████████████████████████████████▉| 5225316352/5234255136 [46:47<00:06, 1408886.28it/s]100%|█████████████████████████████████▉| 5225480192/5234255136 [46:47<00:06, 1426808.93it/s]100%|█████████████████████████████████▉| 5225644032/5234255136 [46:48<00:06, 1433336.14it/s]100%|█████████████████████████████████▉| 5225807872/5234255136 [46:48<00:05, 1429113.92it/s]100%|█████████████████████████████████▉| 5225971712/5234255136 [46:48<00:05, 1463216.79it/s]100%|█████████████████████████████████▉| 5226266624/5234255136 [46:48<00:04, 1868219.50it/s]100%|█████████████████████████████████▉| 5226528768/5234255136 [46:48<00:03, 1995643.01it/s]100%|█████████████████████████████████▉| 5226758144/5234255136 [46:48<00:04, 1766517.41it/s]100%|█████████████████████████████████▉| 5226954752/5234255136 [46:48<00:04, 1687613.71it/s]100%|█████████████████████████████████▉| 5227151360/5234255136 [46:48<00:04, 1588576.14it/s]100%|█████████████████████████████████▉| 5227315200/5234255136 [46:48<00:04, 1540507.09it/s]100%|█████████████████████████████████▉| 5227479040/5234255136 [46:49<00:04, 1483004.20it/s]100%|█████████████████████████████████▉| 5227642880/5234255136 [46:49<00:04, 1380310.61it/s]100%|█████████████████████████████████▉| 5227806720/5234255136 [46:49<00:04, 1404334.50it/s]100%|█████████████████████████████████▉| 5227970560/5234255136 [46:49<00:05, 1233444.16it/s]100%|█████████████████████████████████▉| 5228134400/5234255136 [46:49<00:04, 1247079.60it/s]100%|█████████████████████████████████▉| 5228265472/5234255136 [46:49<00:04, 1201029.11it/s]100%|█████████████████████████████████▉| 5228396544/5234255136 [46:49<00:04, 1211040.59it/s]100%|█████████████████████████████████▉| 5228527616/5234255136 [46:50<00:04, 1161322.12it/s]100%|█████████████████████████████████▉| 5228658688/5234255136 [46:50<00:05, 1114575.94it/s]100%|█████████████████████████████████▉| 5228789760/5234255136 [46:50<00:04, 1149559.20it/s]100%|█████████████████████████████████▉| 5228920832/5234255136 [46:50<00:04, 1145011.60it/s]100%|█████████████████████████████████▉| 5229051904/5234255136 [46:50<00:04, 1138719.27it/s]100%|█████████████████████████████████▉| 5229182976/5234255136 [46:50<00:04, 1136729.88it/s]100%|█████████████████████████████████▉| 5229314048/5234255136 [46:50<00:04, 1174720.61it/s]100%|█████████████████████████████████▉| 5229445120/5234255136 [46:50<00:04, 1139305.91it/s]100%|█████████████████████████████████▉| 5229576192/5234255136 [46:50<00:04, 1099936.94it/s]100%|█████████████████████████████████▉| 5229707264/5234255136 [46:51<00:04, 1098938.12it/s]100%|█████████████████████████████████▉| 5229838336/5234255136 [46:51<00:04, 1060897.82it/s]100%|█████████████████████████████████▉| 5229969408/5234255136 [46:51<00:04, 1052414.40it/s]100%|█████████████████████████████████▉| 5230133248/5234255136 [46:51<00:03, 1175388.08it/s]100%|█████████████████████████████████▉| 5230297088/5234255136 [46:51<00:03, 1279789.96it/s]100%|█████████████████████████████████▉| 5230460928/5234255136 [46:51<00:02, 1323500.72it/s]100%|█████████████████████████████████▉| 5230657536/5234255136 [46:51<00:02, 1402022.11it/s]100%|█████████████████████████████████▉| 5230821376/5234255136 [46:51<00:02, 1422338.88it/s]100%|█████████████████████████████████▉| 5230985216/5234255136 [46:52<00:02, 1450210.40it/s]100%|█████████████████████████████████▉| 5231149056/5234255136 [46:52<00:02, 1443082.14it/s]100%|█████████████████████████████████▉| 5231312896/5234255136 [46:52<00:02, 1470540.76it/s]100%|█████████████████████████████████▉| 5231476736/5234255136 [46:52<00:01, 1453912.23it/s]100%|█████████████████████████████████▉| 5231673344/5234255136 [46:52<00:01, 1508562.15it/s]100%|█████████████████████████████████▉| 5231837184/5234255136 [46:52<00:01, 1506913.83it/s]100%|█████████████████████████████████▉| 5232001024/5234255136 [46:52<00:01, 1485351.55it/s]100%|█████████████████████████████████▉| 5232164864/5234255136 [46:52<00:01, 1492438.01it/s]100%|█████████████████████████████████▉| 5232328704/5234255136 [46:52<00:01, 1491637.48it/s]100%|█████████████████████████████████▉| 5232525312/5234255136 [46:53<00:01, 1530282.16it/s]100%|█████████████████████████████████▉| 5232689152/5234255136 [46:53<00:01, 1535312.72it/s]100%|█████████████████████████████████▉| 5232852992/5234255136 [46:53<00:00, 1444612.26it/s]100%|█████████████████████████████████▉| 5233016832/5234255136 [46:53<00:00, 1482989.68it/s]100%|█████████████████████████████████▉| 5233213440/5234255136 [46:53<00:00, 1519236.42it/s]100%|█████████████████████████████████▉| 5233377280/5234255136 [46:53<00:00, 1524119.87it/s]100%|█████████████████████████████████▉| 5233541120/5234255136 [46:53<00:00, 1506458.11it/s]100%|█████████████████████████████████▉| 5233704960/5234255136 [46:53<00:00, 1330834.08it/s]100%|█████████████████████████████████▉| 5233934336/5234255136 [46:53<00:00, 1567525.73it/s]100%|█████████████████████████████████▉| 5234196480/5234255136 [46:54<00:00, 1835752.57it/s]100%|██████████████████████████████████| 5234255136/5234255136 [46:54<00:00, 1859994.26it/s]
+[2024-11-01 15:46:32.151] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
+[2024-11-01 15:49:58.271] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json [DONE]
+[2024-11-01 15:49:58.297] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json [DONE]
+[2024-11-01 15:49:58.301] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/746607195_github-stats.json [DONE]
+[2024-11-01 15:49:58.494] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json [DONE]
+[2024-11-01 15:50:03.306] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json [DONE]
+[2024-11-01 15:50:03.329] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json [DONE]
+[2024-11-01 15:50:03.334] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/746607195_github-stats.json [DONE]
+[2024-11-01 15:50:03.511] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json [DONE]
+[2024-11-01 15:50:04.632] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json [DONE]
+[2024-11-01 15:50:04.653] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json [DONE]
+[2024-11-01 15:50:04.657] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/746607195_github-stats.json [DONE]
+[2024-11-01 15:50:04.789] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json [DONE]
+[2024-11-01 15:50:05.911] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json [DONE]
+[2024-11-01 15:50:05.936] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json [DONE]
+[2024-11-01 15:50:05.939] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/746607195_github-stats.json [DONE]
+[2024-11-01 15:50:05.942] Start update check...[2KUpdate check done.
+[2024-11-01 15:50:08.574] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json [DONE]
+[2024-11-01 15:50:08.599] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json [DONE]
+[2024-11-01 15:50:08.603] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/746607195_github-stats.json [DONE]
+[2024-11-01 15:50:08.605] Start update check...[2KUpdate check done.
+[2024-11-01 15:50:18.468] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
+[2024-11-01 15:50:35.141] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json [DONE]
+[2024-11-01 15:50:35.168] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json [DONE]
+[2024-11-01 15:50:35.171] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/746607195_github-stats.json [DONE]
+[2024-11-01 15:54:01.907] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
+[2024-11-01 15:54:14.404] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json [DONE]
+[2024-11-01 15:54:29.644] Update ComfyUI
+[2024-11-01 15:54:35.049] Update ComfyUI
+[2024-11-01 15:54:37.727] FETCH DATA from: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json [DONE]
+[2024-11-01 15:54:37.730] Start updating...[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Manager[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/was-node-suite-comfyui[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-GGUF[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/sdxl_prompt_styler[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR[2024-11-01 15:54:39.069] 
+Updating failed: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+Cmd('git') failed due to: exit code(1)
+  cmdline: git pull -v -- origin
+  stderr: 'error: Your local changes to the following files would be overwritten by merge:'
+[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyQR-scanning-nodes[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/rgthree-comfy[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Crystools[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/ComfyUI-Image-Saver[2KUpdating: /root/code/Romain-Ber/ComfyUI/custom_nodes/comfyui-cyclist[2KAll extensions are already up-to-date.
